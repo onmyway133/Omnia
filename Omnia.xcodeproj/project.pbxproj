@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
+		D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
+		D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */; };
+		D2E9D0521CD29CDE007ADAE1 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */; };
+		D2E9D0541CD29CF8007ADAE1 /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0531CD29CF8007ADAE1 /* Performer.swift */; };
+		D2E9D0551CD29CF8007ADAE1 /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0531CD29CF8007ADAE1 /* Performer.swift */; };
+		D2E9D0571CD29D33007ADAE1 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0561CD29D33007ADAE1 /* Attribute.swift */; };
+		D2E9D0581CD29D33007ADAE1 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0561CD29D33007ADAE1 /* Attribute.swift */; };
+		D2E9D05A1CD29D43007ADAE1 /* BlockFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */; };
+		D2E9D05B1CD29D43007ADAE1 /* BlockFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */; };
+		D2E9D05D1CD29D69007ADAE1 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05C1CD29D69007ADAE1 /* Protocol.swift */; };
+		D2E9D05E1CD29D69007ADAE1 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05C1CD29D69007ADAE1 /* Protocol.swift */; };
+		D2E9D0601CD29D70007ADAE1 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05F1CD29D70007ADAE1 /* Operator.swift */; };
+		D2E9D0611CD29D70007ADAE1 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05F1CD29D70007ADAE1 /* Operator.swift */; };
+		D2E9D0631CD29D93007ADAE1 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0621CD29D93007ADAE1 /* Priority.swift */; };
+		D2E9D0641CD29D93007ADAE1 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0621CD29D93007ADAE1 /* Priority.swift */; };
+		D2E9D0661CD29DAA007ADAE1 /* QualityOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */; };
+		D2E9D0671CD29DAA007ADAE1 /* QualityOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */; };
+		D2E9D0691CD29DC3007ADAE1 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0681CD29DC3007ADAE1 /* Queue.swift */; };
+		D2E9D06A1CD29DC3007ADAE1 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0681CD29DC3007ADAE1 /* Queue.swift */; };
+		D2E9D06C1CD29DD0007ADAE1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D06B1CD29DD0007ADAE1 /* Task.swift */; };
+		D2E9D06D1CD29DD0007ADAE1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D06B1CD29DD0007ADAE1 /* Task.swift */; };
+		D2E9D0741CD2A0A2007ADAE1 /* Farge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0731CD2A0A2007ADAE1 /* Farge.swift */; };
+		D2E9D0771CD2A0F5007ADAE1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0761CD2A0F5007ADAE1 /* UIColor+Extension.swift */; };
+		D2E9D0791CD2A1EA007ADAE1 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0781CD2A1EA007ADAE1 /* Target.swift */; };
+		D2E9D07A1CD2A1EA007ADAE1 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0781CD2A1EA007ADAE1 /* Target.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 		D5C629771C3A878E007F7B7C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629751C3A878E007F7B7C /* Quick.framework */; };
@@ -15,8 +41,6 @@
 		D5C6297C1C3A879F007F7B7C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C6297A1C3A879F007F7B7C /* Nimble.framework */; };
 		D5C629831C3A892A007F7B7C /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629821C3A892A007F7B7C /* iOS.swift */; };
 		D5C629851C3A893F007F7B7C /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629841C3A893F007F7B7C /* Mac.swift */; };
-		D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
-		D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
 		D5C6299B1C3A8BDA007F7B7C /* MacSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629951C3A8BDA007F7B7C /* MacSpec.swift */; };
 		D5C6299C1C3A8BDA007F7B7C /* SharedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629971C3A8BDA007F7B7C /* SharedSpec.swift */; };
 		D5C6299D1C3A8C6B007F7B7C /* iOSSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629931C3A8BDA007F7B7C /* iOSSpec.swift */; };
@@ -41,6 +65,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hourglass.swift; sourceTree = "<group>"; };
+		D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		D2E9D0531CD29CF8007ADAE1 /* Performer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
+		D2E9D0561CD29D33007ADAE1 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockFlag.swift; sourceTree = "<group>"; };
+		D2E9D05C1CD29D69007ADAE1 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		D2E9D05F1CD29D70007ADAE1 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		D2E9D0621CD29D93007ADAE1 /* Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityOfService.swift; sourceTree = "<group>"; };
+		D2E9D0681CD29DC3007ADAE1 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		D2E9D06B1CD29DD0007ADAE1 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D2E9D0731CD2A0A2007ADAE1 /* Farge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farge.swift; sourceTree = "<group>"; };
+		D2E9D0761CD2A0F5007ADAE1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D2E9D0781CD2A1EA007ADAE1 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +91,6 @@
 		D5C6297A1C3A879F007F7B7C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		D5C629821C3A892A007F7B7C /* iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
 		D5C629841C3A893F007F7B7C /* Mac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
-		D5C629861C3A89A8007F7B7C /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 		D5C6298B1C3A8BBD007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		D5C6298C1C3A8BBD007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
 		D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -112,6 +149,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D2E9D04B1CD29CC7007ADAE1 /* Hourglass */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */,
+				D2E9D0781CD2A1EA007ADAE1 /* Target.swift */,
+			);
+			path = Hourglass;
+			sourceTree = "<group>";
+		};
+		D2E9D04D1CD29CC7007ADAE1 /* Performer */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9D0531CD29CF8007ADAE1 /* Performer.swift */,
+				D2E9D0561CD29D33007ADAE1 /* Attribute.swift */,
+				D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */,
+				D2E9D0621CD29D93007ADAE1 /* Priority.swift */,
+				D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */,
+				D2E9D0681CD29DC3007ADAE1 /* Queue.swift */,
+				D2E9D06B1CD29DD0007ADAE1 /* Task.swift */,
+			);
+			path = Performer;
+			sourceTree = "<group>";
+		};
+		D2E9D0721CD2A09B007ADAE1 /* Farge */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9D0731CD2A0A2007ADAE1 /* Farge.swift */,
+			);
+			path = Farge;
+			sourceTree = "<group>";
+		};
+		D2E9D0751CD2A0EF007ADAE1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9D0761CD2A0F5007ADAE1 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +234,8 @@
 		D5C6296A1C3A809D007F7B7C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D2E9D0751CD2A0EF007ADAE1 /* Extension */,
+				D2E9D0721CD2A09B007ADAE1 /* Farge */,
 				D5C629821C3A892A007F7B7C /* iOS.swift */,
 			);
 			path = iOS;
@@ -174,7 +252,11 @@
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D5C629861C3A89A8007F7B7C /* Shared.swift */,
+				D2E9D04B1CD29CC7007ADAE1 /* Hourglass */,
+				D2E9D04D1CD29CC7007ADAE1 /* Performer */,
+				D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */,
+				D2E9D05C1CD29D69007ADAE1 /* Protocol.swift */,
+				D2E9D05F1CD29D70007ADAE1 /* Operator.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -424,8 +506,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E9D0571CD29D33007ADAE1 /* Attribute.swift in Sources */,
+				D2E9D0541CD29CF8007ADAE1 /* Performer.swift in Sources */,
+				D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */,
+				D2E9D0691CD29DC3007ADAE1 /* Queue.swift in Sources */,
+				D2E9D06C1CD29DD0007ADAE1 /* Task.swift in Sources */,
+				D2E9D05D1CD29D69007ADAE1 /* Protocol.swift in Sources */,
+				D2E9D0741CD2A0A2007ADAE1 /* Farge.swift in Sources */,
+				D2E9D0771CD2A0F5007ADAE1 /* UIColor+Extension.swift in Sources */,
+				D2E9D05A1CD29D43007ADAE1 /* BlockFlag.swift in Sources */,
+				D2E9D0791CD2A1EA007ADAE1 /* Target.swift in Sources */,
+				D2E9D0601CD29D70007ADAE1 /* Operator.swift in Sources */,
+				D2E9D0661CD29DAA007ADAE1 /* QualityOfService.swift in Sources */,
+				D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */,
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
-				D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */,
+				D2E9D0631CD29D93007ADAE1 /* Priority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,8 +537,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E9D0581CD29D33007ADAE1 /* Attribute.swift in Sources */,
+				D2E9D0551CD29CF8007ADAE1 /* Performer.swift in Sources */,
+				D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */,
+				D2E9D06A1CD29DC3007ADAE1 /* Queue.swift in Sources */,
+				D2E9D06D1CD29DD0007ADAE1 /* Task.swift in Sources */,
+				D2E9D05E1CD29D69007ADAE1 /* Protocol.swift in Sources */,
+				D2E9D05B1CD29D43007ADAE1 /* BlockFlag.swift in Sources */,
+				D2E9D0611CD29D70007ADAE1 /* Operator.swift in Sources */,
+				D2E9D07A1CD2A1EA007ADAE1 /* Target.swift in Sources */,
+				D2E9D0671CD29DAA007ADAE1 /* QualityOfService.swift in Sources */,
+				D2E9D0521CD29CDE007ADAE1 /* Typealias.swift in Sources */,
 				D5C629851C3A893F007F7B7C /* Mac.swift in Sources */,
-				D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */,
+				D2E9D0641CD29D93007ADAE1 /* Priority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
