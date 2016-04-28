@@ -17,8 +17,6 @@
 		D2E9D0581CD29D33007ADAE1 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0561CD29D33007ADAE1 /* Attribute.swift */; };
 		D2E9D05A1CD29D43007ADAE1 /* BlockFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */; };
 		D2E9D05B1CD29D43007ADAE1 /* BlockFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */; };
-		D2E9D05D1CD29D69007ADAE1 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05C1CD29D69007ADAE1 /* Protocol.swift */; };
-		D2E9D05E1CD29D69007ADAE1 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05C1CD29D69007ADAE1 /* Protocol.swift */; };
 		D2E9D0601CD29D70007ADAE1 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05F1CD29D70007ADAE1 /* Operator.swift */; };
 		D2E9D0611CD29D70007ADAE1 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05F1CD29D70007ADAE1 /* Operator.swift */; };
 		D2E9D0631CD29D93007ADAE1 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0621CD29D93007ADAE1 /* Priority.swift */; };
@@ -37,6 +35,14 @@
 		D2E9D07E1CD2A24B007ADAE1 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D07C1CD2A24B007ADAE1 /* Throttle.swift */; };
 		D2E9D0811CD2A2EF007ADAE1 /* Warlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0801CD2A2EF007ADAE1 /* Warlock.swift */; };
 		D2E9D0821CD2A2EF007ADAE1 /* Warlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0801CD2A2EF007ADAE1 /* Warlock.swift */; };
+		D2E9D08F1CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */; };
+		D2E9D0901CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */; };
+		D2E9D0921CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */; };
+		D2E9D0931CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */; };
+		D2E9D0991CD2ADC1007ADAE1 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0981CD2ADC1007ADAE1 /* OptionalType.swift */; };
+		D2E9D09A1CD2ADC1007ADAE1 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0981CD2ADC1007ADAE1 /* OptionalType.swift */; };
+		D2E9D09C1CD2AEA9007ADAE1 /* CollectionType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */; };
+		D2E9D09D1CD2AEA9007ADAE1 /* CollectionType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 		D5C629771C3A878E007F7B7C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629751C3A878E007F7B7C /* Quick.framework */; };
@@ -74,7 +80,6 @@
 		D2E9D0531CD29CF8007ADAE1 /* Performer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
 		D2E9D0561CD29D33007ADAE1 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
 		D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockFlag.swift; sourceTree = "<group>"; };
-		D2E9D05C1CD29D69007ADAE1 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		D2E9D05F1CD29D70007ADAE1 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		D2E9D0621CD29D93007ADAE1 /* Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
 		D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityOfService.swift; sourceTree = "<group>"; };
@@ -85,6 +90,10 @@
 		D2E9D0781CD2A1EA007ADAE1 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 		D2E9D07C1CD2A24B007ADAE1 /* Throttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
 		D2E9D0801CD2A2EF007ADAE1 /* Warlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warlock.swift; sourceTree = "<group>"; };
+		D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OptionSetType+Extension.swift"; sourceTree = "<group>"; };
+		D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		D2E9D0981CD2ADC1007ADAE1 /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalType.swift; sourceTree = "<group>"; };
+		D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionType+Extension.swift"; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,6 +219,24 @@
 			path = Warlock;
 			sourceTree = "<group>";
 		};
+		D2E9D08D1CD2AD67007ADAE1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */,
+				D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */,
+				D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D2E9D0941CD2ADBA007ADAE1 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9D0981CD2ADC1007ADAE1 /* OptionalType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
@@ -274,12 +301,13 @@
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D2E9D0941CD2ADBA007ADAE1 /* Protocol */,
+				D2E9D08D1CD2AD67007ADAE1 /* Extension */,
 				D2E9D07F1CD2A2EA007ADAE1 /* Warlock */,
 				D2E9D07B1CD2A247007ADAE1 /* Throttle */,
 				D2E9D04B1CD29CC7007ADAE1 /* Hourglass */,
 				D2E9D04D1CD29CC7007ADAE1 /* Performer */,
 				D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */,
-				D2E9D05C1CD29D69007ADAE1 /* Protocol.swift */,
 				D2E9D05F1CD29D70007ADAE1 /* Operator.swift */,
 			);
 			path = Shared;
@@ -530,13 +558,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E9D0921CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */,
 				D2E9D0571CD29D33007ADAE1 /* Attribute.swift in Sources */,
 				D2E9D0541CD29CF8007ADAE1 /* Performer.swift in Sources */,
 				D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */,
+				D2E9D08F1CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */,
 				D2E9D0691CD29DC3007ADAE1 /* Queue.swift in Sources */,
 				D2E9D06C1CD29DD0007ADAE1 /* Task.swift in Sources */,
+				D2E9D09C1CD2AEA9007ADAE1 /* CollectionType+Extension.swift in Sources */,
 				D2E9D0811CD2A2EF007ADAE1 /* Warlock.swift in Sources */,
-				D2E9D05D1CD29D69007ADAE1 /* Protocol.swift in Sources */,
 				D2E9D0741CD2A0A2007ADAE1 /* Farge.swift in Sources */,
 				D2E9D0771CD2A0F5007ADAE1 /* UIColor+Extension.swift in Sources */,
 				D2E9D05A1CD29D43007ADAE1 /* BlockFlag.swift in Sources */,
@@ -545,6 +575,7 @@
 				D2E9D0661CD29DAA007ADAE1 /* QualityOfService.swift in Sources */,
 				D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */,
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
+				D2E9D0991CD2ADC1007ADAE1 /* OptionalType.swift in Sources */,
 				D2E9D0631CD29D93007ADAE1 /* Priority.swift in Sources */,
 				D2E9D07D1CD2A24B007ADAE1 /* Throttle.swift in Sources */,
 			);
@@ -566,16 +597,19 @@
 				D2E9D0581CD29D33007ADAE1 /* Attribute.swift in Sources */,
 				D2E9D07E1CD2A24B007ADAE1 /* Throttle.swift in Sources */,
 				D2E9D0551CD29CF8007ADAE1 /* Performer.swift in Sources */,
+				D2E9D09D1CD2AEA9007ADAE1 /* CollectionType+Extension.swift in Sources */,
 				D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */,
 				D2E9D06A1CD29DC3007ADAE1 /* Queue.swift in Sources */,
 				D2E9D06D1CD29DD0007ADAE1 /* Task.swift in Sources */,
-				D2E9D05E1CD29D69007ADAE1 /* Protocol.swift in Sources */,
+				D2E9D0931CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */,
+				D2E9D0901CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */,
 				D2E9D05B1CD29D43007ADAE1 /* BlockFlag.swift in Sources */,
 				D2E9D0821CD2A2EF007ADAE1 /* Warlock.swift in Sources */,
 				D2E9D0611CD29D70007ADAE1 /* Operator.swift in Sources */,
 				D2E9D07A1CD2A1EA007ADAE1 /* Target.swift in Sources */,
 				D2E9D0671CD29DAA007ADAE1 /* QualityOfService.swift in Sources */,
 				D2E9D0521CD29CDE007ADAE1 /* Typealias.swift in Sources */,
+				D2E9D09A1CD2ADC1007ADAE1 /* OptionalType.swift in Sources */,
 				D5C629851C3A893F007F7B7C /* Mac.swift in Sources */,
 				D2E9D0641CD29D93007ADAE1 /* Priority.swift in Sources */,
 			);

@@ -8,17 +8,21 @@ Everything your projects need to know
 [![License](https://img.shields.io/cocoapods/l/Omnia.svg?style=flat)](http://cocoadocs.org/docsets/Omnia)
 [![Platform](https://img.shields.io/cocoapods/p/Omnia.svg?style=flat)](http://cocoadocs.org/docsets/Omnia)
 
+## Description
+
+Some of the utilities I need that don't know where to put
+
 ## Features
 
 ### Farge
-Color in Swift
+Color
 
 ```swift
 let _ = UIColor.Farge.hummingBird
 ```
 
 ### Warlock
-Swizzling in Swift
+Swizzling
 
 ```
 Warlock.swizzleInstance(UIViewController.self, original: #selector(UIViewController.viewDidLoad)) {
@@ -27,7 +31,7 @@ Warlock.swizzleInstance(UIViewController.self, original: #selector(UIViewControl
 ```
 
 ### Throttle
-Throttling in Swift
+Throttling
 
 ```swift
 let throttle = Throttle(interval: 0.5, actionBlock: {
@@ -39,7 +43,7 @@ throttle.fire()
 ```
 
 ### Hourglass
-NSTimer in Swift
+NSTimer
 
 ```swift
 Hourglass.every(1) {
@@ -48,7 +52,7 @@ Hourglass.every(1) {
 ```
 
 ### Performer
-GCD in Swift
+GCD
 
 ```swift
 Performer.on(.background) {
