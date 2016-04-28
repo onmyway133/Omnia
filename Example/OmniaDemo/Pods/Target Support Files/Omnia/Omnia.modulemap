@@ -1,0 +1,6 @@
+framework module Omnia {
+  umbrella header "Omnia-umbrella.h"
+
+  export *
+  module * { export * }
+}

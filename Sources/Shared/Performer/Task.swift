@@ -18,7 +18,7 @@ public extension Performer {
     }
 
     // Static
-    public static func on(queue: Queue = Queue.main, action: Action) -> Task {
+    public func on(queue: Queue = Queue.main, action: Action) -> Task {
       return Task() { completion in
         let block = dispatch_block_create(BlockFlag().rawValue) {
           action()
@@ -29,7 +29,7 @@ public extension Performer {
       }
     }
 
-    public static func delay(seconds: NSTimeInterval, queue: Queue = Queue.main, action: Action) -> Task {
+    public func delay(seconds: NSTimeInterval, queue: Queue = Queue.main, action: Action) -> Task {
       return Task() { completion in
         let block = dispatch_block_create(BlockFlag().rawValue) {
           action()

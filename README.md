@@ -8,10 +8,50 @@ Everything your projects need to know
 [![License](https://img.shields.io/cocoapods/l/Omnia.svg?style=flat)](http://cocoadocs.org/docsets/Omnia)
 [![Platform](https://img.shields.io/cocoapods/p/Omnia.svg?style=flat)](http://cocoadocs.org/docsets/Omnia)
 
-## Usage
+## Features
+
+### Farge
+Color in Swift
 
 ```swift
-<API>
+let _ = UIColor.Farge.hummingBird
+```
+
+### Warlock
+Swizzling in Swift
+
+```
+Warlock.swizzleInstance(UIViewController.self, original: #selector(UIViewController.viewDidLoad)) {
+  print("your swizzled implementation goes here")
+}
+```
+
+### Throttle
+Throttling in Swift
+
+```swift
+let throttle = Throttle(interval: 0.5, actionBlock: {
+  print("action goes here")
+})
+
+throttle.fire()
+throttle.fire()
+```
+
+### Hourglass
+NSTimer in Swift
+
+```swift
+Hourglass.every(1) {
+  print("code run every 1 second")
+}
+```
+
+### Performer
+GCD in Swift
+
+```swift
+
 ```
 
 ## Installation

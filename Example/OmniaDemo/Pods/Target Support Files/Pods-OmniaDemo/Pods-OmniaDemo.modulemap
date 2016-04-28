@@ -1,0 +1,6 @@
+framework module Pods_OmniaDemo {
+  umbrella header "Pods-OmniaDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
