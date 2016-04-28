@@ -43,7 +43,7 @@ NSTimer in Swift
 
 ```swift
 Hourglass.every(1) {
-  print("code run every 1 second")
+  print("action runs every 1 second")
 }
 ```
 
@@ -51,7 +51,15 @@ Hourglass.every(1) {
 GCD in Swift
 
 ```swift
+Performer.on(.background) {
+  print("action goes here")
+}.delay(2) {
+  print("action goes here")          
+}
 
+Performer.async(Performer.Queue(name: "queue", attribute: .Serial)) {
+  print("action goes here")
+}
 ```
 
 ## Installation

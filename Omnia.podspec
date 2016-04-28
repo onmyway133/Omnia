@@ -24,5 +24,6 @@ Pod::Spec.new do |s|
   s.osx.frameworks = 'Cocoa', 'Foundation'
 
   s.dependency 'Sugar'
+  s.dependency 'Construction'
 
 end

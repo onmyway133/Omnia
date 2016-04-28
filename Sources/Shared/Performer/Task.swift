@@ -13,7 +13,7 @@ public extension Performer {
   public struct Task {
     let operation: Action -> Void
 
-    public init(operation: (() -> Void) -> Void) {
+    public init(operation: Action -> Void) {
       self.operation = operation
     }
 
