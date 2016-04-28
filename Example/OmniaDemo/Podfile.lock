@@ -1,0 +1,14 @@
+PODS:
+  - Omnia (0.1.0)
+
+DEPENDENCIES:
+  - Omnia (from `../../`)
+
+EXTERNAL SOURCES:
+  Omnia:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Omnia: 7419fefbda630558da8a3175bc4651475457ce2c
+
+COCOAPODS: 0.39.0
