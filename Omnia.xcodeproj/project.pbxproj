@@ -33,6 +33,8 @@
 		D2E9D0771CD2A0F5007ADAE1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0761CD2A0F5007ADAE1 /* UIColor+Extension.swift */; };
 		D2E9D0791CD2A1EA007ADAE1 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0781CD2A1EA007ADAE1 /* Target.swift */; };
 		D2E9D07A1CD2A1EA007ADAE1 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0781CD2A1EA007ADAE1 /* Target.swift */; };
+		D2E9D07D1CD2A24B007ADAE1 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D07C1CD2A24B007ADAE1 /* Throttle.swift */; };
+		D2E9D07E1CD2A24B007ADAE1 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D07C1CD2A24B007ADAE1 /* Throttle.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 		D5C629771C3A878E007F7B7C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629751C3A878E007F7B7C /* Quick.framework */; };
@@ -79,6 +81,7 @@
 		D2E9D0731CD2A0A2007ADAE1 /* Farge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farge.swift; sourceTree = "<group>"; };
 		D2E9D0761CD2A0F5007ADAE1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		D2E9D0781CD2A1EA007ADAE1 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		D2E9D07C1CD2A24B007ADAE1 /* Throttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +191,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		D2E9D07B1CD2A247007ADAE1 /* Throttle */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9D07C1CD2A24B007ADAE1 /* Throttle.swift */,
+			);
+			path = Throttle;
+			sourceTree = "<group>";
+		};
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +263,7 @@
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D2E9D07B1CD2A247007ADAE1 /* Throttle */,
 				D2E9D04B1CD29CC7007ADAE1 /* Hourglass */,
 				D2E9D04D1CD29CC7007ADAE1 /* Performer */,
 				D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */,
@@ -521,6 +533,7 @@
 				D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */,
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
 				D2E9D0631CD29D93007ADAE1 /* Priority.swift in Sources */,
+				D2E9D07D1CD2A24B007ADAE1 /* Throttle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E9D0581CD29D33007ADAE1 /* Attribute.swift in Sources */,
+				D2E9D07E1CD2A24B007ADAE1 /* Throttle.swift in Sources */,
 				D2E9D0551CD29CF8007ADAE1 /* Performer.swift in Sources */,
 				D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */,
 				D2E9D06A1CD29DC3007ADAE1 /* Queue.swift in Sources */,
