@@ -15,6 +15,10 @@
 		D2A42AD61CD5FB5D004791FA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42AD41CD5FB5D004791FA /* String+Extension.swift */; };
 		D2A42AD91CD5FBE9004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD71CD5FBE9004791FA /* Construction.framework */; };
 		D2A42ADA1CD5FBE9004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD81CD5FBE9004791FA /* Sugar.framework */; };
+		D2A42ADB1CD5FCEB004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD01CD5FB2E004791FA /* Construction.framework */; };
+		D2A42ADC1CD5FCEB004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD11CD5FB2E004791FA /* Sugar.framework */; };
+		D2A42ADD1CD5FD1A004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD71CD5FBE9004791FA /* Construction.framework */; };
+		D2A42ADE1CD5FD1A004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD81CD5FBE9004791FA /* Sugar.framework */; };
 		D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */; };
@@ -143,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A42ADB1CD5FCEB004791FA /* Construction.framework in Frameworks */,
+				D2A42ADC1CD5FCEB004791FA /* Sugar.framework in Frameworks */,
 				D5C629771C3A878E007F7B7C /* Quick.framework in Frameworks */,
 				D5C629781C3A878E007F7B7C /* Nimble.framework in Frameworks */,
 				D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */,
@@ -162,6 +168,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A42ADD1CD5FD1A004791FA /* Construction.framework in Frameworks */,
+				D2A42ADE1CD5FD1A004791FA /* Sugar.framework in Frameworks */,
 				D5C6297B1C3A879F007F7B7C /* Quick.framework in Frameworks */,
 				D5C6297C1C3A879F007F7B7C /* Nimble.framework in Frameworks */,
 				D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */,
@@ -559,6 +567,8 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Sugar.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Construction.framework",
 			);
 			name = "Copy frameworks with Carthage";
 			outputPaths = (
@@ -575,6 +585,8 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/Mac/Quick.framework",
 				"$(SRCROOT)/Carthage/Build/Mac/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Sugar.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Construction.framework",
 			);
 			name = "Copy frameworks with Carthage";
 			outputPaths = (
@@ -817,6 +829,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/OmniaTests/Info-iOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -833,6 +846,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/OmniaTests/Info-iOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

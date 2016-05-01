@@ -16,7 +16,9 @@ public struct Emoji {
     var range = CFRangeMake(0, CFStringGetLength(string))
     CFStringTransform(string, &range, kCFStringTransformToUnicodeName, false)
 
-    return string.componentsSeparatedByString("\\N")
+    return String(string).dropPrefix("\\N").componentsSeparatedByString("\\N").map {
+      return $0.remove(Set(["{", "}"]))
+    }
   }
 
   public static func list() -> [Character] {

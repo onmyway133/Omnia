@@ -18,4 +18,11 @@ public extension String {
 
     return string
   }
+
+  public func dropPrefix(subString: String) -> String {
+    guard hasPrefix(subString),
+      let range = rangeOfString(subString) else { return self }
+
+    return stringByReplacingCharactersInRange(range, withString: "")
+  }
 }
