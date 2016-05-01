@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		D2A42ACE1CD5ED45004791FA /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42ACD1CD5ED45004791FA /* Emoji.swift */; };
 		D2A42ACF1CD5ED45004791FA /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42ACD1CD5ED45004791FA /* Emoji.swift */; };
+		D2A42AD21CD5FB2E004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD01CD5FB2E004791FA /* Construction.framework */; };
+		D2A42AD31CD5FB2E004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD11CD5FB2E004791FA /* Sugar.framework */; };
+		D2A42AD51CD5FB5D004791FA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42AD41CD5FB5D004791FA /* String+Extension.swift */; };
+		D2A42AD61CD5FB5D004791FA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42AD41CD5FB5D004791FA /* String+Extension.swift */; };
+		D2A42AD91CD5FBE9004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD71CD5FBE9004791FA /* Construction.framework */; };
+		D2A42ADA1CD5FBE9004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD81CD5FBE9004791FA /* Sugar.framework */; };
 		D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */; };
@@ -78,6 +84,11 @@
 
 /* Begin PBXFileReference section */
 		D2A42ACD1CD5ED45004791FA /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		D2A42AD01CD5FB2E004791FA /* Construction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Construction.framework; path = Carthage/Build/iOS/Construction.framework; sourceTree = "<group>"; };
+		D2A42AD11CD5FB2E004791FA /* Sugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sugar.framework; path = Carthage/Build/iOS/Sugar.framework; sourceTree = "<group>"; };
+		D2A42AD41CD5FB5D004791FA /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D2A42AD71CD5FBE9004791FA /* Construction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Construction.framework; path = Carthage/Build/Mac/Construction.framework; sourceTree = "<group>"; };
+		D2A42AD81CD5FBE9004791FA /* Sugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sugar.framework; path = Carthage/Build/Mac/Sugar.framework; sourceTree = "<group>"; };
 		D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hourglass.swift; sourceTree = "<group>"; };
 		D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		D2E9D0531CD29CF8007ADAE1 /* Performer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
@@ -123,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A42AD21CD5FB2E004791FA /* Construction.framework in Frameworks */,
+				D2A42AD31CD5FB2E004791FA /* Sugar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A42AD91CD5FBE9004791FA /* Construction.framework in Frameworks */,
+				D2A42ADA1CD5FBE9004791FA /* Sugar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +182,10 @@
 		D2E9D0441CD29AC9007ADAE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2A42AD71CD5FBE9004791FA /* Construction.framework */,
+				D2A42AD81CD5FBE9004791FA /* Sugar.framework */,
+				D2A42AD01CD5FB2E004791FA /* Construction.framework */,
+				D2A42AD11CD5FB2E004791FA /* Sugar.framework */,
 				D5C629791C3A879F007F7B7C /* Quick.framework */,
 				D5C6297A1C3A879F007F7B7C /* Nimble.framework */,
 				D5C629751C3A878E007F7B7C /* Quick.framework */,
@@ -236,6 +255,7 @@
 				D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */,
 				D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */,
 				D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */,
+				D2A42AD41CD5FB5D004791FA /* String+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -582,6 +602,7 @@
 				D2E9D0741CD2A0A2007ADAE1 /* Farge.swift in Sources */,
 				D2E9D0771CD2A0F5007ADAE1 /* UIColor+Extension.swift in Sources */,
 				D2E9D05A1CD29D43007ADAE1 /* BlockFlag.swift in Sources */,
+				D2A42AD51CD5FB5D004791FA /* String+Extension.swift in Sources */,
 				D2E9D0791CD2A1EA007ADAE1 /* Target.swift in Sources */,
 				D2E9D0601CD29D70007ADAE1 /* Operator.swift in Sources */,
 				D2E9D0661CD29DAA007ADAE1 /* QualityOfService.swift in Sources */,
@@ -615,6 +636,7 @@
 				D2E9D06A1CD29DC3007ADAE1 /* Queue.swift in Sources */,
 				D2E9D06D1CD29DD0007ADAE1 /* Task.swift in Sources */,
 				D2E9D0931CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */,
+				D2A42AD61CD5FB5D004791FA /* String+Extension.swift in Sources */,
 				D2E9D0901CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */,
 				D2E9D05B1CD29D43007ADAE1 /* BlockFlag.swift in Sources */,
 				D2E9D0821CD2A2EF007ADAE1 /* Warlock.swift in Sources */,
@@ -751,6 +773,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Omnia/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -770,6 +796,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Omnia/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -821,6 +851,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Omnia/Info-Mac.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -844,6 +878,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Omnia/Info-Mac.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

@@ -8,9 +8,8 @@ class SharedSpec: QuickSpec {
     describe("Shared") {
       describe("test") {
         it("passes") {
-          print(String(UnicodeScalar("🍟")))
           print(Emoji.flag("NO"))
-          print(Emoji.standardName("😁"))
+          print(Emoji.standardName("🇳🇴"))
           expect(true).to(beTrue())
         }
       }

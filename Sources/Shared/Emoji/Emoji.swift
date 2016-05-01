@@ -11,12 +11,12 @@ import CoreFoundation
 
 public struct Emoji {
 
-  public static func standardName(emoji: Character) -> String {
+  public static func standardName(emoji: Character) -> [String] {
     let string = NSMutableString(string: String(emoji))
     var range = CFRangeMake(0, CFStringGetLength(string))
     CFStringTransform(string, &range, kCFStringTransformToUnicodeName, false)
 
-    return String(string)
+    return string.componentsSeparatedByString("\\N")
   }
 
   public static func list() -> [Character] {
@@ -25,13 +25,15 @@ public struct Emoji {
     }
   }
 
-  public static func flag(countryCode: String) -> String {
+  public static func flag(countryCode: String) -> Character {
     let base = UnicodeScalar("🇦").value - UnicodeScalar("A").value
 
-    return countryCode.uppercaseString.unicodeScalars.reduce("") {
+    let string = countryCode.uppercaseString.unicodeScalars.reduce("") {
       var string = $0
       string.append(UnicodeScalar(base + $1.value))
       return string
     }
+
+    return Character(string)
   }
 }
