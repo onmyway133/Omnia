@@ -68,6 +68,14 @@ Performer.async(Performer.Queue(name: "queue", attribute: .Serial)) {
 }
 ```
 
+### Emoji
+Emoji
+
+```swift
+Emoji.flag("NO") // 🇳🇴
+Emoji.standardName("😁") // GRINNING FACE WITH SMILING EYES
+```
+
 ## Installation
 
 **Omnia** is available through [CocoaPods](http://cocoapods.org). To install
