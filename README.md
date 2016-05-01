@@ -74,6 +74,8 @@ Emoji
 ```swift
 Emoji.flag("NO") // 🇳🇴
 Emoji.standardName("😁") // GRINNING FACE WITH SMILING EYES
+Emoji.search(["GRINNING"]) // ["😁", "😸"]
+Emoji.list()
 ```
 
 ## Installation

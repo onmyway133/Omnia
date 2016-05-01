@@ -10,6 +10,8 @@ class SharedSpec: QuickSpec {
         it("passes") {
           print(Emoji.flag("NO"))
           print(Emoji.standardName("🇳🇴"))
+          print(Emoji.list())
+          print(Emoji.search(["GRINNING"]))
           expect(true).to(beTrue())
         }
       }

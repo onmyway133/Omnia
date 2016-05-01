@@ -8,6 +8,7 @@
 
 import Foundation
 import CoreFoundation
+import Sugar
 
 public struct Emoji {
 
@@ -22,7 +23,14 @@ public struct Emoji {
   }
 
   public static func list() -> [Character] {
-    return Array(0x1F1FC..<0x1F600).map {
+    let ranges = [
+      0x1F601...0x1F64F,
+      0x2702...0x27B0,
+      0x1F680...0x1F6C0,
+      0x1F170...0x1F251
+    ]
+
+    return ranges.flatten().map {
       return Character(UnicodeScalar($0))
     }
   }
@@ -37,5 +45,21 @@ public struct Emoji {
     }
 
     return Character(string)
+  }
+
+  public static func search(keywords: [String]) -> [Character] {
+    var result: [Character] = []
+
+    list().forEach { emoji in
+      keywords.forEach { keyword in
+        Emoji.standardName(emoji).forEach { name in
+          if name.contains(keyword) {
+            result.append(emoji)
+          }
+        }
+      }
+    }
+
+    return result
   }
 }
