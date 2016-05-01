@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2A42ACE1CD5ED45004791FA /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42ACD1CD5ED45004791FA /* Emoji.swift */; };
+		D2A42ACF1CD5ED45004791FA /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42ACD1CD5ED45004791FA /* Emoji.swift */; };
 		D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */; };
@@ -75,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2A42ACD1CD5ED45004791FA /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hourglass.swift; sourceTree = "<group>"; };
 		D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		D2E9D0531CD29CF8007ADAE1 /* Performer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
@@ -153,6 +156,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2A42ACC1CD5ED3C004791FA /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				D2A42ACD1CD5ED45004791FA /* Emoji.swift */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
 		D2E9D0441CD29AC9007ADAE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +312,7 @@
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D2A42ACC1CD5ED3C004791FA /* Emoji */,
 				D2E9D0941CD2ADBA007ADAE1 /* Protocol */,
 				D2E9D08D1CD2AD67007ADAE1 /* Extension */,
 				D2E9D07F1CD2A2EA007ADAE1 /* Warlock */,
@@ -576,6 +588,7 @@
 				D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */,
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
 				D2E9D0991CD2ADC1007ADAE1 /* OptionalType.swift in Sources */,
+				D2A42ACE1CD5ED45004791FA /* Emoji.swift in Sources */,
 				D2E9D0631CD29D93007ADAE1 /* Priority.swift in Sources */,
 				D2E9D07D1CD2A24B007ADAE1 /* Throttle.swift in Sources */,
 			);
@@ -608,6 +621,7 @@
 				D2E9D0611CD29D70007ADAE1 /* Operator.swift in Sources */,
 				D2E9D07A1CD2A1EA007ADAE1 /* Target.swift in Sources */,
 				D2E9D0671CD29DAA007ADAE1 /* QualityOfService.swift in Sources */,
+				D2A42ACF1CD5ED45004791FA /* Emoji.swift in Sources */,
 				D2E9D0521CD29CDE007ADAE1 /* Typealias.swift in Sources */,
 				D2E9D09A1CD2ADC1007ADAE1 /* OptionalType.swift in Sources */,
 				D5C629851C3A893F007F7B7C /* Mac.swift in Sources */,

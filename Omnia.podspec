@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.tvos.source_files = 'Sources/{iOS,Shared}/**/*'
   s.osx.source_files = 'Sources/{Mac,Shared}/**/*'
 
-  s.ios.frameworks = 'UIKit', 'Foundation'
-  s.osx.frameworks = 'Cocoa', 'Foundation'
+  s.ios.frameworks = 'UIKit', 'Foundation', 'CoreFoundation'
+  s.osx.frameworks = 'Cocoa', 'Foundation', 'CoreFoundation'
 
   s.dependency 'Sugar'
   s.dependency 'Construction'

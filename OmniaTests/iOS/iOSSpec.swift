@@ -25,13 +25,7 @@ class iOSSpec: QuickSpec {
           Hourglass.every(1) {
             print("action runs every 1 second")
           }
-
-          Performer.on(.background) {
-
-          }.delay(2) {
-              
-          }
-
+          
           Performer.async(Performer.Queue(name: "queue", attribute: .Serial)) {
             print("action goes here")
           }
