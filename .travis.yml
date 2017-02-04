@@ -4,7 +4,7 @@ language: objective-c
 cache:
   directories:
   - Carthage
-  
+
 before_install:
 - brew update
 - if brew outdated | grep -qx carthage; then brew upgrade carthage; fi
@@ -13,8 +13,6 @@ before_install:
 script:
 - set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-iOS" -sdk iphonesimulator clean build | xcpretty
 - set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-iOS" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' -enableCodeCoverage YES test | xcpretty
-- set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-Mac" -sdk macosx clean build | xcpretty
-- set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-Mac" -sdk macosx -enableCodeCoverage YES test | xcpretty
 
 notifications:
   email: false
