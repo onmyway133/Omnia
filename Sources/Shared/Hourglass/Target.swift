@@ -13,11 +13,11 @@ public extension Hourglass {
   public class Target: NSObject {
     let action: () -> Void
 
-    public init(action: () -> Void) {
+    public init(action: @escaping () -> Void) {
       self.action = action
     }
 
-    public func fire() {
+    open func fire() {
       action()
     }
   }

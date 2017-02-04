@@ -9,9 +9,9 @@
 import UIKit
 
 public extension UIColor {
-  
+
   public struct Farge {
-    public static let softred = UIColor.rgb(236,100,75)
+    public static let softred = UIColor.rgb(236, 100, 75)
     public static let chestnutRose = UIColor.rgb(210, 77, 87)
     public static let pomegranate = UIColor.rgb(242, 38, 19)
     public static let thunderbird = UIColor.rgb(217, 30, 24)
@@ -38,7 +38,7 @@ public extension UIColor {
     public static let lightWisteria = UIColor.rgb(190, 144, 212)
     public static let studio = UIColor.rgb(142, 68, 173)
     public static let wisteria = UIColor.rgb(155, 89, 182)
-    public static let sanMarino = UIColor.rgb(68,108,179)
+    public static let sanMarino = UIColor.rgb(68, 108, 179)
     public static let aliceBlue = UIColor.rgb(228, 241, 254)
     public static let royalBlue = UIColor.rgb(65, 131, 215)
     public static let pictonBlue = UIColor.rgb(89, 171, 227)
@@ -60,7 +60,7 @@ public extension UIColor {
     public static let jordyBlue = UIColor.rgb(137, 196, 244)
     public static let steelBlue = UIColor.rgb(75, 119, 190)
     public static let fountainBlue = UIColor.rgb(92, 151, 191)
-    public static let mediumTurquoise = UIColor.rgb(78,205,196)
+    public static let mediumTurquoise = UIColor.rgb(78, 205, 196)
     public static let aquaIsland = UIColor.rgb(162, 222, 208)
     public static let gossip = UIColor.rgb(135, 211, 124)
     public static let darkSeaGreen = UIColor.rgb(144, 198, 149)
@@ -88,7 +88,7 @@ public extension UIColor {
     public static let creamCan = UIColor.rgb(245, 215, 110)
     public static let ripeLemon = UIColor.rgb(247, 202, 24)
     public static let saffron = UIColor.rgb(244, 208, 63)
-    public static let confetti = UIColor.rgb(233,212,96)
+    public static let confetti = UIColor.rgb(233, 212, 96)
     public static let capeHoney = UIColor.rgb(253, 227, 167)
     public static let california = UIColor.rgb(248, 148, 6)
     public static let fireBush = UIColor.rgb(235, 149, 50)
@@ -103,7 +103,7 @@ public extension UIColor {
     public static let sandstorm = UIColor.rgb(249, 191, 59)
     public static let jaffa = UIColor.rgb(242, 121, 53)
     public static let zest = UIColor.rgb(230, 126, 34)
-    public static let whiteSmoke = UIColor.rgb(236,236,236)
+    public static let whiteSmoke = UIColor.rgb(236, 236, 236)
     public static let lynch = UIColor.rgb(108, 122, 137)
     public static let pumice = UIColor.rgb(210, 215, 211)
     public static let gallery = UIColor.rgb(238, 238, 238)

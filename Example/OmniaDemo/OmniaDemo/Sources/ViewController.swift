@@ -8,4 +8,3 @@ class ViewController: UIViewController {
     view.backgroundColor = UIColor.whiteColor()
   }
 }
-

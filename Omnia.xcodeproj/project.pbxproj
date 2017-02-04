@@ -7,38 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2A42ACE1CD5ED45004791FA /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42ACD1CD5ED45004791FA /* Emoji.swift */; };
-		D2A42ACF1CD5ED45004791FA /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42ACD1CD5ED45004791FA /* Emoji.swift */; };
-		D2A42AD21CD5FB2E004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD01CD5FB2E004791FA /* Construction.framework */; };
-		D2A42AD31CD5FB2E004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD11CD5FB2E004791FA /* Sugar.framework */; };
-		D2A42AD51CD5FB5D004791FA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42AD41CD5FB5D004791FA /* String+Extension.swift */; };
-		D2A42AD61CD5FB5D004791FA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A42AD41CD5FB5D004791FA /* String+Extension.swift */; };
 		D2A42AD91CD5FBE9004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD71CD5FBE9004791FA /* Construction.framework */; };
 		D2A42ADA1CD5FBE9004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD81CD5FBE9004791FA /* Sugar.framework */; };
-		D2A42ADB1CD5FCEB004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD01CD5FB2E004791FA /* Construction.framework */; };
-		D2A42ADC1CD5FCEB004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD11CD5FB2E004791FA /* Sugar.framework */; };
 		D2A42ADD1CD5FD1A004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD71CD5FBE9004791FA /* Construction.framework */; };
 		D2A42ADE1CD5FD1A004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD81CD5FBE9004791FA /* Sugar.framework */; };
 		D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
-		D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */; };
-		D2E9D0521CD29CDE007ADAE1 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */; };
-		D2E9D0541CD29CF8007ADAE1 /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0531CD29CF8007ADAE1 /* Performer.swift */; };
-		D2E9D0551CD29CF8007ADAE1 /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0531CD29CF8007ADAE1 /* Performer.swift */; };
-		D2E9D0571CD29D33007ADAE1 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0561CD29D33007ADAE1 /* Attribute.swift */; };
-		D2E9D0581CD29D33007ADAE1 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0561CD29D33007ADAE1 /* Attribute.swift */; };
-		D2E9D05A1CD29D43007ADAE1 /* BlockFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */; };
-		D2E9D05B1CD29D43007ADAE1 /* BlockFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */; };
-		D2E9D0601CD29D70007ADAE1 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05F1CD29D70007ADAE1 /* Operator.swift */; };
-		D2E9D0611CD29D70007ADAE1 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D05F1CD29D70007ADAE1 /* Operator.swift */; };
-		D2E9D0631CD29D93007ADAE1 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0621CD29D93007ADAE1 /* Priority.swift */; };
-		D2E9D0641CD29D93007ADAE1 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0621CD29D93007ADAE1 /* Priority.swift */; };
-		D2E9D0661CD29DAA007ADAE1 /* QualityOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */; };
-		D2E9D0671CD29DAA007ADAE1 /* QualityOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */; };
-		D2E9D0691CD29DC3007ADAE1 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0681CD29DC3007ADAE1 /* Queue.swift */; };
-		D2E9D06A1CD29DC3007ADAE1 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0681CD29DC3007ADAE1 /* Queue.swift */; };
-		D2E9D06C1CD29DD0007ADAE1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D06B1CD29DD0007ADAE1 /* Task.swift */; };
-		D2E9D06D1CD29DD0007ADAE1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D06B1CD29DD0007ADAE1 /* Task.swift */; };
 		D2E9D0741CD2A0A2007ADAE1 /* Farge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0731CD2A0A2007ADAE1 /* Farge.swift */; };
 		D2E9D0771CD2A0F5007ADAE1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0761CD2A0F5007ADAE1 /* UIColor+Extension.swift */; };
 		D2E9D0791CD2A1EA007ADAE1 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0781CD2A1EA007ADAE1 /* Target.swift */; };
@@ -47,14 +21,6 @@
 		D2E9D07E1CD2A24B007ADAE1 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D07C1CD2A24B007ADAE1 /* Throttle.swift */; };
 		D2E9D0811CD2A2EF007ADAE1 /* Warlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0801CD2A2EF007ADAE1 /* Warlock.swift */; };
 		D2E9D0821CD2A2EF007ADAE1 /* Warlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0801CD2A2EF007ADAE1 /* Warlock.swift */; };
-		D2E9D08F1CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */; };
-		D2E9D0901CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */; };
-		D2E9D0921CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */; };
-		D2E9D0931CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */; };
-		D2E9D0991CD2ADC1007ADAE1 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0981CD2ADC1007ADAE1 /* OptionalType.swift */; };
-		D2E9D09A1CD2ADC1007ADAE1 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0981CD2ADC1007ADAE1 /* OptionalType.swift */; };
-		D2E9D09C1CD2AEA9007ADAE1 /* CollectionType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */; };
-		D2E9D09D1CD2AEA9007ADAE1 /* CollectionType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 		D5C629771C3A878E007F7B7C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629751C3A878E007F7B7C /* Quick.framework */; };
@@ -87,31 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2A42ACD1CD5ED45004791FA /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		D2A42AD01CD5FB2E004791FA /* Construction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Construction.framework; path = Carthage/Build/iOS/Construction.framework; sourceTree = "<group>"; };
 		D2A42AD11CD5FB2E004791FA /* Sugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sugar.framework; path = Carthage/Build/iOS/Sugar.framework; sourceTree = "<group>"; };
-		D2A42AD41CD5FB5D004791FA /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		D2A42AD71CD5FBE9004791FA /* Construction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Construction.framework; path = Carthage/Build/Mac/Construction.framework; sourceTree = "<group>"; };
 		D2A42AD81CD5FBE9004791FA /* Sugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sugar.framework; path = Carthage/Build/Mac/Sugar.framework; sourceTree = "<group>"; };
 		D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hourglass.swift; sourceTree = "<group>"; };
-		D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
-		D2E9D0531CD29CF8007ADAE1 /* Performer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
-		D2E9D0561CD29D33007ADAE1 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
-		D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockFlag.swift; sourceTree = "<group>"; };
-		D2E9D05F1CD29D70007ADAE1 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
-		D2E9D0621CD29D93007ADAE1 /* Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
-		D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityOfService.swift; sourceTree = "<group>"; };
-		D2E9D0681CD29DC3007ADAE1 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		D2E9D06B1CD29DD0007ADAE1 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		D2E9D0731CD2A0A2007ADAE1 /* Farge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farge.swift; sourceTree = "<group>"; };
 		D2E9D0761CD2A0F5007ADAE1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		D2E9D0781CD2A1EA007ADAE1 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 		D2E9D07C1CD2A24B007ADAE1 /* Throttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
 		D2E9D0801CD2A2EF007ADAE1 /* Warlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warlock.swift; sourceTree = "<group>"; };
-		D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OptionSetType+Extension.swift"; sourceTree = "<group>"; };
-		D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
-		D2E9D0981CD2ADC1007ADAE1 /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalType.swift; sourceTree = "<group>"; };
-		D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionType+Extension.swift"; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,8 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A42AD21CD5FB2E004791FA /* Construction.framework in Frameworks */,
-				D2A42AD31CD5FB2E004791FA /* Sugar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A42ADB1CD5FCEB004791FA /* Construction.framework in Frameworks */,
-				D2A42ADC1CD5FCEB004791FA /* Sugar.framework in Frameworks */,
 				D5C629771C3A878E007F7B7C /* Quick.framework in Frameworks */,
 				D5C629781C3A878E007F7B7C /* Nimble.framework in Frameworks */,
 				D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */,
@@ -179,14 +126,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2A42ACC1CD5ED3C004791FA /* Emoji */ = {
-			isa = PBXGroup;
-			children = (
-				D2A42ACD1CD5ED45004791FA /* Emoji.swift */,
-			);
-			path = Emoji;
-			sourceTree = "<group>";
-		};
 		D2E9D0441CD29AC9007ADAE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,20 +148,6 @@
 				D2E9D0781CD2A1EA007ADAE1 /* Target.swift */,
 			);
 			path = Hourglass;
-			sourceTree = "<group>";
-		};
-		D2E9D04D1CD29CC7007ADAE1 /* Performer */ = {
-			isa = PBXGroup;
-			children = (
-				D2E9D0531CD29CF8007ADAE1 /* Performer.swift */,
-				D2E9D0561CD29D33007ADAE1 /* Attribute.swift */,
-				D2E9D0591CD29D43007ADAE1 /* BlockFlag.swift */,
-				D2E9D0621CD29D93007ADAE1 /* Priority.swift */,
-				D2E9D0651CD29DAA007ADAE1 /* QualityOfService.swift */,
-				D2E9D0681CD29DC3007ADAE1 /* Queue.swift */,
-				D2E9D06B1CD29DD0007ADAE1 /* Task.swift */,
-			);
-			path = Performer;
 			sourceTree = "<group>";
 		};
 		D2E9D0721CD2A09B007ADAE1 /* Farge */ = {
@@ -255,25 +180,6 @@
 				D2E9D0801CD2A2EF007ADAE1 /* Warlock.swift */,
 			);
 			path = Warlock;
-			sourceTree = "<group>";
-		};
-		D2E9D08D1CD2AD67007ADAE1 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				D2E9D08E1CD2AD82007ADAE1 /* OptionSetType+Extension.swift */,
-				D2E9D0911CD2AD98007ADAE1 /* Dictionary+Extension.swift */,
-				D2E9D09B1CD2AEA9007ADAE1 /* CollectionType+Extension.swift */,
-				D2A42AD41CD5FB5D004791FA /* String+Extension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		D2E9D0941CD2ADBA007ADAE1 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				D2E9D0981CD2ADC1007ADAE1 /* OptionalType.swift */,
-			);
-			path = Protocol;
 			sourceTree = "<group>";
 		};
 		D5B2E8951C3A780C00C0327D = {
@@ -340,15 +246,9 @@
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D2A42ACC1CD5ED3C004791FA /* Emoji */,
-				D2E9D0941CD2ADBA007ADAE1 /* Protocol */,
-				D2E9D08D1CD2AD67007ADAE1 /* Extension */,
 				D2E9D07F1CD2A2EA007ADAE1 /* Warlock */,
 				D2E9D07B1CD2A247007ADAE1 /* Throttle */,
 				D2E9D04B1CD29CC7007ADAE1 /* Hourglass */,
-				D2E9D04D1CD29CC7007ADAE1 /* Performer */,
-				D2E9D0501CD29CDE007ADAE1 /* Typealias.swift */,
-				D2E9D05F1CD29D70007ADAE1 /* Operator.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -490,14 +390,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Fantageek;
 				TargetAttributes = {
 					D5B2E89E1C3A780C00C0327D = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
 					};
 					D5B2E8A81C3A780C00C0327D = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
 					};
 					D5C6293F1C3A7FAA007F7B7C = {
 						CreatedOnToolsVersion = 7.2;
@@ -567,8 +469,6 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Sugar.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Construction.framework",
 			);
 			name = "Copy frameworks with Carthage";
 			outputPaths = (
@@ -602,27 +502,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E9D0921CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */,
-				D2E9D0571CD29D33007ADAE1 /* Attribute.swift in Sources */,
-				D2E9D0541CD29CF8007ADAE1 /* Performer.swift in Sources */,
 				D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */,
-				D2E9D08F1CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */,
-				D2E9D0691CD29DC3007ADAE1 /* Queue.swift in Sources */,
-				D2E9D06C1CD29DD0007ADAE1 /* Task.swift in Sources */,
-				D2E9D09C1CD2AEA9007ADAE1 /* CollectionType+Extension.swift in Sources */,
 				D2E9D0811CD2A2EF007ADAE1 /* Warlock.swift in Sources */,
 				D2E9D0741CD2A0A2007ADAE1 /* Farge.swift in Sources */,
 				D2E9D0771CD2A0F5007ADAE1 /* UIColor+Extension.swift in Sources */,
-				D2E9D05A1CD29D43007ADAE1 /* BlockFlag.swift in Sources */,
-				D2A42AD51CD5FB5D004791FA /* String+Extension.swift in Sources */,
 				D2E9D0791CD2A1EA007ADAE1 /* Target.swift in Sources */,
-				D2E9D0601CD29D70007ADAE1 /* Operator.swift in Sources */,
-				D2E9D0661CD29DAA007ADAE1 /* QualityOfService.swift in Sources */,
-				D2E9D0511CD29CDE007ADAE1 /* Typealias.swift in Sources */,
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
-				D2E9D0991CD2ADC1007ADAE1 /* OptionalType.swift in Sources */,
-				D2A42ACE1CD5ED45004791FA /* Emoji.swift in Sources */,
-				D2E9D0631CD29D93007ADAE1 /* Priority.swift in Sources */,
 				D2E9D07D1CD2A24B007ADAE1 /* Throttle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,26 +525,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E9D0581CD29D33007ADAE1 /* Attribute.swift in Sources */,
 				D2E9D07E1CD2A24B007ADAE1 /* Throttle.swift in Sources */,
-				D2E9D0551CD29CF8007ADAE1 /* Performer.swift in Sources */,
-				D2E9D09D1CD2AEA9007ADAE1 /* CollectionType+Extension.swift in Sources */,
 				D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */,
-				D2E9D06A1CD29DC3007ADAE1 /* Queue.swift in Sources */,
-				D2E9D06D1CD29DD0007ADAE1 /* Task.swift in Sources */,
-				D2E9D0931CD2AD98007ADAE1 /* Dictionary+Extension.swift in Sources */,
-				D2A42AD61CD5FB5D004791FA /* String+Extension.swift in Sources */,
-				D2E9D0901CD2AD82007ADAE1 /* OptionSetType+Extension.swift in Sources */,
-				D2E9D05B1CD29D43007ADAE1 /* BlockFlag.swift in Sources */,
 				D2E9D0821CD2A2EF007ADAE1 /* Warlock.swift in Sources */,
-				D2E9D0611CD29D70007ADAE1 /* Operator.swift in Sources */,
 				D2E9D07A1CD2A1EA007ADAE1 /* Target.swift in Sources */,
-				D2E9D0671CD29DAA007ADAE1 /* QualityOfService.swift in Sources */,
-				D2A42ACF1CD5ED45004791FA /* Emoji.swift in Sources */,
-				D2E9D0521CD29CDE007ADAE1 /* Typealias.swift in Sources */,
-				D2E9D09A1CD2ADC1007ADAE1 /* OptionalType.swift in Sources */,
 				D5C629851C3A893F007F7B7C /* Mac.swift in Sources */,
-				D2E9D0641CD29D93007ADAE1 /* Priority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,8 +571,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -749,8 +621,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -770,6 +644,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -781,6 +656,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -797,6 +673,7 @@
 				PRODUCT_NAME = Omnia;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -804,6 +681,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -819,6 +697,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Omnia.Omnia-iOS";
 				PRODUCT_NAME = Omnia;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -836,6 +715,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.OmniaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -852,6 +732,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.OmniaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

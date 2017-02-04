@@ -9,11 +9,11 @@
 import Foundation
 
 public struct Hourglass {
-  
-  public static func schedule(seconds: NSTimeInterval,
-                       repeats: Bool, tolerance: NSTimeInterval = 0, action: () -> Void) -> NSTimer {
 
-    let timer = NSTimer.scheduledTimerWithTimeInterval(seconds,
+  public static func schedule(_ seconds: TimeInterval,
+                       repeats: Bool, tolerance: TimeInterval = 0, action: @escaping () -> Void) -> Timer {
+
+    let timer = Timer.scheduledTimer(timeInterval: seconds,
                                                        target: Target(action: action),
                                                        selector: #selector(Target.fire), userInfo: nil, repeats: repeats)
     timer.tolerance = tolerance
@@ -21,11 +21,11 @@ public struct Hourglass {
     return timer
   }
 
-  public static func every(seconds: NSTimeInterval, action: () -> Void) -> NSTimer {
+  public static func every(_ seconds: TimeInterval, action: @escaping () -> Void) -> Timer {
     return schedule(seconds, repeats: true, action: action)
   }
 
-  public static func after(seconds: NSTimeInterval, action: () -> Void) -> NSTimer {
+  public static func after(_ seconds: TimeInterval, action: @escaping () -> Void) -> Timer {
     return schedule(seconds, repeats: false, action: action)
   }
 }
