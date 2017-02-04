@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.0859375000000000" branch-rate="1.0000000000000000" lines-covered="11" lines-valid="128" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1486248847" version="Slather 2.3.0">
+  <sources>
+    <source>/Users/khoa/XcodeProject2/Omnia</source>
+  </sources>
+  <packages>
+    <package name="Sources.Shared.Hourglass" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Hourglass" filename="Sources/Shared/Hourglass/Hourglass.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="Target" filename="Sources/Shared/Hourglass/Target.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Sources.Shared.Math" line-rate="0.8461538461538461" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Math" filename="Sources/Shared/Math/Math.swift" line-rate="0.8461538461538461" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="5" branch="false" hits="4"/>
+            <line number="6" branch="false" hits="3"/>
+            <line number="7" branch="false" hits="3"/>
+            <line number="8" branch="false" hits="1"/>
+            <line number="9" branch="false" hits="1"/>
+            <line number="10" branch="false" hits="1"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="1"/>
+            <line number="14" branch="false" hits="1"/>
+            <line number="15" branch="false" hits="1"/>
+            <line number="16" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Sources.Shared.Throttle" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Throttle" filename="Sources/Shared/Throttle/Throttle.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Sources.Shared.Warlock" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Warlock" filename="Sources/Shared/Warlock/Warlock.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="false" hits="0"/>
+            <line number="68" branch="false" hits="0"/>
+            <line number="69" branch="false" hits="0"/>
+            <line number="70" branch="false" hits="0"/>
+            <line number="71" branch="false" hits="0"/>
+            <line number="73" branch="false" hits="0"/>
+            <line number="74" branch="false" hits="0"/>
+            <line number="75" branch="false" hits="0"/>
+            <line number="76" branch="false" hits="0"/>
+            <line number="77" branch="false" hits="0"/>
+            <line number="78" branch="false" hits="0"/>
+            <line number="79" branch="false" hits="0"/>
+            <line number="80" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Sources.iOS.Extension" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="UIColor+Extension" filename="Sources/iOS/Extension/UIColor+Extension.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="12" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
