@@ -1,13 +1,11 @@
-osx_image: xcode7.3
+osx_image: xcode8.2
 language: objective-c
 
-before_install:
-- brew update
-- if brew outdated | grep -qx carthage; then brew upgrade carthage; fi
-- travis_wait 35 carthage bootstrap --platform iOS,Mac
-
 script:
-- xcodebuild clean build -project Omnia.xcodeproj -scheme Omnia-iOS -sdk iphonesimulator
-- xcodebuild test -project Omnia.xcodeproj -scheme Omnia-iOS -sdk iphonesimulator
-- xcodebuild clean build -project Omnia.xcodeproj -scheme Omnia-Mac -sdk macosx
-- xcodebuild test -project Omnia.xcodeproj -scheme Omnia-Mac -sdk macosx
+- set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-iOS" -sdk iphonesimulator clean build | xcpretty
+- set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-iOS" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' -enableCodeCoverage YES test | xcpretty
+- set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-Mac" -sdk macosx clean build | xcpretty
+- set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-Mac" -sdk macosx -enableCodeCoverage YES test | xcpretty
+
+notifications:
+  email: false
