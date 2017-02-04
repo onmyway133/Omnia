@@ -11,6 +11,8 @@
 		D2A42ADA1CD5FBE9004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD81CD5FBE9004791FA /* Sugar.framework */; };
 		D2A42ADD1CD5FD1A004791FA /* Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD71CD5FBE9004791FA /* Construction.framework */; };
 		D2A42ADE1CD5FD1A004791FA /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A42AD81CD5FBE9004791FA /* Sugar.framework */; };
+		D2E8C87A1E4689F100689390 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8C8791E4689F100689390 /* Math.swift */; };
+		D2E8C87B1E4689F100689390 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8C8791E4689F100689390 /* Math.swift */; };
 		D2E9D04E1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D04F1CD29CC7007ADAE1 /* Hourglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */; };
 		D2E9D0741CD2A0A2007ADAE1 /* Farge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9D0731CD2A0A2007ADAE1 /* Farge.swift */; };
@@ -57,6 +59,7 @@
 		D2A42AD11CD5FB2E004791FA /* Sugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sugar.framework; path = Carthage/Build/iOS/Sugar.framework; sourceTree = "<group>"; };
 		D2A42AD71CD5FBE9004791FA /* Construction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Construction.framework; path = Carthage/Build/Mac/Construction.framework; sourceTree = "<group>"; };
 		D2A42AD81CD5FBE9004791FA /* Sugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sugar.framework; path = Carthage/Build/Mac/Sugar.framework; sourceTree = "<group>"; };
+		D2E8C8791E4689F100689390 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		D2E9D04C1CD29CC7007ADAE1 /* Hourglass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hourglass.swift; sourceTree = "<group>"; };
 		D2E9D0731CD2A0A2007ADAE1 /* Farge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farge.swift; sourceTree = "<group>"; };
 		D2E9D0761CD2A0F5007ADAE1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -126,6 +129,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2E8C8781E4689E800689390 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				D2E8C8791E4689F100689390 /* Math.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
 		D2E9D0441CD29AC9007ADAE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +257,7 @@
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D2E8C8781E4689E800689390 /* Math */,
 				D2E9D07F1CD2A2EA007ADAE1 /* Warlock */,
 				D2E9D07B1CD2A247007ADAE1 /* Throttle */,
 				D2E9D04B1CD29CC7007ADAE1 /* Hourglass */,
@@ -524,6 +536,7 @@
 				D2E9D0791CD2A1EA007ADAE1 /* Target.swift in Sources */,
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
 				D2E9D07D1CD2A24B007ADAE1 /* Throttle.swift in Sources */,
+				D2E8C87A1E4689F100689390 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +558,7 @@
 				D2E9D0821CD2A2EF007ADAE1 /* Warlock.swift in Sources */,
 				D2E9D07A1CD2A1EA007ADAE1 /* Target.swift in Sources */,
 				D5C629851C3A893F007F7B7C /* Mac.swift in Sources */,
+				D2E8C87B1E4689F100689390 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
