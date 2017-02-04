@@ -1,0 +1,17 @@
+coverage:
+  comment: "header diff changes sunburst"
+  behavior: new
+  ignore:
+  - build/.*
+  - bin/.*
+  - Carthage/.*
+  - Examples/.*
+  - Images/.*
+  - Playgrounds/.*
+  status:
+    patch:
+      default:
+        target: 55%
+    project:
+      default:
+        target: auto
