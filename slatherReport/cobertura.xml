@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.0859375000000000" branch-rate="1.0000000000000000" lines-covered="11" lines-valid="128" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1486248847" version="Slather 2.3.0">
+<coverage line-rate="0.0859375000000000" branch-rate="1.0000000000000000" lines-covered="11" lines-valid="128" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1486249691" version="Slather 2.3.0">
   <sources>
     <source>/Users/khoa/XcodeProject2/Omnia</source>
   </sources>
