@@ -13,6 +13,7 @@ before_install:
 script:
 - set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-iOS" -sdk iphonesimulator clean build | xcpretty
 - set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-iOS" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' -enableCodeCoverage YES test | xcpretty
+- bundle exec danger
 
 after_success: 
   - slather
