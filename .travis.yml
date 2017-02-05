@@ -16,7 +16,7 @@ script:
 - bundle exec danger
 
 after_success: 
-  - slather
+  - bundle exec slather
   - bash <(curl -s https://codecov.io/bash) -f slatherReport/cobertura.xml -X coveragepy -X gcov -X xcode
 
 notifications:
