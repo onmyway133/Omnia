@@ -15,4 +15,12 @@ public struct Math {
 
     return true
   }
+
+  public static func greatestCommonDivisor(a: Int, b: Int) -> Int {
+    guard a != 0 && b != 0 else {
+      return a + b
+    }
+
+    return greatestCommonDivisor(a: a, b: a % b)
+  }
 }
