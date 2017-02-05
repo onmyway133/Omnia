@@ -17,10 +17,10 @@ public struct Math {
   }
 
   public static func greatestCommonDivisor(a: Int, b: Int) -> Int {
-    guard a != 0 && b != 0 else {
-      return a + b
+    guard b != 0 else {
+      return a
     }
 
-    return greatestCommonDivisor(a: a, b: a % b)
+    return greatestCommonDivisor(a: b, b: a % b)
   }
 }

@@ -27,6 +27,7 @@ class SharedSpec: QuickSpec {
         it("passes") {
           expect(Math.greatestCommonDivisor(a: 0, b: 1)).to(equal(1))
           expect(Math.greatestCommonDivisor(a: 2, b: 6)).to(equal(2))
+          expect(Math.greatestCommonDivisor(a: 4, b: 6)).to(equal(2))
         }
       }
     }
