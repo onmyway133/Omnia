@@ -1,5 +1,7 @@
 # Omnia
 
+[![Join the chat at https://gitter.im/onmyway133-Omnia/Lobby](https://badges.gitter.im/onmyway133-Omnia/Lobby.svg)](https://gitter.im/onmyway133-Omnia/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Everything your projects need to know
 
 [![CI Status](http://img.shields.io/travis/onmyway133/Omnia.svg?style=flat)](https://travis-ci.org/onmyway133/Omnia)
