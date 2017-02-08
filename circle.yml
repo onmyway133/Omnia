@@ -1,0 +1,26 @@
+machine:
+  xcode:
+    version: "8.2.1"
+  environment:
+    LANG: en_US.UTF-8
+
+dependencies:
+  pre:
+    - curl -sS https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash
+  override:
+    - brew update ; brew update
+    - brew install swiftlint
+    - bundle install
+    - travis_wait 35 carthage bootstrap --platform iOS,Mac
+  cache_directories:
+    - "Carthage"
+
+test:
+  pre:
+  override:
+    - set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-iOS" -sdk iphonesimulator clean build | xcpretty
+    - set -o pipefail && xcodebuild -project Omnia.xcodeproj -scheme "Omnia-iOS" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' -enableCodeCoverage YES test | xcpretty
+  post:
+    - bundle exec danger
+    - bundle exec slather
+    - bash <(curl -s https://codecov.io/bash) -f slatherReport/cobertura.xml -X coveragepy -X gcov -X xcode
