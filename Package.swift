@@ -1,5 +1,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "Omnia"
+    name: "Omnia",
+    exclude: ["Sources/iOS", "Sources/Mac"]
 )
