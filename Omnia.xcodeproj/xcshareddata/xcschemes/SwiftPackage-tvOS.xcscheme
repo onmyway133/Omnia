@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D284B0FB1F79038B00D94AF3"
-               BuildableName = "Omnia_tvOS.framework"
+               BuildableName = "Omnia.framework"
                BlueprintName = "Omnia-tvOS"
                ReferencedContainer = "container:Omnia.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B0FB1F79038B00D94AF3"
-            BuildableName = "Omnia_tvOS.framework"
+            BuildableName = "Omnia.framework"
             BlueprintName = "Omnia-tvOS"
             ReferencedContainer = "container:Omnia.xcodeproj">
          </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B0FB1F79038B00D94AF3"
-            BuildableName = "Omnia_tvOS.framework"
+            BuildableName = "Omnia.framework"
             BlueprintName = "Omnia-tvOS"
             ReferencedContainer = "container:Omnia.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B0FB1F79038B00D94AF3"
-            BuildableName = "Omnia_tvOS.framework"
+            BuildableName = "Omnia.framework"
             BlueprintName = "Omnia-tvOS"
             ReferencedContainer = "container:Omnia.xcodeproj">
          </BuildableReference>

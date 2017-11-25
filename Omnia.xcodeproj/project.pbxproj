@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D240E12A1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240E1291FC9AE68000AB5AB /* UIViewController+Extensions.swift */; };
+		D240E12B1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240E1291FC9AE68000AB5AB /* UIViewController+Extensions.swift */; };
 		D284B0F61F79024300D94AF3 /* macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B0F51F79024300D94AF3 /* macOS.swift */; };
 		D284B1051F79038B00D94AF3 /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* Omnia.framework */; };
 		D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1221F79041C00D94AF3 /* tvOS.swift */; };
@@ -54,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D240E1291FC9AE68000AB5AB /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		D284B0F51F79024300D94AF3 /* macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOS.swift; sourceTree = "<group>"; };
 		D284B0FC1F79038B00D94AF3 /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284B1041F79038B00D94AF3 /* Omnia-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				D5C629821C3A892A007F7B7C /* iOS.swift */,
+				D240E1291FC9AE68000AB5AB /* UIViewController+Extensions.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -557,6 +561,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D284B1491F790CA200D94AF3 /* Shared.swift in Sources */,
+				D240E12B1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */,
 				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
+				D240E12A1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */,
 				D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
