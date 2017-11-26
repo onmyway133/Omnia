@@ -26,6 +26,7 @@ public struct HSLColor {
   public let hue: CGFloat
   public let saturation: CGFloat
   public let lightness: CGFloat
+  public let alpha: CGFloat
 }
 
 extension UIColor {
@@ -48,7 +49,7 @@ extension UIColor {
     let l = (min+max) / 2.0
 
     if (l <= 0.0) {
-      return HSLColor(hue: h, saturation: s, lightness: l)
+      return HSLColor(hue: h, saturation: s, lightness: l, alpha: a)
     }
 
     let delta = max - min
@@ -57,7 +58,7 @@ extension UIColor {
     if (s > 0.0) {
       s = s / ((l <= 0.5) ? (max + min) : (2.0 - max - min))
     } else {
-      return HSLColor(hue: h, saturation: s, lightness: l)
+      return HSLColor(hue: h, saturation: s, lightness: l, alpha: a)
     }
 
     let r2 = (max - r) / delta
@@ -74,6 +75,72 @@ extension UIColor {
 
     h = h / 6.0
 
-    return HSLColor(hue: h, saturation: s, lightness: l)
+    return HSLColor(hue: h, saturation: s, lightness: l, alpha: a)
+  }
+
+  /// Init from HSL color
+  ///
+  /// - Parameter omnia_hslColor: The HSL color
+  public convenience init(omnia_hslColor hslColor: HSLColor) {
+    // https://github.com/thisandagain/color
+
+    // Check for saturation.
+    // If there isn't any just return the luminance
+    // value for each, which results in gray.
+    if (hslColor.saturation == 0.0) {
+      self.init(
+        red: hslColor.lightness,
+        green: hslColor.lightness,
+        blue: hslColor.lightness,
+        alpha: hslColor.alpha
+      )
+      return
+    }
+
+    // Test for luminance and compute temporary
+    // values based on luminance and saturation
+    var temp2: CGFloat
+    if (hslColor.lightness < 0.5) {
+      temp2 = hslColor.lightness * (1.0 + hslColor.saturation)
+    } else {
+      temp2 = hslColor.lightness
+        + hslColor.saturation
+        - hslColor.lightness * hslColor.saturation
+    }
+
+    let temp1 = 2.0 * hslColor.lightness - temp2
+
+    // Compute intermediate values based on hue
+    var temp: [CGFloat] = Array(repeatElement(0, count: 3))
+    temp[0] = hslColor.hue + 1.0 / 3.0
+    temp[1] = hslColor.hue
+    temp[2] = hslColor.hue - 1.0 / 3.0
+
+    Array(0..<3).forEach { i in
+      // Adjust the range
+      if (temp[i] < 0.0) {
+        temp[i] += 1.0
+      }
+
+      if (temp[i] > 1.0) {
+        temp[i] -= 1.0
+      }
+
+      if (6.0 * temp[i] < 1.0) {
+        temp[i] = temp1 + (temp2 - temp1) * 6.0 * temp[i]
+      } else {
+        if (2.0 * temp[i] < 1.0) {
+          temp[i] = temp2
+        } else {
+          if (3.0 * temp[i] < 2.0) {
+            temp[i] = temp1 + (temp2 - temp1) * ((2.0 / 3.0) - temp[i]) * 6.0
+          } else {
+            temp[i] = temp1
+          }
+        }
+      }
+    }
+
+    self.init(red: temp[0], green: temp[1], blue: temp[2], alpha: hslColor.alpha)
   }
 }
