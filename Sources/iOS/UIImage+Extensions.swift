@@ -1,9 +1,30 @@
-//
-//  UIImage+Extensions.swift
-//  Omnia
-//
-//  Created by Khoa Pham on 26.11.2017.
-//  Copyright © 2017 Khoa Pham. All rights reserved.
-//
+import UIKit
 
-import Foundation
+extension UIImage {
+
+  /// Init an UIImage from a UIColor
+  ///
+  /// - Parameter color: The color to fill
+  /// - Parameter size: The size of the generated image
+  /// - Returns: The image from the snapshot
+  public convenience init?(omnia_color color: UIColor, size: CGSize) {
+    UIGraphicsBeginImageContext(size)
+
+    guard let context = UIGraphicsGetCurrentContext() else {
+      return nil
+    }
+
+    context.setFillColor(color.cgColor)
+    let rect = CGRect(origin: .zero, size: size)
+    context.fill(rect)
+
+    let image = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
+
+    guard let cgImage = image?.cgImage else {
+      return nil
+    }
+
+    self.init(cgImage: cgImage)
+  }
+}

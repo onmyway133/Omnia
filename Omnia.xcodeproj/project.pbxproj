@@ -62,6 +62,8 @@
 		D285245C1FCB6D9300CB232A /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285245A1FCB6D9300CB232A /* UIImage+Extensions.swift */; };
 		D285245E1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285245D1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift */; };
 		D285245F1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285245D1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift */; };
+		D28524611FCB708700CB232A /* UIImage+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524601FCB708700CB232A /* UIImage+ExtensionsTests.swift */; };
+		D28524621FCB708700CB232A /* UIImage+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524601FCB708700CB232A /* UIImage+ExtensionsTests.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 		D5C629831C3A892A007F7B7C /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629821C3A892A007F7B7C /* iOS.swift */; };
@@ -125,6 +127,7 @@
 		D28524571FCB6D8800CB232A /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		D285245A1FCB6D9300CB232A /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		D285245D1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ExtensionsTests.swift"; sourceTree = "<group>"; };
+		D28524601FCB708700CB232A /* UIImage+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B2E8A91C3A780C00C0327D /* Omnia-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629401C3A7FAA007F7B7C /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,6 +249,7 @@
 			children = (
 				D284B1361F7906DA00D94AF3 /* UIViewController+ExtensionsTests.swift */,
 				D285245D1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift */,
+				D28524601FCB708700CB232A /* UIImage+ExtensionsTests.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -645,6 +649,7 @@
 				D285245F1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift in Sources */,
 				D284B13E1F7907AD00D94AF3 /* tvOSTests.swift in Sources */,
 				D28524381FCB670500CB232A /* Optional+ExtensionsTests.swift in Sources */,
+				D28524621FCB708700CB232A /* UIImage+ExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +695,7 @@
 				D285245E1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift in Sources */,
 				D284B1471F7908B800D94AF3 /* UIViewController+ExtensionsTests.swift in Sources */,
 				D28524361FCB670300CB232A /* Optional+ExtensionsTests.swift in Sources */,
+				D28524611FCB708700CB232A /* UIImage+ExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

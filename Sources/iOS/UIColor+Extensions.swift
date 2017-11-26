@@ -5,7 +5,7 @@ extension UIColor {
   /// Init color from hex string
   ///
   /// - Parameter hex: A hex string, with or without #
-  public convenience init(hex: String) {
+  public convenience init(omnia_hex hex: String) {
     let hex = hex.replacingOccurrences(of: "#", with: "")
 
     // Need 6 characters
