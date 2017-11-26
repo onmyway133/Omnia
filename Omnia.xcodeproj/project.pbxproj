@@ -40,6 +40,13 @@
 		D285243F1FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285243E1FCB682C00CB232A /* Data+ExtensionsTests.swift */; };
 		D28524401FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285243E1FCB682C00CB232A /* Data+ExtensionsTests.swift */; };
 		D28524411FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285243E1FCB682C00CB232A /* Data+ExtensionsTests.swift */; };
+		D28524431FCB688600CB232A /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524421FCB688600CB232A /* Sequence+Extensions.swift */; };
+		D28524441FCB688600CB232A /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524421FCB688600CB232A /* Sequence+Extensions.swift */; };
+		D28524451FCB688600CB232A /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524421FCB688600CB232A /* Sequence+Extensions.swift */; };
+		D28524461FCB688600CB232A /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524421FCB688600CB232A /* Sequence+Extensions.swift */; };
+		D28524481FCB697300CB232A /* Sequence+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524471FCB697300CB232A /* Sequence+ExtensionsTests.swift */; };
+		D28524491FCB697300CB232A /* Sequence+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524471FCB697300CB232A /* Sequence+ExtensionsTests.swift */; };
+		D285244A1FCB697300CB232A /* Sequence+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524471FCB697300CB232A /* Sequence+ExtensionsTests.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 		D5C629831C3A892A007F7B7C /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629821C3A892A007F7B7C /* iOS.swift */; };
@@ -95,6 +102,8 @@
 		D28524341FCB66DB00CB232A /* Optional+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		D28524391FCB67BC00CB232A /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		D285243E1FCB682C00CB232A /* Data+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+ExtensionsTests.swift"; sourceTree = "<group>"; };
+		D28524421FCB688600CB232A /* Sequence+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
+		D28524471FCB697300CB232A /* Sequence+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B2E8A91C3A780C00C0327D /* Omnia-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629401C3A7FAA007F7B7C /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -197,6 +206,7 @@
 				D284B1321F7906DA00D94AF3 /* SharedTests.swift */,
 				D28524341FCB66DB00CB232A /* Optional+ExtensionsTests.swift */,
 				D285243E1FCB682C00CB232A /* Data+ExtensionsTests.swift */,
+				D28524471FCB697300CB232A /* Sequence+ExtensionsTests.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -280,6 +290,7 @@
 				D5C629861C3A89A8007F7B7C /* Shared.swift */,
 				D22CB3101FCB658800B8270B /* Optional+Extensions.swift */,
 				D28524391FCB67BC00CB232A /* Data+Extensions.swift */,
+				D28524421FCB688600CB232A /* Sequence+Extensions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -584,6 +595,7 @@
 			files = (
 				D284B1491F790CA200D94AF3 /* Shared.swift in Sources */,
 				D22CB3131FCB658800B8270B /* Optional+Extensions.swift in Sources */,
+				D28524451FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D240E12B1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */,
 				D285243C1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
 				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
@@ -596,6 +608,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D284B1441F7908B100D94AF3 /* SharedTests.swift in Sources */,
+				D285244A1FCB697300CB232A /* Sequence+ExtensionsTests.swift in Sources */,
 				D28524411FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */,
 				D284B13E1F7907AD00D94AF3 /* tvOSTests.swift in Sources */,
 				D28524381FCB670500CB232A /* Optional+ExtensionsTests.swift in Sources */,
@@ -608,6 +621,7 @@
 			files = (
 				D284B14A1F790CA200D94AF3 /* Shared.swift in Sources */,
 				D285243D1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
+				D28524461FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D22CB3141FCB658800B8270B /* Optional+Extensions.swift in Sources */,
 				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
 			);
@@ -619,6 +633,7 @@
 			files = (
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
 				D22CB3111FCB658800B8270B /* Optional+Extensions.swift in Sources */,
+				D28524431FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D240E12A1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */,
 				D285243A1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
 				D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */,
@@ -631,6 +646,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D284B1461F7908B300D94AF3 /* SharedTests.swift in Sources */,
+				D28524481FCB697300CB232A /* Sequence+ExtensionsTests.swift in Sources */,
 				D285243F1FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */,
 				D284B1471F7908B800D94AF3 /* UIViewController+ExtensionsTests.swift in Sources */,
 				D28524361FCB670300CB232A /* Optional+ExtensionsTests.swift in Sources */,
@@ -643,6 +659,7 @@
 			files = (
 				D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */,
 				D285243B1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
+				D28524441FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D22CB3121FCB658800B8270B /* Optional+Extensions.swift in Sources */,
 				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
 			);
@@ -653,6 +670,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D284B1451F7908B200D94AF3 /* SharedTests.swift in Sources */,
+				D28524491FCB697300CB232A /* Sequence+ExtensionsTests.swift in Sources */,
 				D28524401FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */,
 				D284B1481F7908BB00D94AF3 /* macOSTests.swift in Sources */,
 				D28524371FCB670400CB232A /* Optional+ExtensionsTests.swift in Sources */,
