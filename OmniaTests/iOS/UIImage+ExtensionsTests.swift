@@ -8,5 +8,3 @@ class UIImage_ExtensionsTests: XCTestCase {
     XCTAssertEqual(image?.size, CGSize(width: 10, height: 10))
   }
 }
-
-

@@ -144,3 +144,22 @@ extension UIColor {
     self.init(red: temp[0], green: temp[1], blue: temp[2], alpha: hslColor.alpha)
   }
 }
+
+extension UIColor {
+
+  /// Return a random color
+  ///
+  /// - Returns: A random color
+  public static func omnia_random() -> UIColor {
+    let randomHue = CGFloat(arc4random_uniform(UInt32.max)) / CGFloat(UInt32.max)
+
+    let hslColor = HSLColor(
+      hue: randomHue,
+      saturation: 0.5,
+      lightness: 0.5,
+      alpha: 1
+    )
+
+    return UIColor(omnia_hslColor: hslColor)
+  }
+}
