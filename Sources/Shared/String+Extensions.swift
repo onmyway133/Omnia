@@ -10,4 +10,9 @@ extension String {
 
     return "\(prefix(1).uppercased())\(dropFirst())"
   }
+
+  /// Return a localized string using NSLocalizedString
+  public var omnia_localized: String {
+    return NSLocalizedString(self, comment: "")
+  }
 }
