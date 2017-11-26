@@ -23,10 +23,10 @@ extension UIColor {
 
 /// Represent a HSL color
 public struct HSLColor {
-  public let hue: CGFloat
-  public let saturation: CGFloat
-  public let lightness: CGFloat
-  public let alpha: CGFloat
+  public var hue: CGFloat
+  public var saturation: CGFloat
+  public var lightness: CGFloat
+  public var alpha: CGFloat
 }
 
 extension UIColor {
@@ -159,6 +159,28 @@ extension UIColor {
       lightness: 0.5,
       alpha: 1
     )
+
+    return UIColor(omnia_hslColor: hslColor)
+  }
+
+  /// Darken the color
+  ///
+  /// - Parameter amount: The amount to alter lightness
+  /// - Returns: A darkened color
+  public func omnia_darken(amount: CGFloat = 0.2) -> UIColor {
+    var hslColor = omnia_toHSL()
+    hslColor.lightness = min(1 - amount, hslColor.lightness - amount)
+
+    return UIColor(omnia_hslColor: hslColor)
+  }
+
+  /// Lighten the color
+  ///
+  /// - Parameter amount: The amount to alter lightness
+  /// - Returns: A lightened color
+  public func omnia_lighten(amount: CGFloat = 0.2) -> UIColor {
+    var hslColor = omnia_toHSL()
+    hslColor.lightness = max(amount, hslColor.lightness + amount)
 
     return UIColor(omnia_hslColor: hslColor)
   }
