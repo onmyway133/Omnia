@@ -1,0 +1,11 @@
+project:
+  file:
+    Omnia.xcodeproj
+  root:
+    .
+  target:
+    name: Omnia-iOS
+templates:
+ - .
+output:
+  .
