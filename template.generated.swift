@@ -3,6 +3,12 @@
 
 
 
+#### Comparable
+
+```swift
+omnia_isBetween(min: Self, max: Self)
+```
+
 #### Data
 
 ```swift
@@ -14,6 +20,7 @@ omnia_hexString
 ```swift
 omnia_isPresent
 omnia_unwrap(message: String)
+omnia_let(closure: (Wrapped) -> Void)
 ```
 
 #### Sequence
