@@ -14,6 +14,8 @@
 
 All extension names use prefix `omnia_` to avoid potential conflicts, and to give you clue that these are not built in by default.
 
+Supports iOS, macOS, tvOS, watchOS.
+
 ## Usage
 
 #### Bundle
