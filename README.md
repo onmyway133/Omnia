@@ -16,6 +16,14 @@ All extension names use prefix `omnia_` to avoid potential conflicts, and to giv
 
 ## Usage
 
+#### Bundle
+
+```swift
+omnia_name
+omnia_versionNumber
+omnia_buildNumber
+```
+
 #### Comparable
 
 ```swift

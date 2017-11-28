@@ -18,6 +18,13 @@
 		D2400CF71FCE090B00816458 /* Comparable+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400CF61FCE090B00816458 /* Comparable+ExtensionsTests.swift */; };
 		D2400CF81FCE090B00816458 /* Comparable+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400CF61FCE090B00816458 /* Comparable+ExtensionsTests.swift */; };
 		D2400CF91FCE090B00816458 /* Comparable+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400CF61FCE090B00816458 /* Comparable+ExtensionsTests.swift */; };
+		D2400D031FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400D021FCE0D9C00816458 /* Bundle+Extensions.swift */; };
+		D2400D041FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400D021FCE0D9C00816458 /* Bundle+Extensions.swift */; };
+		D2400D051FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400D021FCE0D9C00816458 /* Bundle+Extensions.swift */; };
+		D2400D061FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400D021FCE0D9C00816458 /* Bundle+Extensions.swift */; };
+		D2400D081FCE0E0F00816458 /* Bundle+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400D071FCE0E0F00816458 /* Bundle+ExtensionsTests.swift */; };
+		D2400D091FCE0E0F00816458 /* Bundle+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400D071FCE0E0F00816458 /* Bundle+ExtensionsTests.swift */; };
+		D2400D0A1FCE0E0F00816458 /* Bundle+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2400D071FCE0E0F00816458 /* Bundle+ExtensionsTests.swift */; };
 		D24012A01FCC7ED800B2C5F2 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240129F1FCC7ED800B2C5F2 /* UITableView+Extensions.swift */; };
 		D24012A11FCC7ED800B2C5F2 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240129F1FCC7ED800B2C5F2 /* UITableView+Extensions.swift */; };
 		D24012A31FCC7EE100B2C5F2 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24012A21FCC7EE100B2C5F2 /* UICollectionView+Extensions.swift */; };
@@ -112,6 +119,8 @@
 		D22CB3101FCB658800B8270B /* Optional+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
 		D2400CF11FCE08BB00816458 /* Comparable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+Extensions.swift"; sourceTree = "<group>"; };
 		D2400CF61FCE090B00816458 /* Comparable+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+ExtensionsTests.swift"; sourceTree = "<group>"; };
+		D2400D021FCE0D9C00816458 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		D2400D071FCE0E0F00816458 /* Bundle+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		D240129F1FCC7ED800B2C5F2 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		D24012A21FCC7EE100B2C5F2 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		D240E1291FC9AE68000AB5AB /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
@@ -251,6 +260,7 @@
 				D28524471FCB697300CB232A /* Sequence+ExtensionsTests.swift */,
 				D28524501FCB6B1000CB232A /* String+ExtensionsTests.swift */,
 				D2400CF61FCE090B00816458 /* Comparable+ExtensionsTests.swift */,
+				D2400D071FCE0E0F00816458 /* Bundle+ExtensionsTests.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -345,6 +355,7 @@
 				D28524421FCB688600CB232A /* Sequence+Extensions.swift */,
 				D285244B1FCB6A6D00CB232A /* String+Extensions.swift */,
 				D2400CF11FCE08BB00816458 /* Comparable+Extensions.swift */,
+				D2400D021FCE0D9C00816458 /* Bundle+Extensions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -653,6 +664,7 @@
 				D24012A11FCC7ED800B2C5F2 /* UITableView+Extensions.swift in Sources */,
 				D28524451FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D285245C1FCB6D9300CB232A /* UIImage+Extensions.swift in Sources */,
+				D2400D051FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */,
 				D240E12B1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */,
 				D285244E1FCB6A6D00CB232A /* String+Extensions.swift in Sources */,
 				D285243C1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
@@ -678,6 +690,7 @@
 				D28524381FCB670500CB232A /* Optional+ExtensionsTests.swift in Sources */,
 				D28524651FCB799A00CB232A /* UIColor+ExtensionsTests.swift in Sources */,
 				D28524621FCB708700CB232A /* UIImage+ExtensionsTests.swift in Sources */,
+				D2400D0A1FCE0E0F00816458 /* Bundle+ExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +705,7 @@
 				D285244F1FCB6A6D00CB232A /* String+Extensions.swift in Sources */,
 				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
 				D2400CF51FCE08BB00816458 /* Comparable+Extensions.swift in Sources */,
+				D2400D061FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +719,7 @@
 				D24012A01FCC7ED800B2C5F2 /* UITableView+Extensions.swift in Sources */,
 				D28524431FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D285245B1FCB6D9300CB232A /* UIImage+Extensions.swift in Sources */,
+				D2400D031FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */,
 				D240E12A1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */,
 				D285244C1FCB6A6D00CB232A /* String+Extensions.swift in Sources */,
 				D285243A1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
@@ -730,6 +745,7 @@
 				D28524361FCB670300CB232A /* Optional+ExtensionsTests.swift in Sources */,
 				D28524641FCB799A00CB232A /* UIColor+ExtensionsTests.swift in Sources */,
 				D28524611FCB708700CB232A /* UIImage+ExtensionsTests.swift in Sources */,
+				D2400D081FCE0E0F00816458 /* Bundle+ExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,6 +760,7 @@
 				D285244D1FCB6A6D00CB232A /* String+Extensions.swift in Sources */,
 				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
 				D2400CF31FCE08BB00816458 /* Comparable+Extensions.swift in Sources */,
+				D2400D041FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,6 +775,7 @@
 				D28524401FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */,
 				D284B1481F7908BB00D94AF3 /* macOSTests.swift in Sources */,
 				D28524371FCB670400CB232A /* Optional+ExtensionsTests.swift in Sources */,
+				D2400D091FCE0E0F00816458 /* Bundle+ExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

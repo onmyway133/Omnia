@@ -3,6 +3,14 @@
 
 
 
+#### Bundle
+
+```swift
+omnia_name
+omnia_versionNumber
+omnia_buildNumber
+```
+
 #### Comparable
 
 ```swift
