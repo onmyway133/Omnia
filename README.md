@@ -10,12 +10,86 @@
 
 ## Description
 
-**Omnia** description.
+**Omnia** contains a huge collection of handy extensions for your everyday project. Inspired by utitly and standard libraries from many other languages such as Kotlin, Ruby, Javascript, Haskell, ... **Omnia** implements the most necessary extensions. It won't add 💩 or anti patterns.
+
+All extension names use prefix `omnia_` to avoid potential conflicts, and to give you clue that these are not built in by default.
 
 ## Usage
 
+#### Data
+
 ```swift
-<API>
+omnia_hexString
+```
+
+#### Optional
+
+```swift
+omnia_isPresent
+omnia_unwrap(message: String)
+```
+
+#### Sequence
+
+```swift
+omnia_shuffled()
+```
+
+#### String
+
+```swift
+omnia_capitalizedFirstLetter
+omnia_localized
+```
+
+#### UICollectionView
+
+```swift
+omnia_register<T: UICollectionViewCell>(cellType: T.Type)
+omnia_dequeue<T: UICollectionViewCell>(for indexPath: IndexPath)
+```
+
+#### UIColor
+
+```swift
+init(omnia_hex hex: String)
+omnia_toHSL()
+init(omnia_hslColor hslColor: HSLColor)
+omnia_random()
+omnia_darken(amount: CGFloat = 0.2)
+omnia_lighten(amount: CGFloat = 0.2)
+```
+
+#### UIImage
+
+```swift
+init?(omnia_color color: UIColor, size: CGSize)
+```
+
+#### UIScrollView
+
+```swift
+omnia_scrollToBottom()
+```
+
+#### UITableView
+
+```swift
+omnia_register<T: UITableViewCell>(cellType: T.Type)
+omnia_dequeue<T: UITableViewCell>(for indexPath: IndexPath)
+```
+
+#### UIView
+
+```swift
+omnia_toImage()
+```
+
+#### UIViewController
+
+```swift
+omnia_add(childController: UIViewController)
+omnia_remove()
 ```
 
 ## Installation
@@ -40,9 +114,10 @@ github "onmyway133/Omnia"
 
 Khoa Pham, onmyway133@gmail.com
 
-## Contributing
+## Credit
 
-We would love you to contribute to **Omnia**, check the [CONTRIBUTING](https://github.com/onmyway133/Omnia/blob/master/CONTRIBUTING.md) file for more info.
+- Extensions methods and properties in README are generated using [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
+- Many answers on Stackoverflow.
 
 ## License
 

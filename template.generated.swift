@@ -3,45 +3,40 @@
 
 
 
-## Data
+#### Data
 
 ```swift
 omnia_hexString
 ```
 
-
-## Optional
+#### Optional
 
 ```swift
 omnia_isPresent
 omnia_unwrap(message: String)
 ```
 
-
-## Sequence
+#### Sequence
 
 ```swift
 omnia_shuffled()
 ```
 
-
-## String
+#### String
 
 ```swift
 omnia_capitalizedFirstLetter
 omnia_localized
 ```
 
-
-## UICollectionView
+#### UICollectionView
 
 ```swift
 omnia_register<T: UICollectionViewCell>(cellType: T.Type)
 omnia_dequeue<T: UICollectionViewCell>(for indexPath: IndexPath)
 ```
 
-
-## UIColor
+#### UIColor
 
 ```swift
 init(omnia_hex hex: String)
@@ -52,40 +47,34 @@ omnia_darken(amount: CGFloat = 0.2)
 omnia_lighten(amount: CGFloat = 0.2)
 ```
 
-
-## UIImage
+#### UIImage
 
 ```swift
 init?(omnia_color color: UIColor, size: CGSize)
 ```
 
-
-## UIScrollView
+#### UIScrollView
 
 ```swift
 omnia_scrollToBottom()
 ```
 
-
-## UITableView
+#### UITableView
 
 ```swift
 omnia_register<T: UITableViewCell>(cellType: T.Type)
 omnia_dequeue<T: UITableViewCell>(for indexPath: IndexPath)
 ```
 
-
-## UIView
+#### UIView
 
 ```swift
 omnia_toImage()
 ```
 
-
-## UIViewController
+#### UIViewController
 
 ```swift
 omnia_add(childController: UIViewController)
 omnia_remove()
 ```
-

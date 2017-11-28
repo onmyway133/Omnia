@@ -1,6 +1,6 @@
 {% for type in types.extensions %}
 
-## {{ type.name }}
+#### {{ type.name }}
 
 ```swift
 {% for variable in type.computedVariables  %}
@@ -10,5 +10,4 @@
 {{ method.name }}
 {% endfor %}
 ```
-
 {% endfor %}
