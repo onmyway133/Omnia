@@ -12,6 +12,16 @@ extension Optional {
       fatalError(message)
     }
   }
+
+  /// Same as Kotlin Nullable.let
+  /// Run the closure if it is not nil
+  ///
+  /// - Parameter closure: The closure to be run
+  public func omnia_let(closure: (Wrapped) -> Void) {
+    if let value = self {
+      closure(value)
+    }
+  }
 }
 
 extension Optional where Wrapped == String {

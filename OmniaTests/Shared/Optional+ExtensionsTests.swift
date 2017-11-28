@@ -14,5 +14,16 @@ class Optional_ExtensionsTests: XCTestCase {
       XCTAssertTrue(string.omnia_isPresent)
     }
   }
+
+  func testLet() {
+    let string: String? = ""
+
+    var value: String? = nil
+    string.omnia_let(closure: {
+      value = $0
+    })
+
+    XCTAssertNotNil(value)
+  }
 }
 
