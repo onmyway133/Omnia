@@ -10,7 +10,7 @@
 
 ## Description
 
-**Omnia** contains a huge collection of handy extensions for your everyday project. Inspired by utitly and standard libraries from many other languages such as Kotlin, Ruby, Javascript, Haskell, ... **Omnia** implements the most necessary extensions. It won't add 💩 or anti patterns.
+**Omnia** contains a huge collection of handy extensions for your everyday project. Inspired by utility and standard libraries from many other languages such as Kotlin, Ruby, Javascript, Haskell, ... **Omnia** implements the most necessary extensions. It won't add 💩 or anti patterns.
 
 All extension names use prefix `omnia_` to avoid potential conflicts, and to give you clue that these are not built in by default.
 
