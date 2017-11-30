@@ -100,7 +100,6 @@ e_add(childController: UIViewController)
 e_remove()
 ```
 
-
 #### TypeAddOnAware
 
 ```swift
