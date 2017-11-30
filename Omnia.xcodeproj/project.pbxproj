@@ -84,6 +84,13 @@
 		D28524621FCB708700CB232A /* UIImage+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524601FCB708700CB232A /* UIImage+ExtensionsTests.swift */; };
 		D28524641FCB799A00CB232A /* UIColor+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524631FCB799A00CB232A /* UIColor+ExtensionsTests.swift */; };
 		D28524651FCB799A00CB232A /* UIColor+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524631FCB799A00CB232A /* UIColor+ExtensionsTests.swift */; };
+		D2A6D3701FD05DBA00982BB8 /* TypeAddOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D36F1FD05DBA00982BB8 /* TypeAddOn.swift */; };
+		D2A6D3711FD05DBA00982BB8 /* TypeAddOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D36F1FD05DBA00982BB8 /* TypeAddOn.swift */; };
+		D2A6D3721FD05DBA00982BB8 /* TypeAddOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D36F1FD05DBA00982BB8 /* TypeAddOn.swift */; };
+		D2A6D3731FD05DBA00982BB8 /* TypeAddOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D36F1FD05DBA00982BB8 /* TypeAddOn.swift */; };
+		D2A6D3751FD05FAE00982BB8 /* TypeAddOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* TypeAddOnTests.swift */; };
+		D2A6D3761FD05FAE00982BB8 /* TypeAddOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* TypeAddOnTests.swift */; };
+		D2A6D3771FD05FAE00982BB8 /* TypeAddOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* TypeAddOnTests.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 		D5C629831C3A892A007F7B7C /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629821C3A892A007F7B7C /* iOS.swift */; };
@@ -155,6 +162,8 @@
 		D285245D1FCB6E3E00CB232A /* UIView+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		D28524601FCB708700CB232A /* UIImage+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		D28524631FCB799A00CB232A /* UIColor+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ExtensionsTests.swift"; sourceTree = "<group>"; };
+		D2A6D36F1FD05DBA00982BB8 /* TypeAddOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAddOn.swift; sourceTree = "<group>"; };
+		D2A6D3741FD05FAE00982BB8 /* TypeAddOnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAddOnTests.swift; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B2E8A91C3A780C00C0327D /* Omnia-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629401C3A7FAA007F7B7C /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +270,7 @@
 				D28524501FCB6B1000CB232A /* String+ExtensionsTests.swift */,
 				D2400CF61FCE090B00816458 /* Comparable+ExtensionsTests.swift */,
 				D2400D071FCE0E0F00816458 /* Bundle+ExtensionsTests.swift */,
+				D2A6D3741FD05FAE00982BB8 /* TypeAddOnTests.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -356,6 +366,7 @@
 				D285244B1FCB6A6D00CB232A /* String+Extensions.swift */,
 				D2400CF11FCE08BB00816458 /* Comparable+Extensions.swift */,
 				D2400D021FCE0D9C00816458 /* Bundle+Extensions.swift */,
+				D2A6D36F1FD05DBA00982BB8 /* TypeAddOn.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -660,6 +671,7 @@
 			files = (
 				D284B1491F790CA200D94AF3 /* Shared.swift in Sources */,
 				D22CB3131FCB658800B8270B /* Optional+Extensions.swift in Sources */,
+				D2A6D3721FD05DBA00982BB8 /* TypeAddOn.swift in Sources */,
 				D28524591FCB6D8800CB232A /* UIView+Extensions.swift in Sources */,
 				D24012A11FCC7ED800B2C5F2 /* UITableView+Extensions.swift in Sources */,
 				D28524451FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
@@ -682,6 +694,7 @@
 			files = (
 				D284B1441F7908B100D94AF3 /* SharedTests.swift in Sources */,
 				D285244A1FCB697300CB232A /* Sequence+ExtensionsTests.swift in Sources */,
+				D2A6D3771FD05FAE00982BB8 /* TypeAddOnTests.swift in Sources */,
 				D2400CF91FCE090B00816458 /* Comparable+ExtensionsTests.swift in Sources */,
 				D28524531FCB6B1000CB232A /* String+ExtensionsTests.swift in Sources */,
 				D28524411FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */,
@@ -702,6 +715,7 @@
 				D285243D1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
 				D28524461FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D22CB3141FCB658800B8270B /* Optional+Extensions.swift in Sources */,
+				D2A6D3731FD05DBA00982BB8 /* TypeAddOn.swift in Sources */,
 				D285244F1FCB6A6D00CB232A /* String+Extensions.swift in Sources */,
 				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
 				D2400CF51FCE08BB00816458 /* Comparable+Extensions.swift in Sources */,
@@ -715,6 +729,7 @@
 			files = (
 				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
 				D22CB3111FCB658800B8270B /* Optional+Extensions.swift in Sources */,
+				D2A6D3701FD05DBA00982BB8 /* TypeAddOn.swift in Sources */,
 				D28524581FCB6D8800CB232A /* UIView+Extensions.swift in Sources */,
 				D24012A01FCC7ED800B2C5F2 /* UITableView+Extensions.swift in Sources */,
 				D28524431FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
@@ -737,6 +752,7 @@
 			files = (
 				D284B1461F7908B300D94AF3 /* SharedTests.swift in Sources */,
 				D28524481FCB697300CB232A /* Sequence+ExtensionsTests.swift in Sources */,
+				D2A6D3751FD05FAE00982BB8 /* TypeAddOnTests.swift in Sources */,
 				D2400CF71FCE090B00816458 /* Comparable+ExtensionsTests.swift in Sources */,
 				D28524511FCB6B1000CB232A /* String+ExtensionsTests.swift in Sources */,
 				D285243F1FCB682C00CB232A /* Data+ExtensionsTests.swift in Sources */,
@@ -757,6 +773,7 @@
 				D285243B1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
 				D28524441FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D22CB3121FCB658800B8270B /* Optional+Extensions.swift in Sources */,
+				D2A6D3711FD05DBA00982BB8 /* TypeAddOn.swift in Sources */,
 				D285244D1FCB6A6D00CB232A /* String+Extensions.swift in Sources */,
 				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
 				D2400CF31FCE08BB00816458 /* Comparable+Extensions.swift in Sources */,
@@ -776,6 +793,7 @@
 				D284B1481F7908BB00D94AF3 /* macOSTests.swift in Sources */,
 				D28524371FCB670400CB232A /* Optional+ExtensionsTests.swift in Sources */,
 				D2400D091FCE0E0F00816458 /* Bundle+ExtensionsTests.swift in Sources */,
+				D2A6D3761FD05FAE00982BB8 /* TypeAddOnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

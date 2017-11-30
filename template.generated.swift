@@ -23,6 +23,12 @@ e_isBetween(min: Self, max: Self)
 e_hexString
 ```
 
+#### NSObject
+
+```swift
+e_apply(closure: (Self) -> Void)
+```
+
 #### Optional
 
 ```swift
@@ -92,4 +98,11 @@ e_toImage()
 ```swift
 e_add(childController: UIViewController)
 e_remove()
+```
+
+
+#### TypeAddOnAware
+
+```swift
+e_apply(closure: (Self) -> Void)
 ```

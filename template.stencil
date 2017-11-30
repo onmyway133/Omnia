@@ -11,3 +11,17 @@
 {% endfor %}
 ```
 {% endfor %}
+
+{% for type in types.protocols %}
+
+#### {{ type.name }}
+
+```swift
+{% for variable in type.computedVariables  %}
+{{ variable.name }}
+{% endfor %}
+{% for method in type.allMethods  %}
+{{ method.name }}
+{% endfor %}
+```
+{% endfor %}
