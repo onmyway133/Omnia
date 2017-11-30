@@ -16,6 +16,12 @@ All extension names use prefix `omnia_` to avoid potential conflicts, and to giv
 
 Supports iOS, macOS, tvOS, watchOS.
 
+For other sugar
+
+- [Anchors](https://github.com/onmyway133/Anchors) ⚓️ Declarative, extensible, powerful Auto Layout
+- [On](https://github.com/onmyway133/On) 🍩 Unified communication pattern for iOS and macOS
+- [Smile](https://github.com/onmyway133/Smile) 😄 Emoji in Swift
+
 ## Usage
 
 #### Bundle
