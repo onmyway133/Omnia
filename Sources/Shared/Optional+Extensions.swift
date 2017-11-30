@@ -5,7 +5,7 @@ extension Optional {
   /// Unwrap with message
   ///
   /// - Parameter message: A message to give more info
-  public func omnia_unwrap(message: String) -> Wrapped {
+  public func e_unwrap(message: String) -> Wrapped {
     if let value = self {
       return value
     } else {
@@ -17,7 +17,7 @@ extension Optional {
   /// Run the closure if it is not nil
   ///
   /// - Parameter closure: The closure to be run
-  public func omnia_let(closure: (Wrapped) -> Void) {
+  public func e_let(closure: (Wrapped) -> Void) {
     if let value = self {
       closure(value)
     }
@@ -27,7 +27,7 @@ extension Optional {
 extension Optional where Wrapped == String {
 
   /// Return true if it is not nil and not empty
-  public var omnia_isPresent: Bool {
+  public var e_isPresent: Bool {
     if let value = self {
       return !value.isEmpty
     } else {

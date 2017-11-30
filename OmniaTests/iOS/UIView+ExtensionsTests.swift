@@ -8,7 +8,7 @@ class UIView_ExtensionsTests: XCTestCase {
     button.setTitle("Hello", for: .normal)
     button.setTitleColor(.red, for: .normal)
 
-    let image = button.omnia_toImage()
+    let image = button.e_toImage()
 
     XCTAssertEqual(image?.size, CGSize(width: 100, height: 100))
   }

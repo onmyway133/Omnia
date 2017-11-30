@@ -6,12 +6,12 @@ class Optional_ExtensionsTests: XCTestCase {
   func testIsPresent() {
     do {
       let string: String? = ""
-      XCTAssertFalse(string.omnia_isPresent)
+      XCTAssertFalse(string.e_isPresent)
     }
 
     do {
       let string: String? = "a"
-      XCTAssertTrue(string.omnia_isPresent)
+      XCTAssertTrue(string.e_isPresent)
     }
   }
 
@@ -19,7 +19,7 @@ class Optional_ExtensionsTests: XCTestCase {
     let string: String? = ""
 
     var value: String? = nil
-    string.omnia_let(closure: {
+    string.e_let(closure: {
       value = $0
     })
 

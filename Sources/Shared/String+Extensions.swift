@@ -3,7 +3,7 @@ import Foundation
 extension String {
 
   /// Return a new string with first letter being capitalized
-  public var omnia_capitalizedFirstLetter: String {
+  public var e_capitalizedFirstLetter: String {
     guard !isEmpty else {
       return ""
     }
@@ -12,7 +12,7 @@ extension String {
   }
 
   /// Return a localized string using NSLocalizedString
-  public var omnia_localized: String {
+  public var e_localized: String {
     return NSLocalizedString(self, comment: "")
   }
 }

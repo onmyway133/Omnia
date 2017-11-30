@@ -12,7 +12,7 @@
 
 **Omnia** contains a huge collection of handy extensions for your everyday project. Inspired by utility and standard libraries from many other languages such as Kotlin, Ruby, Javascript, Haskell, ... **Omnia** implements the most necessary extensions. It won't add 💩 or anti patterns.
 
-All extension names use prefix `omnia_` to avoid potential conflicts, and to give you clue that these are not built in by default.
+All extension names use prefix `e` (e stands for extension) to avoid potential conflicts, and to give you clue that these are not built in by default.
 
 Supports iOS, macOS, tvOS, watchOS.
 
@@ -28,92 +28,92 @@ For other sugar
 #### Bundle
 
 ```swift
-omnia_name
-omnia_versionNumber
-omnia_buildNumber
+e_name
+e_versionNumber
+e_buildNumber
 ```
 
 #### Comparable
 
 ```swift
-omnia_isBetween(min: Self, max: Self)
+e_isBetween(min: Self, max: Self)
 ```
 
 #### Data
 
 ```swift
-omnia_hexString
+e_hexString
 ```
 
 #### Optional
 
 ```swift
-omnia_isPresent
-omnia_unwrap(message: String)
-omnia_let(closure: (Wrapped) -> Void)
+e_isPresent
+e_unwrap(message: String)
+e_let(closure: (Wrapped) -> Void)
 ```
 
 #### Sequence
 
 ```swift
-omnia_shuffled()
+e_shuffled()
 ```
 
 #### String
 
 ```swift
-omnia_capitalizedFirstLetter
-omnia_localized
+e_capitalizedFirstLetter
+e_localized
 ```
 
 #### UICollectionView
 
 ```swift
-omnia_register<T: UICollectionViewCell>(cellType: T.Type)
-omnia_dequeue<T: UICollectionViewCell>(for indexPath: IndexPath)
+e_register<T: UICollectionViewCell>(cellType: T.Type)
+e_dequeue<T: UICollectionViewCell>(for indexPath: IndexPath)
 ```
 
 #### UIColor
 
 ```swift
-init(omnia_hex hex: String)
-omnia_toHSL()
-init(omnia_hslColor hslColor: HSLColor)
-omnia_random()
-omnia_darken(amount: CGFloat = 0.2)
-omnia_lighten(amount: CGFloat = 0.2)
+init(e_hex hex: String)
+e_toHSL()
+init(e_hslColor hslColor: HSLColor)
+e_random()
+e_darken(amount: CGFloat = 0.2)
+e_lighten(amount: CGFloat = 0.2)
 ```
 
 #### UIImage
 
 ```swift
-init?(omnia_color color: UIColor, size: CGSize)
+init?(e_color color: UIColor, size: CGSize)
 ```
 
 #### UIScrollView
 
 ```swift
-omnia_scrollToBottom()
+e_scrollToBottom()
 ```
 
 #### UITableView
 
 ```swift
-omnia_register<T: UITableViewCell>(cellType: T.Type)
-omnia_dequeue<T: UITableViewCell>(for indexPath: IndexPath)
+e_register<T: UITableViewCell>(cellType: T.Type)
+e_dequeue<T: UITableViewCell>(for indexPath: IndexPath)
 ```
 
 #### UIView
 
 ```swift
-omnia_toImage()
+e_toImage()
 ```
 
 #### UIViewController
 
 ```swift
-omnia_add(childController: UIViewController)
-omnia_remove()
+e_add(childController: UIViewController)
+e_remove()
 ```
 
 ## Installation

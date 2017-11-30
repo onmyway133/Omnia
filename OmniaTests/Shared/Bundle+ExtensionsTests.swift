@@ -5,15 +5,15 @@ class Bundle_ExtensionsTests: XCTestCase {
   private let bundle = Bundle(for: Bundle_ExtensionsTests.self)
 
   func testName() {
-    XCTAssertTrue(bundle.omnia_name!.contains("-Tests"))
+    XCTAssertTrue(bundle.e_name!.contains("-Tests"))
   }
 
   func testVersionNumber() {
-    XCTAssertEqual(bundle.omnia_versionNumber, "1.0")
+    XCTAssertEqual(bundle.e_versionNumber, "1.0")
   }
 
   func testBuildNumber() {
-    XCTAssertEqual(bundle.omnia_buildNumber, "1")
+    XCTAssertEqual(bundle.e_buildNumber, "1")
   }
 }
 

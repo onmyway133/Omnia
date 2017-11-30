@@ -6,7 +6,7 @@ class UIViewController_ExtensionsTests: XCTestCase {
   func testAdd() {
     let parent = UIViewController()
     let child = UIViewController()
-    parent.omnia_add(childController: child)
+    parent.e_add(childController: child)
 
     XCTAssertEqual(parent.childViewControllers.first, child)
   }
@@ -14,8 +14,8 @@ class UIViewController_ExtensionsTests: XCTestCase {
   func testRemove() {
     let parent = UIViewController()
     let child = UIViewController()
-    parent.omnia_add(childController: child)
-    child.omnia_remove()
+    parent.e_add(childController: child)
+    child.e_remove()
 
     XCTAssertTrue(parent.childViewControllers.isEmpty)
   }

@@ -5,7 +5,7 @@ extension UIView {
   /// Take a snapshot of a view
   ///
   /// - Returns: The image from the snapshot
-  public func omnia_toImage() -> UIImage? {
+  public func e_toImage() -> UIImage? {
     if #available(iOS 10.0, *) {
       let renderer = UIGraphicsImageRenderer(size: bounds.size)
       return renderer.image { _ in

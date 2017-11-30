@@ -5,7 +5,7 @@ extension UIColor {
   /// Init color from hex string
   ///
   /// - Parameter hex: A hex string, with or without #
-  public convenience init(omnia_hex hex: String) {
+  public convenience init(e_hex hex: String) {
     let hex = hex.replacingOccurrences(of: "#", with: "")
 
     // Need 6 characters
@@ -32,7 +32,7 @@ public struct HSLColor {
 extension UIColor {
 
   /// Convert to HSL color
-  public func omnia_toHSL() -> HSLColor {
+  public func e_toHSL() -> HSLColor {
     var h: CGFloat = 0
     var s: CGFloat = 0
 
@@ -80,8 +80,8 @@ extension UIColor {
 
   /// Init from HSL color
   ///
-  /// - Parameter omnia_hslColor: The HSL color
-  public convenience init(omnia_hslColor hslColor: HSLColor) {
+  /// - Parameter e_hslColor: The HSL color
+  public convenience init(e_hslColor hslColor: HSLColor) {
     // https://github.com/thisandagain/color
 
     // Check for saturation.
@@ -150,7 +150,7 @@ extension UIColor {
   /// Return a random color
   ///
   /// - Returns: A random color
-  public static func omnia_random() -> UIColor {
+  public static func e_random() -> UIColor {
     let randomHue = CGFloat(arc4random_uniform(UInt32.max)) / CGFloat(UInt32.max)
 
     let hslColor = HSLColor(
@@ -160,28 +160,28 @@ extension UIColor {
       alpha: 1
     )
 
-    return UIColor(omnia_hslColor: hslColor)
+    return UIColor(e_hslColor: hslColor)
   }
 
   /// Darken the color
   ///
   /// - Parameter amount: The amount to alter lightness
   /// - Returns: A darkened color
-  public func omnia_darken(amount: CGFloat = 0.2) -> UIColor {
-    var hslColor = omnia_toHSL()
+  public func e_darken(amount: CGFloat = 0.2) -> UIColor {
+    var hslColor = e_toHSL()
     hslColor.lightness = min(1 - amount, hslColor.lightness - amount)
 
-    return UIColor(omnia_hslColor: hslColor)
+    return UIColor(e_hslColor: hslColor)
   }
 
   /// Lighten the color
   ///
   /// - Parameter amount: The amount to alter lightness
   /// - Returns: A lightened color
-  public func omnia_lighten(amount: CGFloat = 0.2) -> UIColor {
-    var hslColor = omnia_toHSL()
+  public func e_lighten(amount: CGFloat = 0.2) -> UIColor {
+    var hslColor = e_toHSL()
     hslColor.lightness = max(amount, hslColor.lightness + amount)
 
-    return UIColor(omnia_hslColor: hslColor)
+    return UIColor(e_hslColor: hslColor)
   }
 }

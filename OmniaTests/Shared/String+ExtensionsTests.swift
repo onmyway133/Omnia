@@ -6,12 +6,12 @@ class String_ExtensionsTests: XCTestCase {
   func testCapitalizedFirstLetter() {
     do {
       let string = ""
-      XCTAssertEqual(string.omnia_capitalizedFirstLetter, "")
+      XCTAssertEqual(string.e_capitalizedFirstLetter, "")
     }
 
     do {
       let string = "hello"
-      XCTAssertEqual(string.omnia_capitalizedFirstLetter, "Hello")
+      XCTAssertEqual(string.e_capitalizedFirstLetter, "Hello")
     }
   }
 }
