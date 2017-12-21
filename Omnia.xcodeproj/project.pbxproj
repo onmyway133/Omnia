@@ -33,6 +33,8 @@
 		D240E12B1FC9AE68000AB5AB /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240E1291FC9AE68000AB5AB /* UIViewController+Extensions.swift */; };
 		D240E12D1FC9B590000AB5AB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240E12C1FC9B590000AB5AB /* UIColor+Extensions.swift */; };
 		D240E12E1FC9B590000AB5AB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240E12C1FC9B590000AB5AB /* UIColor+Extensions.swift */; };
+		D25570A61FEBDFD400AA443F /* NSColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25570A51FEBDFD400AA443F /* NSColor+Extensions.swift */; };
+		D25570A81FEBDFEB00AA443F /* NSView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25570A71FEBDFEB00AA443F /* NSView+Extensions.swift */; };
 		D284B0F61F79024300D94AF3 /* macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B0F51F79024300D94AF3 /* macOS.swift */; };
 		D284B1051F79038B00D94AF3 /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* Omnia.framework */; };
 		D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1221F79041C00D94AF3 /* tvOS.swift */; };
@@ -132,6 +134,8 @@
 		D24012A21FCC7EE100B2C5F2 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		D240E1291FC9AE68000AB5AB /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		D240E12C1FC9B590000AB5AB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		D25570A51FEBDFD400AA443F /* NSColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+Extensions.swift"; sourceTree = "<group>"; };
+		D25570A71FEBDFEB00AA443F /* NSView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSView+Extensions.swift"; sourceTree = "<group>"; };
 		D284B0F51F79024300D94AF3 /* macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOS.swift; sourceTree = "<group>"; };
 		D284B0FC1F79038B00D94AF3 /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284B1041F79038B00D94AF3 /* Omnia-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				D284B0F51F79024300D94AF3 /* macOS.swift */,
+				D25570A51FEBDFD400AA443F /* NSColor+Extensions.swift */,
+				D25570A71FEBDFEB00AA443F /* NSView+Extensions.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -771,10 +777,12 @@
 			files = (
 				D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */,
 				D285243B1FCB67BC00CB232A /* Data+Extensions.swift in Sources */,
+				D25570A61FEBDFD400AA443F /* NSColor+Extensions.swift in Sources */,
 				D28524441FCB688600CB232A /* Sequence+Extensions.swift in Sources */,
 				D22CB3121FCB658800B8270B /* Optional+Extensions.swift in Sources */,
 				D2A6D3711FD05DBA00982BB8 /* TypeAddOn.swift in Sources */,
 				D285244D1FCB6A6D00CB232A /* String+Extensions.swift in Sources */,
+				D25570A81FEBDFEB00AA443F /* NSView+Extensions.swift in Sources */,
 				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
 				D2400CF31FCE08BB00816458 /* Comparable+Extensions.swift in Sources */,
 				D2400D041FCE0D9C00816458 /* Bundle+Extensions.swift in Sources */,

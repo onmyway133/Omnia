@@ -20,4 +20,13 @@ extension UIView {
       return capturedImage
     }
   }
+
+  /// Add many subviews
+  ///
+  /// - Parameter views: The subviews
+  public func e_addSubviews(_ views: [UIView]) {
+    views.forEach {
+      addSubview($0)
+    }
+  }
 }

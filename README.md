@@ -45,10 +45,22 @@ e_isBetween(min: Self, max: Self)
 e_hexString
 ```
 
+#### NSColor
+
+```swift
+init(e_hex hex: String)
+```
+
 #### NSObject
 
 ```swift
 e_apply(closure: (Self) -> Void)
+```
+
+#### NSView
+
+```swift
+e_addSubviews(_ views: [NSView])
 ```
 
 #### Optional
@@ -70,56 +82,6 @@ e_shuffled()
 ```swift
 e_capitalizedFirstLetter
 e_localized
-```
-
-#### UICollectionView
-
-```swift
-e_register<T: UICollectionViewCell>(cellType: T.Type)
-e_dequeue<T: UICollectionViewCell>(for indexPath: IndexPath)
-```
-
-#### UIColor
-
-```swift
-init(e_hex hex: String)
-e_toHSL()
-init(e_hslColor hslColor: HSLColor)
-e_random()
-e_darken(amount: CGFloat = 0.2)
-e_lighten(amount: CGFloat = 0.2)
-```
-
-#### UIImage
-
-```swift
-init?(e_color color: UIColor, size: CGSize)
-```
-
-#### UIScrollView
-
-```swift
-e_scrollToBottom()
-```
-
-#### UITableView
-
-```swift
-e_register<T: UITableViewCell>(cellType: T.Type)
-e_dequeue<T: UITableViewCell>(for indexPath: IndexPath)
-```
-
-#### UIView
-
-```swift
-e_toImage()
-```
-
-#### UIViewController
-
-```swift
-e_add(childController: UIViewController)
-e_remove()
 ```
 
 #### TypeAddOnAware

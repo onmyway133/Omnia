@@ -5,6 +5,7 @@ project:
     .
   target:
     name: Omnia-iOS
+    name: Omnia-macOS
 templates:
  - .
 output:
