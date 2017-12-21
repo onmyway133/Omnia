@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Omnia"
   s.summary          = "Everything your projects need to know"
-  s.version          = "1.0.0"
+  s.version          = "3.0.0"
   s.homepage         = "https://github.com/onmyway133/Omnia"
   s.license          = 'MIT'
   s.author           = { "Khoa Pham" => "onmyway133@gmail.com" }
