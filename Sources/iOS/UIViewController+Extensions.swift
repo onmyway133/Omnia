@@ -5,9 +5,9 @@ extension UIViewController {
   ///
   /// - Parameter chilController: The child view controller to add
   public func e_add(childController: UIViewController) {
-    addChildViewController(childController)
+    addChild(childController)
     view.addSubview(childController.view)
-    childController.didMove(toParentViewController: self)
+    childController.didMove(toParent: self)
   }
 
   /// Remove from the parent view controller
@@ -16,8 +16,8 @@ extension UIViewController {
       return
     }
 
-    willMove(toParentViewController: nil)
+    willMove(toParent: nil)
     view.removeFromSuperview()
-    removeFromParentViewController()
+    removeFromParent()
   }
 }
