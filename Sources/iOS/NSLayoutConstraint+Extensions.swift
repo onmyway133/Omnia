@@ -10,4 +10,13 @@ import UIKit
 
 public extension NSLayoutConstraint {
     
+    /// Disable auto resizing mask and activate constraints
+    ///
+    /// - Parameter constraints: constraints to activate
+    static func e_on(_ constraints: [NSLayoutConstraint]) {
+        constraints.forEach {
+            ($0.firstItem as? UIView)?.translatesAutoresizingMaskIntoConstraints = false
+            $0.isActive = true
+        }
+    }
 }
