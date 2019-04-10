@@ -9,12 +9,12 @@
 import AppKit
 
 extension NSView {
-  /// Add many subviews
-  ///
-  /// - Parameter views: The subviews
-  public func e_addSubviews(_ views: [NSView]) {
-    views.forEach {
-      addSubview($0)
+    /// Add many subviews
+    ///
+    /// - Parameter views: The subviews
+    public func e_addSubviews(_ views: [NSView]) {
+        views.forEach {
+            addSubview($0)
+        }
     }
-  }
 }
