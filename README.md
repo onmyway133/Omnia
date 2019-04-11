@@ -28,66 +28,66 @@ For other sugar
 #### Bundle
 
 ```swift
-e_name
-e_versionNumber
-e_buildNumber
+name
+versionNumber
+buildNumber
 ```
 
 #### Comparable
 
 ```swift
-e_isBetween(min: Self, max: Self)
+isBetween(min: Self, max: Self)
 ```
 
 #### Data
 
 ```swift
-e_hexString
+hexString
 ```
 
 #### NSColor
 
 ```swift
-init(e_hex hex: String)
+init(hex hex: String)
 ```
 
 #### NSObject
 
 ```swift
-e_apply(closure: (Self) -> Void)
+apply(closure: (Self) -> Void)
 ```
 
 #### NSView
 
 ```swift
-e_addSubviews(_ views: [NSView])
+addSubviews(_ views: [NSView])
 ```
 
 #### Optional
 
 ```swift
-e_isPresent
-e_unwrap(message: String)
-e_let(closure: (Wrapped) -> Void)
+isPresent
+unwrap(message: String)
+let(closure: (Wrapped) -> Void)
 ```
 
 #### Sequence
 
 ```swift
-e_shuffled()
+shuffled()
 ```
 
 #### String
 
 ```swift
-e_capitalizedFirstLetter
-e_localized
+capitalizedFirstLetter
+localized
 ```
 
 #### TypeAddOnAware
 
 ```swift
-e_apply(closure: (Self) -> Void)
+apply(closure: (Self) -> Void)
 ```
 
 ## Installation
