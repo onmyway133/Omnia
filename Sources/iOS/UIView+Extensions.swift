@@ -23,26 +23,26 @@ public extension UIView {
 }
 
 public extension UIView {
-    func e_pinCenter(view: UIView) {
-        NSLayoutConstraint.e_on([
+    func e_pinCenter(view: UIView) -> [NSLayoutConstraint] {
+        return [
             centerXAnchor.constraint(equalTo: view.centerXAnchor),
             centerYAnchor.constraint(equalTo: view.centerYAnchor)
-        ])
+        ]
     }
     
-    func pinEdges(view: UIView, inset: UIEdgeInsets = UIEdgeInsets.zero) {
-        NSLayoutConstraint.e_on([
+    func pinEdges(view: UIView, inset: UIEdgeInsets = UIEdgeInsets.zero) -> [NSLayoutConstraint] {
+        return [
             leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: inset.left),
             trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: inset.right),
             topAnchor.constraint(equalTo: view.topAnchor, constant: inset.top),
             bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: inset.bottom)
-        ])
+        ]
     }
     
-    func e_pin(size: CGSize) {
-        NSLayoutConstraint.e_on([
+    func e_pin(size: CGSize) -> [NSLayoutConstraint] {
+        return [
             widthAnchor.constraint(equalToConstant: size.width),
             heightAnchor.constraint(equalToConstant: size.height)
-        ])
+        ]
     }
 }

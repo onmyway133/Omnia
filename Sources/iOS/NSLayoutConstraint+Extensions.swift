@@ -19,4 +19,9 @@ public extension NSLayoutConstraint {
             $0.isActive = true
         }
     }
+    
+    static func e_on(_ constraintsArray: [[NSLayoutConstraint]]) {
+        let constraints = constraintsArray.flatMap({ $0 })
+        NSLayoutConstraint.e_on(constraints)
+    }
 }
