@@ -10,31 +10,31 @@ import Foundation
 
 public extension Date {
 
-    var second: Int {
-        return Calendar.current.component(.second, from: self)
+    func second(calendar: Calendar = .current) -> Int {
+        return calendar.component(.second, from: self)
     }
     
-    var minute: Int {
-        return Calendar.current.component(.minute, from: self)
+    func minute(calendar: Calendar = .current) -> Int {
+        return calendar.component(.minute, from: self)
     }
     
-    var hour: Int {
-        return Calendar.current.component(.hour, from: self)
+    func hour(calendar: Calendar = .current) -> Int {
+        return calendar.component(.hour, from: self)
     }
     
-    var day: Int {
-        return Calendar.current.component(.day, from: self)
+    func day(calendar: Calendar = .current) -> Int{
+        return calendar.component(.day, from: self)
     }
     
-    var month: Int {
-        return Calendar.current.component(.month, from: self)
+    func month(calendar: Calendar = .current) -> Int {
+        return calendar.component(.month, from: self)
     }
     
-    var year: Int {
-        return Calendar.current.component(.year, from: self)
+    func year(calendar: Calendar = .current) -> Int {
+        return calendar.component(.year, from: self)
     }
     
-    var weekday: Int {
-        return Calendar.current.component(.weekday, from: self)
+    func weekday(calendar: Calendar = .current) -> Int {
+        return calendar.component(.weekday, from: self)
     }
 }
