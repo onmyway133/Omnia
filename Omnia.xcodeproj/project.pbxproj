@@ -30,6 +30,7 @@
 		D20EFEF0225F68F900E41B91 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEF225F68F900E41B91 /* DateTests.swift */; };
 		D20EFEF1225F68F900E41B91 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEF225F68F900E41B91 /* DateTests.swift */; };
 		D20EFEF2225F68F900E41B91 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEF225F68F900E41B91 /* DateTests.swift */; };
+		D20EFEF4225F761400E41B91 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEF3225F761400E41B91 /* UIFont.swift */; };
 		D22CB3111FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
 		D22CB3121FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
 		D22CB3131FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
@@ -154,6 +155,7 @@
 		D20EFEE6225F671200E41B91 /* OnceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnceTests.swift; sourceTree = "<group>"; };
 		D20EFEEA225F675C00E41B91 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		D20EFEEF225F68F900E41B91 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
+		D20EFEF3225F761400E41B91 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		D22CB3101FCB658800B8270B /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		D23FAD5F225DE0460063F386 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		D2400CF11FCE08BB00816458 /* Comparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
@@ -393,6 +395,7 @@
 				D240129F1FCC7ED800B2C5F2 /* UITableView.swift */,
 				D24012A21FCC7EE100B2C5F2 /* UICollectionView.swift */,
 				D23FAD5F225DE0460063F386 /* NSLayoutConstraint.swift */,
+				D20EFEF3225F761400E41B91 /* UIFont.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -798,6 +801,7 @@
 				D28524551FCB6CAF00CB232A /* UIScrollView.swift in Sources */,
 				D24012A31FCC7EE100B2C5F2 /* UICollectionView.swift in Sources */,
 				D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */,
+				D20EFEF4225F761400E41B91 /* UIFont.swift in Sources */,
 				D240E12D1FC9B590000AB5AB /* UIColor.swift in Sources */,
 				D20EFED9225F63EA00E41B91 /* Double.swift in Sources */,
 				D2400CF21FCE08BB00816458 /* Comparable.swift in Sources */,
