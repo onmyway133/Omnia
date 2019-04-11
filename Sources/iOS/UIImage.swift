@@ -7,7 +7,7 @@ extension UIImage {
     /// - Parameter color: The color to fill
     /// - Parameter size: The size of the generated image
     /// - Returns: The image from the snapshot
-    public convenience init?(e_color color: UIColor, size: CGSize) {
+    public convenience init?(color: UIColor, size: CGSize) {
         UIGraphicsBeginImageContext(size)
         
         guard let context = UIGraphicsGetCurrentContext() else {

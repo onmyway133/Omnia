@@ -5,7 +5,7 @@ extension Sequence {
     /// Shuffle sequence by creating a new array
     ///
     /// - Returns: Shuffled array
-    public func e_shuffled() -> [Element] {
+    public func shuffled() -> [Element] {
         var array = Array(self)
         
         guard array.count > 1 else {

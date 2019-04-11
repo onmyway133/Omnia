@@ -1,19 +1,19 @@
 import XCTest
 
-class Bundle_ExtensionsTests: XCTestCase {
+class BundlExtensionsTests: XCTestCase {
     
-    private let bundle = Bundle(for: Bundle_ExtensionsTests.self)
+    private let bundle = Bundle(for: BundlExtensionsTests.self)
     
     func testName() {
-        XCTAssertTrue(bundle.e_name!.contains("-Tests"))
+        XCTAssertTrue(bundle.name!.contains("-Tests"))
     }
     
     func testVersionNumber() {
-        XCTAssertEqual(bundle.e_versionNumber, "1.0")
+        XCTAssertEqual(bundle.versionNumber, "1.0")
     }
     
     func testBuildNumber() {
-        XCTAssertEqual(bundle.e_buildNumber, "1")
+        XCTAssertEqual(bundle.buildNumber, "1")
     }
 }
 

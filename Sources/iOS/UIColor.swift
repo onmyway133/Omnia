@@ -5,7 +5,7 @@ extension UIColor {
     /// Init color from hex string
     ///
     /// - Parameter hex: A hex string, with or without #
-    public convenience init(e_hex hex: String) {
+    public convenience init(hex: String) {
         let hex = hex.replacingOccurrences(of: "#", with: "")
         
         // Need 6 characters
@@ -32,7 +32,7 @@ public struct HSLColor {
 extension UIColor {
     
     /// Convert to HSL color
-    public func e_toHSL() -> HSLColor {
+    public func toHSL() -> HSLColor {
         var h: CGFloat = 0
         var s: CGFloat = 0
         
@@ -80,8 +80,8 @@ extension UIColor {
     
     /// Init from HSL color
     ///
-    /// - Parameter e_hslColor: The HSL color
-    public convenience init(e_hslColor hslColor: HSLColor) {
+    /// - Parameter hslColor: The HSL color
+    public convenience init(hslColor: HSLColor) {
         // https://github.com/thisandagain/color
         
         // Check for saturation.
@@ -150,7 +150,7 @@ extension UIColor {
     /// Return a random color
     ///
     /// - Returns: A random color
-    public static func e_random() -> UIColor {
+    public static func random() -> UIColor {
         let randomHue = CGFloat(arc4random_uniform(UInt32.max)) / CGFloat(UInt32.max)
         
         let hslColor = HSLColor(
@@ -160,28 +160,28 @@ extension UIColor {
             alpha: 1
         )
         
-        return UIColor(e_hslColor: hslColor)
+        return UIColor(hslColor: hslColor)
     }
     
     /// Darken the color
     ///
     /// - Parameter amount: The amount to alter lightness
     /// - Returns: A darkened color
-    public func e_darken(amount: CGFloat = 0.2) -> UIColor {
-        var hslColor = e_toHSL()
+    public func darken(amount: CGFloat = 0.2) -> UIColor {
+        var hslColor = toHSL()
         hslColor.lightness = min(1 - amount, hslColor.lightness - amount)
         
-        return UIColor(e_hslColor: hslColor)
+        return UIColor(hslColor: hslColor)
     }
     
     /// Lighten the color
     ///
     /// - Parameter amount: The amount to alter lightness
     /// - Returns: A lightened color
-    public func e_lighten(amount: CGFloat = 0.2) -> UIColor {
-        var hslColor = e_toHSL()
+    public func lighten(amount: CGFloat = 0.2) -> UIColor {
+        var hslColor = toHSL()
         hslColor.lightness = max(amount, hslColor.lightness + amount)
         
-        return UIColor(e_hslColor: hslColor)
+        return UIColor(hslColor: hslColor)
     }
 }

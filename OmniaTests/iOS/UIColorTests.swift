@@ -5,7 +5,7 @@ class UIColor_ExtensionsTests: XCTestCase {
     
     func testRandom() {
         let image = UIImage(
-            e_color: UIColor.e_random(),
+            color: UIColor.random(),
             size: CGSize(width: 100, height: 100)
         )
         
@@ -14,7 +14,7 @@ class UIColor_ExtensionsTests: XCTestCase {
     
     func testDarken() {
         let image = UIImage(
-            e_color: UIColor.red.e_darken(),
+            color: UIColor.red.darken(),
             size: CGSize(width: 100, height: 100)
         )
         
@@ -23,7 +23,7 @@ class UIColor_ExtensionsTests: XCTestCase {
     
     func testLighten() {
         let image = UIImage(
-            e_color: UIColor.red.e_lighten(),
+            color: UIColor.red.lighten(),
             size: CGSize(width: 100, height: 100)
         )
         

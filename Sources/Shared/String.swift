@@ -3,7 +3,7 @@ import Foundation
 extension String {
     
     /// Return a new string with first letter being capitalized
-    public var e_capitalizedFirstLetter: String {
+    public var capitalizedFirstLetter: String {
         guard !isEmpty else {
             return ""
         }
@@ -12,7 +12,7 @@ extension String {
     }
     
     /// Return a localized string using NSLocalizedString
-    public var e_localized: String {
+    public var localized: String {
         return NSLocalizedString(self, comment: "")
     }
 }

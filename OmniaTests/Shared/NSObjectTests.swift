@@ -1,11 +1,11 @@
 import XCTest
 import Omnia
 
-class TypeAddOnTests: XCTestCase {
+class NSObjectTests: XCTestCase {
     
     func testApply() {
         let label = UILabel()
-        label.e_apply {
+        label.apply {
             $0.text = "hello"
         }
         

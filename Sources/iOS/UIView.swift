@@ -5,7 +5,7 @@ public extension UIView {
     /// Take a snapshot of a view
     ///
     /// - Returns: The image from the snapshot
-    func e_toImage() -> UIImage? {
+    func toImage() -> UIImage? {
         let renderer = UIGraphicsImageRenderer(size: bounds.size)
         return renderer.image { _ in
             self.drawHierarchy(in: bounds, afterScreenUpdates: true)
@@ -15,7 +15,7 @@ public extension UIView {
     /// Add many subviews
     ///
     /// - Parameter views: The subviews
-    func e_addSubviews(_ views: [UIView]) {
+    func addSubviews(_ views: [UIView]) {
         views.forEach {
             addSubview($0)
         }
@@ -23,7 +23,7 @@ public extension UIView {
 }
 
 public extension UIView {
-    func e_pinCenter(view: UIView) -> [NSLayoutConstraint] {
+    func pinCenter(view: UIView) -> [NSLayoutConstraint] {
         return [
             centerXAnchor.constraint(equalTo: view.centerXAnchor),
             centerYAnchor.constraint(equalTo: view.centerYAnchor)
@@ -39,7 +39,7 @@ public extension UIView {
         ]
     }
     
-    func e_pin(size: CGSize) -> [NSLayoutConstraint] {
+    func pin(size: CGSize) -> [NSLayoutConstraint] {
         return [
             widthAnchor.constraint(equalToConstant: size.width),
             heightAnchor.constraint(equalToConstant: size.height)

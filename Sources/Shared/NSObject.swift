@@ -9,10 +9,10 @@ public extension TypeAddOnAware {
     /// and returns this instance
     ///
     /// - Parameter closure: The closure to apply
-    func e_apply(closure: (Self) -> Void) {
+    func apply(closure: (Self) -> Void) {
         closure(self)
     }
 }
 
 /// Conform NSObject by default
-extension NSObject : TypeAddOnAware {}
+extension NSObject: TypeAddOnAware {}

@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5C629481C3A7FAA007F7B7C"
+               BuildableName = "Omnia-macOS-Tests.xctest"
+               BlueprintName = "Omnia-macOS-Tests"
+               ReferencedContainer = "container:Omnia.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5C6293F1C3A7FAA007F7B7C"
+            BuildableName = "Omnia.framework"
+            BlueprintName = "Omnia-macOS"
+            ReferencedContainer = "container:Omnia.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
