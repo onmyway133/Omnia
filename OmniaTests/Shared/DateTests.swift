@@ -16,7 +16,7 @@ class DateTests: XCTestCase {
         
         XCTAssert(date.second == 53)
         XCTAssert(date.minute == 22)
-        XCTAssert(date.hour == 14)
+        XCTAssert(date.hour == 14) // current timezone
         XCTAssert(date.day == 11)
         XCTAssert(date.month == 4)
         XCTAssert(date.year == 2019)
