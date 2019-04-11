@@ -93,7 +93,6 @@
 		D2A6D3721FD05DBA00982BB8 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D36F1FD05DBA00982BB8 /* NSObject.swift */; };
 		D2A6D3731FD05DBA00982BB8 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D36F1FD05DBA00982BB8 /* NSObject.swift */; };
 		D2A6D3751FD05FAE00982BB8 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */; };
-		D2A6D3761FD05FAE00982BB8 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */; };
 		D2A6D3771FD05FAE00982BB8 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
@@ -810,7 +809,6 @@
 				D20EFED7225F606400E41B91 /* SequenceTests.swift in Sources */,
 				D28524371FCB670400CB232A /* OptionalTests.swift in Sources */,
 				D2400D091FCE0E0F00816458 /* BundleTests.swift in Sources */,
-				D2A6D3761FD05FAE00982BB8 /* NSObjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
