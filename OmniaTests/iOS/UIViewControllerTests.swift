@@ -1,7 +1,7 @@
 import XCTest
 import Omnia
 
-class UIViewController_ExtensionsTests: XCTestCase {
+class UIViewControllerTests: XCTestCase {
     
     func testAdd() {
         let parent = UIViewController()

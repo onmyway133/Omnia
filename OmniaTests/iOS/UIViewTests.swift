@@ -1,7 +1,7 @@
 import XCTest
 import Omnia
 
-class UIView_ExtensionsTests: XCTestCase {
+class UIViewTests: XCTestCase {
     
     func testToImage() {
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 100, height: 100))

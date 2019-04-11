@@ -1,5 +1,5 @@
 import XCTest
 import Omnia
 
-class Data_ExtensionsTests: XCTestCase {
+class DataTests: XCTestCase {
 }

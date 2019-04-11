@@ -1,7 +1,7 @@
 import XCTest
 import Omnia
 
-class UIColor_ExtensionsTests: XCTestCase {
+class UIColorTests: XCTestCase {
     
     func testRandom() {
         let image = UIImage(

@@ -8,7 +8,7 @@
 
 import XCTest
 
-class NSLayoutConstraint_ExtensionsTests: XCTestCase {
+class NSLayoutConstraintTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,7 +1,7 @@
 import XCTest
 import Omnia
 
-class Optional_ExtensionsTests: XCTestCase {
+class OptionalTests: XCTestCase {
     
     func testIsPresent() {
         do {

@@ -1,7 +1,7 @@
 import XCTest
 import Omnia
 
-class String_ExtensionsTests: XCTestCase {
+class StringTests: XCTestCase {
     
     func testCapitalizedFirstLetter() {
         do {
