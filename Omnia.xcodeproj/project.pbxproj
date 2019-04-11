@@ -23,6 +23,13 @@
 		D20EFEE7225F671200E41B91 /* OnceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEE6225F671200E41B91 /* OnceTests.swift */; };
 		D20EFEE8225F671200E41B91 /* OnceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEE6225F671200E41B91 /* OnceTests.swift */; };
 		D20EFEE9225F671200E41B91 /* OnceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEE6225F671200E41B91 /* OnceTests.swift */; };
+		D20EFEEB225F675C00E41B91 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEA225F675C00E41B91 /* Date.swift */; };
+		D20EFEEC225F675C00E41B91 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEA225F675C00E41B91 /* Date.swift */; };
+		D20EFEED225F675C00E41B91 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEA225F675C00E41B91 /* Date.swift */; };
+		D20EFEEE225F675C00E41B91 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEA225F675C00E41B91 /* Date.swift */; };
+		D20EFEF0225F68F900E41B91 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEF225F68F900E41B91 /* DateTests.swift */; };
+		D20EFEF1225F68F900E41B91 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEF225F68F900E41B91 /* DateTests.swift */; };
+		D20EFEF2225F68F900E41B91 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEF225F68F900E41B91 /* DateTests.swift */; };
 		D22CB3111FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
 		D22CB3121FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
 		D22CB3131FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
@@ -145,6 +152,8 @@
 		D20EFEDD225F651100E41B91 /* DoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTests.swift; sourceTree = "<group>"; };
 		D20EFEE1225F66F500E41B91 /* Once.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Once.swift; sourceTree = "<group>"; };
 		D20EFEE6225F671200E41B91 /* OnceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnceTests.swift; sourceTree = "<group>"; };
+		D20EFEEA225F675C00E41B91 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		D20EFEEF225F68F900E41B91 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
 		D22CB3101FCB658800B8270B /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		D23FAD5F225DE0460063F386 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		D2400CF11FCE08BB00816458 /* Comparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
@@ -300,6 +309,7 @@
 				D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */,
 				D20EFEDD225F651100E41B91 /* DoubleTests.swift */,
 				D20EFEE6225F671200E41B91 /* OnceTests.swift */,
+				D20EFEEF225F68F900E41B91 /* DateTests.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -400,6 +410,7 @@
 				D2A6D36F1FD05DBA00982BB8 /* NSObject.swift */,
 				D20EFED8225F63EA00E41B91 /* Double.swift */,
 				D20EFEE1225F66F500E41B91 /* Once.swift */,
+				D20EFEEA225F675C00E41B91 /* Date.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -719,6 +730,7 @@
 				D28524561FCB6CAF00CB232A /* UIScrollView.swift in Sources */,
 				D24012A41FCC7EE100B2C5F2 /* UICollectionView.swift in Sources */,
 				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
+				D20EFEED225F675C00E41B91 /* Date.swift in Sources */,
 				D240E12E1FC9B590000AB5AB /* UIColor.swift in Sources */,
 				D2400CF41FCE08BB00816458 /* Comparable.swift in Sources */,
 			);
@@ -732,6 +744,7 @@
 				D285244A1FCB697300CB232A /* SequenceTests.swift in Sources */,
 				D2A6D3771FD05FAE00982BB8 /* NSObjectTests.swift in Sources */,
 				D20EFEE0225F651100E41B91 /* DoubleTests.swift in Sources */,
+				D20EFEF2225F68F900E41B91 /* DateTests.swift in Sources */,
 				D2400CF91FCE090B00816458 /* ComparableTests.swift in Sources */,
 				D28524531FCB6B1000CB232A /* StringTests.swift in Sources */,
 				D28524411FCB682C00CB232A /* DataTests.swift in Sources */,
@@ -756,6 +769,7 @@
 				D22CB3141FCB658800B8270B /* Optional.swift in Sources */,
 				D2A6D3731FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D285244F1FCB6A6D00CB232A /* String.swift in Sources */,
+				D20EFEEE225F675C00E41B91 /* Date.swift in Sources */,
 				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
 				D2400CF51FCE08BB00816458 /* Comparable.swift in Sources */,
 				D20EFEDC225F63EA00E41B91 /* Double.swift in Sources */,
@@ -778,6 +792,7 @@
 				D285245B1FCB6D9300CB232A /* UIImage.swift in Sources */,
 				D2400D031FCE0D9C00816458 /* Bundle.swift in Sources */,
 				D240E12A1FC9AE68000AB5AB /* UIViewController.swift in Sources */,
+				D20EFEEB225F675C00E41B91 /* Date.swift in Sources */,
 				D285244C1FCB6A6D00CB232A /* String.swift in Sources */,
 				D285243A1FCB67BC00CB232A /* Data.swift in Sources */,
 				D28524551FCB6CAF00CB232A /* UIScrollView.swift in Sources */,
@@ -804,6 +819,7 @@
 				D285245E1FCB6E3E00CB232A /* UIViewTests.swift in Sources */,
 				D284B1471F7908B800D94AF3 /* UIViewControllerTests.swift in Sources */,
 				D28524361FCB670300CB232A /* OptionalTests.swift in Sources */,
+				D20EFEF0225F68F900E41B91 /* DateTests.swift in Sources */,
 				D20EFEDE225F651100E41B91 /* DoubleTests.swift in Sources */,
 				D28524641FCB799A00CB232A /* UIColorTests.swift in Sources */,
 				D28524611FCB708700CB232A /* UIImageTests.swift in Sources */,
@@ -824,6 +840,7 @@
 				D285244D1FCB6A6D00CB232A /* String.swift in Sources */,
 				D20EFEE3225F66F500E41B91 /* Once.swift in Sources */,
 				D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */,
+				D20EFEEC225F675C00E41B91 /* Date.swift in Sources */,
 				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
 				D2400CF31FCE08BB00816458 /* Comparable.swift in Sources */,
 				D20EFEDA225F63EA00E41B91 /* Double.swift in Sources */,
@@ -837,6 +854,7 @@
 			files = (
 				D284B1451F7908B200D94AF3 /* SharedTests.swift in Sources */,
 				D2400CF81FCE090B00816458 /* ComparableTests.swift in Sources */,
+				D20EFEF1225F68F900E41B91 /* DateTests.swift in Sources */,
 				D28524521FCB6B1000CB232A /* StringTests.swift in Sources */,
 				D28524401FCB682C00CB232A /* DataTests.swift in Sources */,
 				D284B1481F7908BB00D94AF3 /* macOSTests.swift in Sources */,
