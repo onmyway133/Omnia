@@ -3,19 +3,19 @@ import Omnia
 
 class UIViewControllerTests: XCTestCase {
     
-    func testAdd() {
+    func testInstall() {
         let parent = UIViewController()
         let child = UIViewController()
-        parent.add(childController: child)
+        parent.install(childController: child)
         
         XCTAssertEqual(parent.children.first, child)
     }
     
-    func testRemove() {
+    func testUninstall() {
         let parent = UIViewController()
         let child = UIViewController()
-        parent.add(childController: child)
-        child.remove()
+        parent.install(childController: child)
+        child.uninstall()
         
         XCTAssertTrue(parent.children.isEmpty)
     }
