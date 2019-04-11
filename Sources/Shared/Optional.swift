@@ -34,7 +34,7 @@ extension Optional {
 extension Optional where Wrapped == String {
     
     /// Return true if it is not nil and not empty
-    public var isPresent: Bool {
+    public var isNotNilOrEmpty: Bool {
         if let value = self {
             return !value.isEmpty
         } else {

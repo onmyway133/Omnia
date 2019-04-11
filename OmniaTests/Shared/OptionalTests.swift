@@ -13,12 +13,12 @@ class OptionalTests: XCTestCase {
     func testIsPresent() {
         do {
             let string: String? = ""
-            XCTAssertFalse(string.isPresent)
+            XCTAssertFalse(string.isNotNilOrEmpty)
         }
         
         do {
             let string: String? = "a"
-            XCTAssertTrue(string.isPresent)
+            XCTAssertTrue(string.isNotNilOrEmpty)
         }
     }
     
