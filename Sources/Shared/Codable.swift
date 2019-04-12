@@ -21,6 +21,17 @@ public extension Decoder {
     }
 }
 
+public extension Encoder {
+    func encode<T: Encodable>(value: T, key: String) throws {
+        return try encode(value: value, codingKey: SingleCodingKey(key: key))
+    }
+    
+    func encode<T: Encodable, K: CodingKey>(value: T, codingKey: K) throws {
+        var container = self.container(keyedBy: K.self)
+        return try container.encode(value, forKey: codingKey)
+    }
+}
+
 private struct SingleCodingKey: CodingKey {
     var stringValue: String
     
