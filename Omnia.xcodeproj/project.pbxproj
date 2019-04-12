@@ -31,6 +31,13 @@
 		D20EFEF1225F68F900E41B91 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEF225F68F900E41B91 /* DateTests.swift */; };
 		D20EFEF2225F68F900E41B91 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEEF225F68F900E41B91 /* DateTests.swift */; };
 		D20EFEF4225F761400E41B91 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEF3225F761400E41B91 /* UIFont.swift */; };
+		D20F91D522609DC4000C567D /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F91D422609DC4000C567D /* Codable.swift */; };
+		D20F91D622609E2E000C567D /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F91D422609DC4000C567D /* Codable.swift */; };
+		D20F91D722609E2F000C567D /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F91D422609DC4000C567D /* Codable.swift */; };
+		D20F91D822609E2F000C567D /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F91D422609DC4000C567D /* Codable.swift */; };
+		D20F91DA22609F26000C567D /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F91D922609F26000C567D /* CodableTests.swift */; };
+		D20F91DB22609F26000C567D /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F91D922609F26000C567D /* CodableTests.swift */; };
+		D20F91DC22609F26000C567D /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F91D922609F26000C567D /* CodableTests.swift */; };
 		D22CB3111FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
 		D22CB3121FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
 		D22CB3131FCB658800B8270B /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CB3101FCB658800B8270B /* Optional.swift */; };
@@ -156,6 +163,8 @@
 		D20EFEEA225F675C00E41B91 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		D20EFEEF225F68F900E41B91 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
 		D20EFEF3225F761400E41B91 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		D20F91D422609DC4000C567D /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		D20F91D922609F26000C567D /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
 		D22CB3101FCB658800B8270B /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		D23FAD5F225DE0460063F386 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		D2400CF11FCE08BB00816458 /* Comparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
@@ -312,6 +321,7 @@
 				D20EFEDD225F651100E41B91 /* DoubleTests.swift */,
 				D20EFEE6225F671200E41B91 /* OnceTests.swift */,
 				D20EFEEF225F68F900E41B91 /* DateTests.swift */,
+				D20F91D922609F26000C567D /* CodableTests.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -414,6 +424,7 @@
 				D20EFED8225F63EA00E41B91 /* Double.swift */,
 				D20EFEE1225F66F500E41B91 /* Once.swift */,
 				D20EFEEA225F675C00E41B91 /* Date.swift */,
+				D20F91D422609DC4000C567D /* Codable.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -735,6 +746,7 @@
 				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
 				D20EFEED225F675C00E41B91 /* Date.swift in Sources */,
 				D240E12E1FC9B590000AB5AB /* UIColor.swift in Sources */,
+				D20F91D722609E2F000C567D /* Codable.swift in Sources */,
 				D2400CF41FCE08BB00816458 /* Comparable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -753,6 +765,7 @@
 				D28524411FCB682C00CB232A /* DataTests.swift in Sources */,
 				D285245F1FCB6E3E00CB232A /* UIViewTests.swift in Sources */,
 				D284B13E1F7907AD00D94AF3 /* tvOSTests.swift in Sources */,
+				D20F91DC22609F26000C567D /* CodableTests.swift in Sources */,
 				D28524381FCB670500CB232A /* OptionalTests.swift in Sources */,
 				D20EFEE9225F671200E41B91 /* OnceTests.swift in Sources */,
 				D28524651FCB799A00CB232A /* UIColorTests.swift in Sources */,
@@ -774,6 +787,7 @@
 				D285244F1FCB6A6D00CB232A /* String.swift in Sources */,
 				D20EFEEE225F675C00E41B91 /* Date.swift in Sources */,
 				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
+				D20F91D822609E2F000C567D /* Codable.swift in Sources */,
 				D2400CF51FCE08BB00816458 /* Comparable.swift in Sources */,
 				D20EFEDC225F63EA00E41B91 /* Double.swift in Sources */,
 				D2400D061FCE0D9C00816458 /* Bundle.swift in Sources */,
@@ -790,6 +804,7 @@
 				D23FAD60225DE0460063F386 /* NSLayoutConstraint.swift in Sources */,
 				D28524581FCB6D8800CB232A /* UIView.swift in Sources */,
 				D24012A01FCC7ED800B2C5F2 /* UITableView.swift in Sources */,
+				D20F91D522609DC4000C567D /* Codable.swift in Sources */,
 				D20EFEE2225F66F500E41B91 /* Once.swift in Sources */,
 				D28524431FCB688600CB232A /* Sequence.swift in Sources */,
 				D285245B1FCB6D9300CB232A /* UIImage.swift in Sources */,
@@ -821,6 +836,7 @@
 				D28524511FCB6B1000CB232A /* StringTests.swift in Sources */,
 				D285243F1FCB682C00CB232A /* DataTests.swift in Sources */,
 				D285245E1FCB6E3E00CB232A /* UIViewTests.swift in Sources */,
+				D20F91DA22609F26000C567D /* CodableTests.swift in Sources */,
 				D284B1471F7908B800D94AF3 /* UIViewControllerTests.swift in Sources */,
 				D28524361FCB670300CB232A /* OptionalTests.swift in Sources */,
 				D20EFEF0225F68F900E41B91 /* DateTests.swift in Sources */,
@@ -843,6 +859,7 @@
 				D2A6D3711FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D285244D1FCB6A6D00CB232A /* String.swift in Sources */,
 				D20EFEE3225F66F500E41B91 /* Once.swift in Sources */,
+				D20F91D622609E2E000C567D /* Codable.swift in Sources */,
 				D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */,
 				D20EFEEC225F675C00E41B91 /* Date.swift in Sources */,
 				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
@@ -858,6 +875,7 @@
 			files = (
 				D284B1451F7908B200D94AF3 /* SharedTests.swift in Sources */,
 				D2400CF81FCE090B00816458 /* ComparableTests.swift in Sources */,
+				D20F91DB22609F26000C567D /* CodableTests.swift in Sources */,
 				D20EFEF1225F68F900E41B91 /* DateTests.swift in Sources */,
 				D28524521FCB6B1000CB232A /* StringTests.swift in Sources */,
 				D28524401FCB682C00CB232A /* DataTests.swift in Sources */,
