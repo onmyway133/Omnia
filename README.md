@@ -10,13 +10,9 @@
 
 ## Description
 
-**Omnia** contains a huge collection of handy extensions for your everyday project. Inspired by utility and standard libraries from many other languages such as Kotlin, Ruby, Javascript, Haskell, ... **Omnia** implements the most necessary extensions. It won't add 💩 or anti patterns.
+**Omnia** contains a huge collection of handy extensions for your everyday project. Inspired by utility and standard libraries from many other languages such as Kotlin, Ruby, Javascript, Haskell, ... **Omnia** implements the most necessary extensions
 
-All extension names use prefix `e` (e stands for extension) to avoid potential conflicts, and to give you clue that these are not built in by default.
-
-Supports iOS, macOS, tvOS, watchOS.
-
-For other sugar
+For other sweets
 
 - [Anchors](https://github.com/onmyway133/Anchors) ⚓️ Declarative, extensible, powerful Auto Layout
 - [On](https://github.com/onmyway133/On) 🍩 Unified communication pattern for iOS and macOS
@@ -25,70 +21,38 @@ For other sugar
 
 ## Usage
 
-#### Bundle
+### Foundation
 
-```swift
-name
-versionNumber
-buildNumber
-```
+- Optional
+- Data
+- Sequence
+- String
+- Comparable
+- Bundle
+- NSObject
+- Double
+- Date
+- Codable
 
-#### Comparable
+### iOS, tvOS
 
-```swift
-isBetween(min: Self, max: Self)
-```
+- UIView
+- UIViewController
+- UITableView
+- UICollectionView
+- NSLayoutConstraint
+- UIFont
+- UIImage
+- UIScrollView
 
-#### Data
+### macOS
 
-```swift
-hexString
-```
+- NSColor
+- NSView
 
-#### NSColor
+### Custom
 
-```swift
-init(hex hex: String)
-```
-
-#### NSObject
-
-```swift
-apply(closure: (Self) -> Void)
-```
-
-#### NSView
-
-```swift
-addSubviews(_ views: [NSView])
-```
-
-#### Optional
-
-```swift
-isPresent
-unwrap(message: String)
-let(closure: (Wrapped) -> Void)
-```
-
-#### Sequence
-
-```swift
-shuffled()
-```
-
-#### String
-
-```swift
-capitalizedFirstLetter
-localized
-```
-
-#### TypeAddOnAware
-
-```swift
-apply(closure: (Self) -> Void)
-```
+- Once
 
 ## Installation
 
@@ -111,11 +75,6 @@ github "onmyway133/Omnia"
 ## Author
 
 Khoa Pham, onmyway133@gmail.com
-
-## Credit
-
-- Extensions methods and properties in README are generated using [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
-- Many answers on Stackoverflow.
 
 ## License
 
