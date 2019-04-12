@@ -11,9 +11,9 @@ import UIKit
 public extension UIFont {
     static func registerCustom(fileName: String, fileExtension: String, bundle: Bundle = .main) {
         guard
-            let url = bundle.url(forResource: fileName, withExtension: fileExtension)
+            let url = bundle.url(forResource: fileName, withExtension: fileExtension),
             let data = try? Data(contentsOf: url),
-            let provider = CGDataProvider(data: data),
+            let provider = CGDataProvider(data: data as CFData),
             let ref = CGFont(provider)
         else {
             return
@@ -21,7 +21,7 @@ public extension UIFont {
         
         var errorRef: Unmanaged<CFError>? = nil
         if !CTFontManagerRegisterGraphicsFont(ref, &errorRef) {
-            print(errorRef)
+            print(errorRef as Any)
         }
     }
 }

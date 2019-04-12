@@ -11,7 +11,7 @@ import Omnia
 class UIImagExtensionsTests: XCTestCase {
     
     func testInitFromColor() {
-        let image = UIImage(color: UIColor.red, size: CGSize(width: 10, height: 10))
-        XCTAssertEqual(image?.size, CGSize(width: 10, height: 10))
+        let image = UIImage.from(color: .red, size: CGSize(width: 20, height: 20))
+        XCTAssertEqual(image.size, CGSize(width: 20, height: 20))
     }
 }
