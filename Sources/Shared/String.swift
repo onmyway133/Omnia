@@ -22,4 +22,8 @@ extension String {
     public var localized: String {
         return NSLocalizedString(self, comment: "")
     }
+
+    public func toData() -> Data {
+        return Data(self.utf8)
+    }
 }

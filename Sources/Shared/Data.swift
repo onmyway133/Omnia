@@ -13,4 +13,8 @@ extension Data {
     public var hexString: String {
         return map({ String(format: "%02hhx", $0) }).joined()
     }
+
+    public func toString() -> String {
+        return String(decoding: self, as: UTF8.self)
+    }
 }

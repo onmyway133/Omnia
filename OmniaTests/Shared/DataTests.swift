@@ -9,4 +9,8 @@ import XCTest
 import Omnia
 
 class DataTests: XCTestCase {
+    func testToString() {
+        let string = "Hello world"
+        XCTAssertEqual(string.toData().toString(), "Hello world")
+    }
 }
