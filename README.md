@@ -53,6 +53,7 @@ For other sweets
 ### Custom
 
 - Once
+- Debouncer
 
 ## Installation
 
