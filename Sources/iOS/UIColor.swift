@@ -192,3 +192,9 @@ extension UIColor {
         return UIColor(hslColor: hslColor)
     }
 }
+
+extension UIColor {
+    static func rgb(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat) -> UIColor {
+        return UIColor(red: r/255, green: r/255, blue: b/255, alpha: 1.0)
+    }
+}
