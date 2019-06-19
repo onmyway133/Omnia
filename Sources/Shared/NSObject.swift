@@ -9,9 +9,9 @@ import Foundation
 
 /// Add-on utitlies to all types
 /// https://github.com/JetBrains/kotlin/blob/master/libraries/stdlib/src/kotlin/util/Standard.kt
-public protocol TypeAddOnAware {}
+protocol TypeAddOnAware {}
 
-public extension TypeAddOnAware {
+extension TypeAddOnAware {
     /// Calls the specified closure with this instance as its receiver
     /// and returns this instance
     ///
@@ -23,3 +23,9 @@ public extension TypeAddOnAware {
 
 /// Conform NSObject by default
 extension NSObject: TypeAddOnAware {}
+
+extension NSObject {
+    func with(_ closure: (NSObject) -> Void) {
+        closure(self)
+    }
+}
