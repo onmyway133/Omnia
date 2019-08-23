@@ -24,4 +24,9 @@ public extension NSLayoutConstraint {
         let constraints = constraintsArray.flatMap({ $0 })
         NSLayoutConstraint.on(constraints)
     }
+    
+    func priority(_ value: Float) -> NSLayoutConstraint {
+        priority = UILayoutPriority(value)
+        return self
+    }
 }
