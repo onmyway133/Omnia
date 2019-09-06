@@ -8,12 +8,12 @@
 
 import AppKit
 
-extension NSColor {
+public extension NSColor {
     
     /// Init color from hex string
     ///
     /// - Parameter hex: A hex string, with or without #
-    public convenience init(hex: String) {
+    convenience init(hex: String) {
         let hex = hex.replacingOccurrences(of: "#", with: "")
         
         // Need 6 characters
