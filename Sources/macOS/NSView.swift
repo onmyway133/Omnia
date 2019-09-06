@@ -8,11 +8,11 @@
 
 import AppKit
 
-extension NSView {
+public extension NSView {
     /// Add many subviews
     ///
     /// - Parameter views: The subviews
-    public func addSubviews(_ views: [NSView]) {
+    func addSubviews(_ views: [NSView]) {
         views.forEach {
             addSubview($0)
         }
