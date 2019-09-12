@@ -34,6 +34,7 @@ For other sweets
 - Double
 - Date
 - Codable
+- Debouncer
 - JSON
 - Type
 
