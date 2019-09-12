@@ -38,9 +38,9 @@ class JSONTests: XCTestCase {
             ]
         ]
 
-//        XCTAssertEqual(resolve(json, keyPath: "outside.object.number"), 1)
-//        XCTAssertEqual(resolve(json, keyPath: "outside.object.text"), "hello")
-//        XCTAssertEqual(resolve(json, keyPath: "outside.arrayOfObjects.1.number"), 3)
+        XCTAssertEqual(resolve(json, keyPath: "outside.object.number"), 1)
+        XCTAssertEqual(resolve(json, keyPath: "outside.object.text"), "hello")
+        XCTAssertEqual(resolve(json, keyPath: "outside.arrayOfObjects.1.number"), 3)
         XCTAssertEqual(resolve(json, keyPath: "outside.arrayOfArrays.1.1"), "six")
     }
 }
