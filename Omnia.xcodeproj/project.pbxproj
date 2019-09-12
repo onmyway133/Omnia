@@ -67,6 +67,17 @@
 		D240E12E1FC9B590000AB5AB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240E12C1FC9B590000AB5AB /* UIColor.swift */; };
 		D25570A61FEBDFD400AA443F /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25570A51FEBDFD400AA443F /* NSColor.swift */; };
 		D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25570A71FEBDFEB00AA443F /* NSView.swift */; };
+		D27E30FF232A6DC7008FBFD3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E30FE232A6DC7008FBFD3 /* JSON.swift */; };
+		D27E3100232A6DC7008FBFD3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E30FE232A6DC7008FBFD3 /* JSON.swift */; };
+		D27E3101232A6DC7008FBFD3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E30FE232A6DC7008FBFD3 /* JSON.swift */; };
+		D27E3102232A6DC7008FBFD3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E30FE232A6DC7008FBFD3 /* JSON.swift */; };
+		D27E3104232A71AA008FBFD3 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3103232A71AA008FBFD3 /* Type.swift */; };
+		D27E3105232A71AA008FBFD3 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3103232A71AA008FBFD3 /* Type.swift */; };
+		D27E3106232A71AA008FBFD3 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3103232A71AA008FBFD3 /* Type.swift */; };
+		D27E3107232A71AA008FBFD3 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3103232A71AA008FBFD3 /* Type.swift */; };
+		D27E3109232A79D8008FBFD3 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3108232A79D8008FBFD3 /* JSONTests.swift */; };
+		D27E310A232A79D8008FBFD3 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3108232A79D8008FBFD3 /* JSONTests.swift */; };
+		D27E310B232A79D8008FBFD3 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3108232A79D8008FBFD3 /* JSONTests.swift */; };
 		D284B0F61F79024300D94AF3 /* macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B0F51F79024300D94AF3 /* macOS.swift */; };
 		D284B1051F79038B00D94AF3 /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* Omnia.framework */; };
 		D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1221F79041C00D94AF3 /* tvOS.swift */; };
@@ -188,6 +199,9 @@
 		D240E12C1FC9B590000AB5AB /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		D25570A51FEBDFD400AA443F /* NSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
 		D25570A71FEBDFEB00AA443F /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		D27E30FE232A6DC7008FBFD3 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		D27E3103232A71AA008FBFD3 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		D27E3108232A79D8008FBFD3 /* JSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
 		D284B0F51F79024300D94AF3 /* macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOS.swift; sourceTree = "<group>"; };
 		D284B0FC1F79038B00D94AF3 /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284B1041F79038B00D94AF3 /* Omnia-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -340,6 +354,7 @@
 				D20EFEEF225F68F900E41B91 /* DateTests.swift */,
 				D20F91D922609F26000C567D /* CodableTests.swift */,
 				D29E20C12272F6C100388AB0 /* DebouncerTests.swift */,
+				D27E3108232A79D8008FBFD3 /* JSONTests.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -446,6 +461,8 @@
 				D20EFEEA225F675C00E41B91 /* Date.swift */,
 				D20F91D422609DC4000C567D /* Codable.swift */,
 				D29E20BC2272F67C00388AB0 /* Debouncer.swift */,
+				D27E30FE232A6DC7008FBFD3 /* JSON.swift */,
+				D27E3103232A71AA008FBFD3 /* Type.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -750,6 +767,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20EFEDB225F63EA00E41B91 /* Double.swift in Sources */,
+				D27E3101232A6DC7008FBFD3 /* JSON.swift in Sources */,
 				D284B1491F790CA200D94AF3 /* Shared.swift in Sources */,
 				D29E20BF2272F67C00388AB0 /* Debouncer.swift in Sources */,
 				D20EFEE4225F66F500E41B91 /* Once.swift in Sources */,
@@ -764,6 +782,7 @@
 				D285244E1FCB6A6D00CB232A /* String.swift in Sources */,
 				D285243C1FCB67BC00CB232A /* Data.swift in Sources */,
 				D28524561FCB6CAF00CB232A /* UIScrollView.swift in Sources */,
+				D27E3106232A71AA008FBFD3 /* Type.swift in Sources */,
 				D24012A41FCC7EE100B2C5F2 /* UICollectionView.swift in Sources */,
 				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
 				D20EFEED225F675C00E41B91 /* Date.swift in Sources */,
@@ -790,6 +809,7 @@
 				D284B13E1F7907AD00D94AF3 /* tvOSTests.swift in Sources */,
 				D20F91DC22609F26000C567D /* CodableTests.swift in Sources */,
 				D28524381FCB670500CB232A /* OptionalTests.swift in Sources */,
+				D27E310B232A79D8008FBFD3 /* JSONTests.swift in Sources */,
 				D20EFEE9225F671200E41B91 /* OnceTests.swift in Sources */,
 				D28524651FCB799A00CB232A /* UIColorTests.swift in Sources */,
 				D28524621FCB708700CB232A /* UIImageTests.swift in Sources */,
@@ -807,6 +827,8 @@
 				D28524461FCB688600CB232A /* Sequence.swift in Sources */,
 				D22CB3141FCB658800B8270B /* Optional.swift in Sources */,
 				D2A6D3731FD05DBA00982BB8 /* NSObject.swift in Sources */,
+				D27E3102232A6DC7008FBFD3 /* JSON.swift in Sources */,
+				D27E3107232A71AA008FBFD3 /* Type.swift in Sources */,
 				D285244F1FCB6A6D00CB232A /* String.swift in Sources */,
 				D20EFEEE225F675C00E41B91 /* Date.swift in Sources */,
 				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
@@ -837,6 +859,8 @@
 				D20EFEEB225F675C00E41B91 /* Date.swift in Sources */,
 				D285244C1FCB6A6D00CB232A /* String.swift in Sources */,
 				D29E20BD2272F67C00388AB0 /* Debouncer.swift in Sources */,
+				D27E3104232A71AA008FBFD3 /* Type.swift in Sources */,
+				D27E30FF232A6DC7008FBFD3 /* JSON.swift in Sources */,
 				D285243A1FCB67BC00CB232A /* Data.swift in Sources */,
 				D28524551FCB6CAF00CB232A /* UIScrollView.swift in Sources */,
 				D24012A31FCC7EE100B2C5F2 /* UICollectionView.swift in Sources */,
@@ -861,6 +885,7 @@
 				D2400CF71FCE090B00816458 /* ComparableTests.swift in Sources */,
 				D28524511FCB6B1000CB232A /* StringTests.swift in Sources */,
 				D285243F1FCB682C00CB232A /* DataTests.swift in Sources */,
+				D27E3109232A79D8008FBFD3 /* JSONTests.swift in Sources */,
 				D285245E1FCB6E3E00CB232A /* UIViewTests.swift in Sources */,
 				D20F91DA22609F26000C567D /* CodableTests.swift in Sources */,
 				D284B1471F7908B800D94AF3 /* UIViewControllerTests.swift in Sources */,
@@ -885,12 +910,14 @@
 				D22CB3121FCB658800B8270B /* Optional.swift in Sources */,
 				D2A6D3711FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D285244D1FCB6A6D00CB232A /* String.swift in Sources */,
+				D27E3100232A6DC7008FBFD3 /* JSON.swift in Sources */,
 				D20EFEE3225F66F500E41B91 /* Once.swift in Sources */,
 				D20F91D622609E2E000C567D /* Codable.swift in Sources */,
 				D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */,
 				D20EFEEC225F675C00E41B91 /* Date.swift in Sources */,
 				D2ADDEDD232A36FA008361AA /* NSImage.swift in Sources */,
 				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
+				D27E3105232A71AA008FBFD3 /* Type.swift in Sources */,
 				D2400CF31FCE08BB00816458 /* Comparable.swift in Sources */,
 				D20EFEDA225F63EA00E41B91 /* Double.swift in Sources */,
 				D2ADDEDF232A3745008361AA /* NSButton.swift in Sources */,
@@ -915,6 +942,7 @@
 				D28524371FCB670400CB232A /* OptionalTests.swift in Sources */,
 				D20EFEDF225F651100E41B91 /* DoubleTests.swift in Sources */,
 				D2400D091FCE0E0F00816458 /* BundleTests.swift in Sources */,
+				D27E310A232A79D8008FBFD3 /* JSONTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

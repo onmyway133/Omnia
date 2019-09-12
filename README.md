@@ -15,9 +15,10 @@
 For other sweets
 
 - [Anchors](https://github.com/onmyway133/Anchors) ⚓️ Declarative, extensible, powerful Auto Layout
-- [On](https://github.com/onmyway133/On) 🍩 Unified communication pattern for iOS and macOS
+- [EasyClosure](https://github.com/onmyway133/EasyClosure) 🍩 Unified communication pattern for iOS and macOS
 - [Smile](https://github.com/onmyway133/Smile) 😄 Emoji in Swift
 - [Wave](https://github.com/onmyway133/Wave) 🌊 Declarative chainable animations in Swift
+- [EasyStash](https://github.com/onmyway133/EasyStash) 🗳Easy data persistence in Swift
 
 ## Usage
 
