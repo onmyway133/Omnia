@@ -131,6 +131,7 @@
 		D2A6D3751FD05FAE00982BB8 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */; };
 		D2A6D3771FD05FAE00982BB8 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */; };
 		D2ADDEDD232A36FA008361AA /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDEDC232A36FA008361AA /* NSImage.swift */; };
+		D2ADDEDF232A3745008361AA /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDEDE232A3745008361AA /* NSButton.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 		D5C629831C3A892A007F7B7C /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629821C3A892A007F7B7C /* iOS.swift */; };
@@ -222,6 +223,7 @@
 		D2A6D36F1FD05DBA00982BB8 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectTests.swift; sourceTree = "<group>"; };
 		D2ADDEDC232A36FA008361AA /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		D2ADDEDE232A3745008361AA /* NSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B2E8A91C3A780C00C0327D /* Omnia-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629401C3A7FAA007F7B7C /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -293,6 +295,7 @@
 				D25570A51FEBDFD400AA443F /* NSColor.swift */,
 				D25570A71FEBDFEB00AA443F /* NSView.swift */,
 				D2ADDEDC232A36FA008361AA /* NSImage.swift */,
+				D2ADDEDE232A3745008361AA /* NSButton.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -890,6 +893,7 @@
 				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
 				D2400CF31FCE08BB00816458 /* Comparable.swift in Sources */,
 				D20EFEDA225F63EA00E41B91 /* Double.swift in Sources */,
+				D2ADDEDF232A3745008361AA /* NSButton.swift in Sources */,
 				D2400D041FCE0D9C00816458 /* Bundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
