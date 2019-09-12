@@ -22,7 +22,7 @@ For other sweets
 
 ## Usage
 
-### Foundation
+### Shared
 
 - Optional
 - Data
@@ -34,6 +34,8 @@ For other sweets
 - Double
 - Date
 - Codable
+- JSON
+- Type
 
 ### iOS, tvOS
 
@@ -45,16 +47,13 @@ For other sweets
 - UIFont
 - UIImage
 - UIScrollView
+- UIColor
 
 ### macOS
 
 - NSColor
 - NSView
-
-### Custom
-
-- Once
-- Debouncer
+- NSButton
 
 ## Installation
 

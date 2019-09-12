@@ -78,7 +78,6 @@
 		D27E3109232A79D8008FBFD3 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3108232A79D8008FBFD3 /* JSONTests.swift */; };
 		D27E310A232A79D8008FBFD3 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3108232A79D8008FBFD3 /* JSONTests.swift */; };
 		D27E310B232A79D8008FBFD3 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E3108232A79D8008FBFD3 /* JSONTests.swift */; };
-		D284B0F61F79024300D94AF3 /* macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B0F51F79024300D94AF3 /* macOS.swift */; };
 		D284B1051F79038B00D94AF3 /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* Omnia.framework */; };
 		D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1221F79041C00D94AF3 /* tvOS.swift */; };
 		D284B1251F79042800D94AF3 /* watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1241F79042800D94AF3 /* watchOS.swift */; };
@@ -145,7 +144,6 @@
 		D2ADDEDF232A3745008361AA /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDEDE232A3745008361AA /* NSButton.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
-		D5C629831C3A892A007F7B7C /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629821C3A892A007F7B7C /* iOS.swift */; };
 		D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
 		D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
 /* End PBXBuildFile section */
@@ -202,7 +200,6 @@
 		D27E30FE232A6DC7008FBFD3 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		D27E3103232A71AA008FBFD3 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
 		D27E3108232A79D8008FBFD3 /* JSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
-		D284B0F51F79024300D94AF3 /* macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOS.swift; sourceTree = "<group>"; };
 		D284B0FC1F79038B00D94AF3 /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284B1041F79038B00D94AF3 /* Omnia-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284B1181F79039F00D94AF3 /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,7 +239,6 @@
 		D5B2E8A91C3A780C00C0327D /* Omnia-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629401C3A7FAA007F7B7C /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629491C3A7FAA007F7B7C /* Omnia-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C629821C3A892A007F7B7C /* iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
 		D5C629861C3A89A8007F7B7C /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -305,7 +301,6 @@
 		D284B0F41F79024300D94AF3 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				D284B0F51F79024300D94AF3 /* macOS.swift */,
 				D25570A51FEBDFD400AA443F /* NSColor.swift */,
 				D25570A71FEBDFEB00AA443F /* NSView.swift */,
 				D2ADDEDC232A36FA008361AA /* NSImage.swift */,
@@ -431,7 +426,6 @@
 		D5C6296A1C3A809D007F7B7C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D5C629821C3A892A007F7B7C /* iOS.swift */,
 				D240E1291FC9AE68000AB5AB /* UIViewController.swift */,
 				D240E12C1FC9B590000AB5AB /* UIColor.swift */,
 				D28524541FCB6CAF00CB232A /* UIScrollView.swift */,
@@ -844,7 +838,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
 				D22CB3111FCB658800B8270B /* Optional.swift in Sources */,
 				D2A6D3701FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D23FAD60225DE0460063F386 /* NSLayoutConstraint.swift in Sources */,
@@ -916,7 +909,6 @@
 				D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */,
 				D20EFEEC225F675C00E41B91 /* Date.swift in Sources */,
 				D2ADDEDD232A36FA008361AA /* NSImage.swift in Sources */,
-				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
 				D27E3105232A71AA008FBFD3 /* Type.swift in Sources */,
 				D2400CF31FCE08BB00816458 /* Comparable.swift in Sources */,
 				D20EFEDA225F63EA00E41B91 /* Double.swift in Sources */,
