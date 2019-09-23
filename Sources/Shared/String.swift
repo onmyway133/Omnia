@@ -7,10 +7,9 @@
 
 import Foundation
 
-extension String {
-    
+public extension String {
     /// Return a new string with first letter being capitalized
-    public var capitalizedFirstLetter: String {
+    var capitalizedFirstLetter: String {
         guard !isEmpty else {
             return ""
         }
@@ -19,11 +18,15 @@ extension String {
     }
     
     /// Return a localized string using NSLocalizedString
-    public var localized: String {
+    var localized: String {
         return NSLocalizedString(self, comment: "")
     }
 
-    public func toData() -> Data {
+    func toData() -> Data {
         return Data(self.utf8)
+    }
+
+    var trimmed: String {
+        return trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }
