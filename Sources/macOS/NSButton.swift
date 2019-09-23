@@ -18,4 +18,13 @@ public extension NSButton {
         isBordered = false
         setButtonType(.momentaryChange)
     }
+
+    var isOn: Bool {
+        get {
+            return state == .on ? true : false
+        }
+        set {
+            state = newValue ? .on : .off
+        }
+    }
 }
