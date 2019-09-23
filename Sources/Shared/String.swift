@@ -29,4 +29,8 @@ public extension String {
     var trimmed: String {
         return trimmingCharacters(in: .whitespacesAndNewlines)
     }
+
+    func hasPattern(regex: String) -> Bool {
+        return range(of: regex, options: .regularExpression, range: nil, locale: nil) != nil
+    }
 }
