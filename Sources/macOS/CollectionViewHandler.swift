@@ -27,7 +27,7 @@ public class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
         public let action: (Item) -> Void
     }
 
-    override init() {
+    public override init() {
         super.init()
 
         layout.minimumLineSpacing = 4
