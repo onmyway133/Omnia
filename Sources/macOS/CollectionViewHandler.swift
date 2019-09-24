@@ -8,7 +8,7 @@
 
 import AppKit
 
-public class CollectionViewHandler<Item, Cell: NSCollectionViewItem>
+public class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 : NSObject, NSCollectionViewDataSource, NSCollectionViewDelegateFlowLayout {
 
     public let layout = NSCollectionViewFlowLayout()
@@ -43,6 +43,14 @@ public class CollectionViewHandler<Item, Cell: NSCollectionViewItem>
         items.insert(item, at: 0)
         let indexPath = IndexPath(item: 0, section: 0)
         collectionView.animator().insertItems(at: Set(arrayLiteral: indexPath))
+    }
+
+    public func remove(item: Item) {
+        guard let index = items.firstIndex(where: { $0 == item }) else {
+            return
+        }
+
+        remove(index: index)
     }
 
     public func remove(index: Int) {
