@@ -66,6 +66,7 @@
 		D240E12D1FC9B590000AB5AB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240E12C1FC9B590000AB5AB /* UIColor.swift */; };
 		D240E12E1FC9B590000AB5AB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D240E12C1FC9B590000AB5AB /* UIColor.swift */; };
 		D2484C0B2334CAF300E90091 /* NSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2484C0A2334CAF300E90091 /* NSTextView.swift */; };
+		D24CBB15233A4B62003A64EF /* NSCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24CBB14233A4B62003A64EF /* NSCollectionViewItem.swift */; };
 		D25570A61FEBDFD400AA443F /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25570A51FEBDFD400AA443F /* NSColor.swift */; };
 		D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25570A71FEBDFEB00AA443F /* NSView.swift */; };
 		D27E30FF232A6DC7008FBFD3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E30FE232A6DC7008FBFD3 /* JSON.swift */; };
@@ -197,6 +198,7 @@
 		D240E1291FC9AE68000AB5AB /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		D240E12C1FC9B590000AB5AB /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		D2484C0A2334CAF300E90091 /* NSTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextView.swift; sourceTree = "<group>"; };
+		D24CBB14233A4B62003A64EF /* NSCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCollectionViewItem.swift; sourceTree = "<group>"; };
 		D25570A51FEBDFD400AA443F /* NSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
 		D25570A71FEBDFEB00AA443F /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
 		D27E30FE232A6DC7008FBFD3 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 				D2ADDEDC232A36FA008361AA /* NSImage.swift */,
 				D2ADDEDE232A3745008361AA /* NSButton.swift */,
 				D2484C0A2334CAF300E90091 /* NSTextView.swift */,
+				D24CBB14233A4B62003A64EF /* NSCollectionViewItem.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -908,6 +911,7 @@
 				D285244D1FCB6A6D00CB232A /* String.swift in Sources */,
 				D27E3100232A6DC7008FBFD3 /* JSON.swift in Sources */,
 				D20EFEE3225F66F500E41B91 /* Once.swift in Sources */,
+				D24CBB15233A4B62003A64EF /* NSCollectionViewItem.swift in Sources */,
 				D20F91D622609E2E000C567D /* Codable.swift in Sources */,
 				D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */,
 				D20EFEEC225F675C00E41B91 /* Date.swift in Sources */,
