@@ -23,7 +23,7 @@ public class CollectionViewHandler<Item, Cell: NSCollectionViewItem>
         super.init()
 
         layout.minimumLineSpacing = 4
-        layout.sectionInset = NSEdgeInsets(top: 4, left: 10, bottom: 4, right: 10)
+        layout.sectionInset = NSEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
 
         collectionView.dataSource = self
         collectionView.delegate = self
