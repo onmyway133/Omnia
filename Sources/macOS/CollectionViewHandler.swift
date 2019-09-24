@@ -19,6 +19,14 @@ public class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
     public var itemSize: () -> CGSize = { .zero }
     public var configure: (Item, Cell) -> Void = { _, _ in }
 
+    public var menuItemActions = [MenuItemAction]()
+    public var menu = NSMenu()
+
+    public struct MenuItemAction {
+        public let menuItem: NSMenuItem
+        public let action: (Item) -> Void
+    }
+
     override init() {
         super.init()
 
@@ -31,10 +39,37 @@ public class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
         collectionView.allowsMultipleSelection = false
         collectionView.backgroundColors = [.clear]
         collectionView.isSelectable = true
+        collectionView.menu = self.menu
 
         collectionView.register(Cell.self, forItemWithIdentifier: Cell.itemId)
 
         scrollView.documentView = collectionView
+    }
+
+    // MARK: - Menu
+
+    public func addMenuItem(title: String, action: @escaping (Item) -> Void) {
+        let item = NSMenuItem(
+            title: title,
+            action: #selector(onMenuItemClicked(_:)),
+            keyEquivalent: ""
+        )
+
+        let menuItemAction = MenuItemAction(menuItem: item, action: action)
+        self.menuItemActions.append(menuItemAction)
+        menu.addItem(item)
+    }
+
+    @objc public func onMenuItemClicked(_ menuItem: NSMenuItem) {
+        guard
+            let index = collectionView.clickedIndex,
+            index < items.count,
+            let menuItemAction = self.menuItemActions.first(where: { $0.menuItem == menuItem })
+        else {
+            return
+        }
+
+        menuItemAction.action(items[index])
     }
 
     // MARK: - Items
