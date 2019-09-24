@@ -77,7 +77,8 @@ public class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
         return cell
     }
 
-    // MARK: - NSCollectionViewDelegateFlowLayout {
+    // MARK: - NSCollectionViewDelegateFlowLayout
+
     public func collectionView(_ collectionView: NSCollectionView, layout collectionViewLayout: NSCollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> NSSize {
 
         return itemSize()
