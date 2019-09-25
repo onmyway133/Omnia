@@ -19,6 +19,12 @@ public extension NSButton {
         setButtonType(.momentaryChange)
     }
 
+    func stylePlain(imageName: String) {
+        isBordered = false
+        image = NSImage(named: NSImage.Name(imageName))
+        imageScaling = .scaleProportionallyUpOrDown
+    }
+
     var isOn: Bool {
         get {
             return state == .on ? true : false
