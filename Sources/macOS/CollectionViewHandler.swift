@@ -55,6 +55,8 @@ public class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
             keyEquivalent: ""
         )
 
+        item.target = self
+
         let menuItemAction = MenuItemAction(menuItem: item, action: action)
         self.menuItemActions.append(menuItemAction)
         menu.addItem(item)
