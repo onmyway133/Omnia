@@ -8,7 +8,7 @@
 
 import AppKit
 
-public class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
+open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 : NSObject, NSCollectionViewDataSource, NSCollectionViewDelegateFlowLayout {
 
     public let layout = NSCollectionViewFlowLayout()
@@ -119,6 +119,10 @@ public class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
     public func collectionView(_ collectionView: NSCollectionView, layout collectionViewLayout: NSCollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> NSSize {
 
         return itemSize()
+    }
+
+    public func collectionView(_ collectionView: NSCollectionView, didSelectItemsAt indexPaths: Set<IndexPath>) {
+        collectionView.deselectItems(at: indexPaths)
     }
 }
 
