@@ -48,7 +48,7 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 
     // MARK: - Menu
 
-    public func addMenuItem(title: String, action: @escaping (Item) -> Void) {
+    open func addMenuItem(title: String, action: @escaping (Item) -> Void) {
         let item = NSMenuItem(
             title: title,
             action: #selector(onMenuItemClicked(_:)),
@@ -62,7 +62,7 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
         menu.addItem(item)
     }
 
-    @objc public func onMenuItemClicked(_ menuItem: NSMenuItem) {
+    @objc open func onMenuItemClicked(_ menuItem: NSMenuItem) {
         guard
             let index = collectionView.clickedIndex,
             index < items.count,
@@ -76,13 +76,13 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 
     // MARK: - Items
 
-    public func add(item: Item) {
+    open func add(item: Item) {
         items.insert(item, at: 0)
         let indexPath = IndexPath(item: 0, section: 0)
         collectionView.animator().insertItems(at: Set(arrayLiteral: indexPath))
     }
 
-    public func remove(item: Item) {
+    open func remove(item: Item) {
         guard let index = items.firstIndex(where: { $0 == item }) else {
             return
         }
@@ -90,7 +90,7 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
         remove(index: index)
     }
 
-    public func remove(index: Int) {
+    open func remove(index: Int) {
         items.remove(at: index)
         let indexPath = IndexPath(item: index, section: 0)
         collectionView.animator().deleteItems(at: Set(arrayLiteral: indexPath))
@@ -98,15 +98,15 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 
     // MARK: - NSCollectionViewDataSource
 
-    public func numberOfSections(in collectionView: NSCollectionView) -> Int {
+    open func numberOfSections(in collectionView: NSCollectionView) -> Int {
         return 1
     }
 
-    public func collectionView(_ collectionView: NSCollectionView, numberOfItemsInSection section: Int) -> Int {
+    open func collectionView(_ collectionView: NSCollectionView, numberOfItemsInSection section: Int) -> Int {
         return items.count
     }
 
-    public func collectionView(_ collectionView: NSCollectionView, itemForRepresentedObjectAt indexPath: IndexPath) -> NSCollectionViewItem {
+    open func collectionView(_ collectionView: NSCollectionView, itemForRepresentedObjectAt indexPath: IndexPath) -> NSCollectionViewItem {
 
         let cell = collectionView.makeItem(withIdentifier: Cell.itemId, for: indexPath) as! Cell
         let item = items[indexPath.item]
@@ -116,12 +116,12 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 
     // MARK: - NSCollectionViewDelegateFlowLayout
 
-    public func collectionView(_ collectionView: NSCollectionView, layout collectionViewLayout: NSCollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> NSSize {
+    open func collectionView(_ collectionView: NSCollectionView, layout collectionViewLayout: NSCollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> NSSize {
 
         return itemSize()
     }
 
-    public func collectionView(_ collectionView: NSCollectionView, didSelectItemsAt indexPaths: Set<IndexPath>) {
+    open func collectionView(_ collectionView: NSCollectionView, didSelectItemsAt indexPaths: Set<IndexPath>) {
         collectionView.deselectItems(at: indexPaths)
     }
 }
