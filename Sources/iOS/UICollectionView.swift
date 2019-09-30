@@ -7,12 +7,12 @@
 
 import UIKit
 
-extension UICollectionView {
+public extension UICollectionView {
     
     /// Register a cell
     ///
     /// - Parameter cell: The type of the cell
-    public func register<T: UICollectionViewCell>(cellType: T.Type) {
+    func register<T: UICollectionViewCell>(cellType: T.Type) {
         register(T.self, forCellWithReuseIdentifier: String(describing: T.self))
     }
     
@@ -20,11 +20,33 @@ extension UICollectionView {
     ///
     /// - Parameter indexPath: The indexPath to dequeue
     /// - Returns: The dequeued cell
-    public func dequeue<T: UICollectionViewCell>(for indexPath: IndexPath) -> T? {
+    func dequeue<T: UICollectionViewCell>(for indexPath: IndexPath) -> T? {
         return dequeueReusableCell(
             withReuseIdentifier: String(describing: T.self),
             for: indexPath
-            ) as? T
+        ) as? T
+    }
+
+    func centerIndexPath() -> IndexPath? {
+        guard
+            let point = superview?.convert(center, to: self),
+            let indexPath = indexPathForItem(at: point)
+            else {
+                return nil
+        }
+
+        return indexPath
+    }
+
+    func sideCells() -> (leftCell: UICollectionViewCell?, rightCell: UICollectionViewCell?) {
+        guard let indexPath = centerIndexPath() else {
+            return (nil, nil)
+        }
+
+        let leftCell = cellForItem(at: IndexPath(item: indexPath.item-1, section: indexPath.section))
+        let rightCell = cellForItem(at: IndexPath(item: indexPath.item+1, section: indexPath.section))
+
+        return (leftCell, rightCell)
     }
 }
 
