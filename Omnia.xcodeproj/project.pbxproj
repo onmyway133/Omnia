@@ -131,6 +131,7 @@
 		D28524621FCB708700CB232A /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524601FCB708700CB232A /* UIImageTests.swift */; };
 		D28524641FCB799A00CB232A /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524631FCB799A00CB232A /* UIColorTests.swift */; };
 		D28524651FCB799A00CB232A /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524631FCB799A00CB232A /* UIColorTests.swift */; };
+		D28EA2EA23435F5700374A44 /* MenuHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28EA2E923435F5700374A44 /* MenuHandler.swift */; };
 		D29E20BD2272F67C00388AB0 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20BC2272F67C00388AB0 /* Debouncer.swift */; };
 		D29E20BE2272F67C00388AB0 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20BC2272F67C00388AB0 /* Debouncer.swift */; };
 		D29E20BF2272F67C00388AB0 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20BC2272F67C00388AB0 /* Debouncer.swift */; };
@@ -237,6 +238,7 @@
 		D285245D1FCB6E3E00CB232A /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
 		D28524601FCB708700CB232A /* UIImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTests.swift; sourceTree = "<group>"; };
 		D28524631FCB799A00CB232A /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
+		D28EA2E923435F5700374A44 /* MenuHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHandler.swift; sourceTree = "<group>"; };
 		D29E20BC2272F67C00388AB0 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
 		D29E20C12272F6C100388AB0 /* DebouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerTests.swift; sourceTree = "<group>"; };
 		D2A6D36F1FD05DBA00982BB8 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 				D24CBB14233A4B62003A64EF /* NSCollectionViewItem.swift */,
 				D24CBB17233A4CBA003A64EF /* ClickedCollectionView.swift */,
 				D24CBB20233A52EE003A64EF /* CollectionViewHandler.swift */,
+				D28EA2E923435F5700374A44 /* MenuHandler.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -914,6 +917,7 @@
 				D28524441FCB688600CB232A /* Sequence.swift in Sources */,
 				D22CB3121FCB658800B8270B /* Optional.swift in Sources */,
 				D2A6D3711FD05DBA00982BB8 /* NSObject.swift in Sources */,
+				D28EA2EA23435F5700374A44 /* MenuHandler.swift in Sources */,
 				D285244D1FCB6A6D00CB232A /* String.swift in Sources */,
 				D27E3100232A6DC7008FBFD3 /* JSON.swift in Sources */,
 				D20EFEE3225F66F500E41B91 /* Once.swift in Sources */,
