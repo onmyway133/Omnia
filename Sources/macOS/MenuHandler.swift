@@ -22,6 +22,8 @@ public class MenuHandler {
         }
     }
 
+    public init() {}
+
     public func add(title: String, action: @escaping () -> Void) {
         let menuItem = NSMenuItem(
             title: title,
