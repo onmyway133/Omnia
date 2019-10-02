@@ -30,4 +30,8 @@ public extension NSView {
         animation.toValue = CGPoint(x: midX + 10, y: midY)
         layer?.add(animation, forKey: "position")
     }
+
+    static var itemId: NSUserInterfaceItemIdentifier {
+        return NSUserInterfaceItemIdentifier(rawValue: String(describing: self))
+    }
 }
