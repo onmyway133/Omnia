@@ -33,4 +33,8 @@ public extension String {
     func hasPattern(regex: String) -> Bool {
         return range(of: regex, options: .regularExpression, range: nil, locale: nil) != nil
     }
+
+    func containsIgnoringCase(_ find: String) -> Bool {
+        return self.range(of: find, options: .caseInsensitive) != nil
+    }
 }
