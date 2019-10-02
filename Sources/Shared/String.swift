@@ -38,7 +38,19 @@ public extension String {
         return self.range(of: find, options: .caseInsensitive) != nil
     }
 
-    func trimmingInside(start: String, end: String) -> String {
-        return self.replacingOccurrences(of: "\\s?\\\(start)[\\w\\s]*\\\(end)", with: "", options: .regularExpression)
+    func trimmingInsideSmartQuotes() -> String {
+        return self.replacingOccurrences(of: #"“\S*”"#, with: "", options: .regularExpression).trimmed
+    }
+
+    func trimmingInsideParenthesis() -> String {
+        return self.replacingOccurrences(of: #"\(\S*\)"#, with: "", options: .regularExpression).trimmed
+    }
+
+    func trimmingInsideAsterisks() -> String {
+        return self.replacingOccurrences(of: #"\*\S*\*"#, with: "", options: .regularExpression).trimmed
+    }
+
+    func trimmingInsideQuotes() -> String {
+        return self.replacingOccurrences(of: #"\"\S*\""#, with: "", options: .regularExpression).trimmed
     }
 }
