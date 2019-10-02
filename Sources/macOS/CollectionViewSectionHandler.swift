@@ -24,7 +24,7 @@ open class CollectionViewSectionHandler<Item: Equatable, Cell: NSCollectionViewI
     public var sections = [Section]()
     public var configureHeader: (Section, HeaderView) -> Void = { _, _ in }
 
-    override init() {
+    public override init() {
         super.init()
 
         layout.headerReferenceSize = CGSize(width: 100, height: 20)
@@ -36,7 +36,7 @@ open class CollectionViewSectionHandler<Item: Equatable, Cell: NSCollectionViewI
         )
     }
 
-    func reload(sections: [Section]) {
+    open func reload(sections: [Section]) {
         self.sections = sections
         collectionView.reloadData()
     }
