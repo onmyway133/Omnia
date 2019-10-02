@@ -21,5 +21,10 @@ class StringTests: XCTestCase {
             XCTAssertEqual(string.capitalizedFirstLetter, "Hello")
         }
     }
+
+    func testTrimmingInside() {
+        XCTAssertEqual("Hello (1) world".trimmingInside(start: "(", end: ")"), "Hello world")
+        XCTAssertEqual(#"Hello "1" world"#.trimmingInside(start: "\"", end: "\""), "Hello world")
+    }
 }
 

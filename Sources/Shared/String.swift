@@ -37,4 +37,8 @@ public extension String {
     func containsIgnoringCase(_ find: String) -> Bool {
         return self.range(of: find, options: .caseInsensitive) != nil
     }
+
+    func trimmingInside(start: String, end: String) -> String {
+        return self.replacingOccurrences(of: "\\s?\\\(start)[\\w\\s]*\\\(end)", with: "", options: .regularExpression)
+    }
 }
