@@ -46,6 +46,11 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
         scrollView.documentView = collectionView
     }
 
+    open func reload(items: [Item]) {
+        self.items = items
+        collectionView.reloadData()
+    }
+
     // MARK: - Menu
 
     open func addMenuItem(title: String, action: @escaping (Item) -> Void) {
