@@ -72,6 +72,7 @@
 		D25570A61FEBDFD400AA443F /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25570A51FEBDFD400AA443F /* NSColor.swift */; };
 		D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25570A71FEBDFEB00AA443F /* NSView.swift */; };
 		D27D60E42344CAF000F0FDF0 /* CollectionViewSectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D60E32344CAF000F0FDF0 /* CollectionViewSectionHandler.swift */; };
+		D27D60E62344DABD00F0FDF0 /* NSCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D60E52344DABD00F0FDF0 /* NSCollectionView.swift */; };
 		D27E30FF232A6DC7008FBFD3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E30FE232A6DC7008FBFD3 /* JSON.swift */; };
 		D27E3100232A6DC7008FBFD3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E30FE232A6DC7008FBFD3 /* JSON.swift */; };
 		D27E3101232A6DC7008FBFD3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E30FE232A6DC7008FBFD3 /* JSON.swift */; };
@@ -208,6 +209,7 @@
 		D25570A51FEBDFD400AA443F /* NSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
 		D25570A71FEBDFEB00AA443F /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
 		D27D60E32344CAF000F0FDF0 /* CollectionViewSectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionHandler.swift; sourceTree = "<group>"; };
+		D27D60E52344DABD00F0FDF0 /* NSCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCollectionView.swift; sourceTree = "<group>"; };
 		D27E30FE232A6DC7008FBFD3 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		D27E3103232A71AA008FBFD3 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
 		D27E3108232A79D8008FBFD3 /* JSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 				D24CBB20233A52EE003A64EF /* CollectionViewHandler.swift */,
 				D28EA2E923435F5700374A44 /* MenuHandler.swift */,
 				D27D60E32344CAF000F0FDF0 /* CollectionViewSectionHandler.swift */,
+				D27D60E52344DABD00F0FDF0 /* NSCollectionView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -926,6 +929,7 @@
 				D27E3100232A6DC7008FBFD3 /* JSON.swift in Sources */,
 				D20EFEE3225F66F500E41B91 /* Once.swift in Sources */,
 				D24CBB15233A4B62003A64EF /* NSCollectionViewItem.swift in Sources */,
+				D27D60E62344DABD00F0FDF0 /* NSCollectionView.swift in Sources */,
 				D20F91D622609E2E000C567D /* Codable.swift in Sources */,
 				D25570A81FEBDFEB00AA443F /* NSView.swift in Sources */,
 				D20EFEEC225F675C00E41B91 /* Date.swift in Sources */,
