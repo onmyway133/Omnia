@@ -73,6 +73,26 @@ open class CollectionViewSectionHandler<Item: Equatable, Cell: NSCollectionViewI
             return NSView()
         }
     }
+
+    @objc open override func onMenuItemClicked(_ menuItem: NSMenuItem) {
+        guard
+            let indexPath = collectionView.clickedIndexPath,
+            indexPath.section < sections.count,
+            let menuItemAction = self.menuItemActions.first(where: { $0.menuItem == menuItem })
+        else {
+            return
+        }
+
+        let section = sections[indexPath.section]
+
+        guard
+            indexPath.item < section.items.count
+        else {
+            return
+        }
+
+        menuItemAction.action(section.items[indexPath.item])
+    }
 }
 
 

@@ -69,14 +69,14 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 
     @objc open func onMenuItemClicked(_ menuItem: NSMenuItem) {
         guard
-            let index = collectionView.clickedIndex,
-            index < items.count,
+            let indexPath = collectionView.clickedIndexPath,
+            indexPath.item < items.count,
             let menuItemAction = self.menuItemActions.first(where: { $0.menuItem == menuItem })
         else {
             return
         }
 
-        menuItemAction.action(items[index])
+        menuItemAction.action(items[indexPath.item])
     }
 
     // MARK: - Items
