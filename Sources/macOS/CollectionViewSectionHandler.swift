@@ -91,7 +91,7 @@ open class CollectionViewSectionHandler<Item: Equatable, Cell: NSCollectionViewI
             return
         }
 
-        menuItemAction.action(section.items[indexPath.item])
+        menuItemAction.action(section.items[indexPath.item], indexPath)
     }
 }
 

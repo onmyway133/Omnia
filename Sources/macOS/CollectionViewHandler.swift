@@ -24,7 +24,7 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 
     public struct MenuItemAction {
         public let menuItem: NSMenuItem
-        public let action: (Item) -> Void
+        public let action: (Item, IndexPath) -> Void
     }
 
     public override init() {
@@ -53,7 +53,7 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
 
     // MARK: - Menu
 
-    open func addMenuItem(title: String, action: @escaping (Item) -> Void) {
+    open func addMenuItem(title: String, action: @escaping (Item, IndexPath) -> Void) {
         let item = NSMenuItem(
             title: title,
             action: #selector(onMenuItemClicked(_:)),
@@ -76,7 +76,7 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
             return
         }
 
-        menuItemAction.action(items[indexPath.item])
+        menuItemAction.action(items[indexPath.item], indexPath)
     }
 
     // MARK: - Items
