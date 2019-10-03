@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D20296EF2345DED2003DDE67 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20296EE2345DED2003DDE67 /* Error.swift */; };
+		D20296F02345DED2003DDE67 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20296EE2345DED2003DDE67 /* Error.swift */; };
+		D20296F12345DED2003DDE67 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20296EE2345DED2003DDE67 /* Error.swift */; };
+		D20296F22345DED2003DDE67 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20296EE2345DED2003DDE67 /* Error.swift */; };
 		D20EFED6225F5DD400E41B91 /* NSLayoutConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFED5225F5DD400E41B91 /* NSLayoutConstraintTests.swift */; };
 		D20EFED7225F606400E41B91 /* SequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524471FCB697300CB232A /* SequenceTests.swift */; };
 		D20EFED9225F63EA00E41B91 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFED8225F63EA00E41B91 /* Double.swift */; };
@@ -180,6 +184,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D20296EE2345DED2003DDE67 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		D20EFED5225F5DD400E41B91 /* NSLayoutConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintTests.swift; sourceTree = "<group>"; };
 		D20EFED8225F63EA00E41B91 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		D20EFEDD225F651100E41B91 /* DoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTests.swift; sourceTree = "<group>"; };
@@ -478,6 +483,7 @@
 				D29E20BC2272F67C00388AB0 /* Debouncer.swift */,
 				D27E30FE232A6DC7008FBFD3 /* JSON.swift */,
 				D27E3103232A71AA008FBFD3 /* Type.swift */,
+				D20296EE2345DED2003DDE67 /* Error.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -797,6 +803,7 @@
 				D285244E1FCB6A6D00CB232A /* String.swift in Sources */,
 				D285243C1FCB67BC00CB232A /* Data.swift in Sources */,
 				D28524561FCB6CAF00CB232A /* UIScrollView.swift in Sources */,
+				D20296F12345DED2003DDE67 /* Error.swift in Sources */,
 				D27E3106232A71AA008FBFD3 /* Type.swift in Sources */,
 				D24012A41FCC7EE100B2C5F2 /* UICollectionView.swift in Sources */,
 				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
@@ -845,6 +852,7 @@
 				D27E3102232A6DC7008FBFD3 /* JSON.swift in Sources */,
 				D27E3107232A71AA008FBFD3 /* Type.swift in Sources */,
 				D285244F1FCB6A6D00CB232A /* String.swift in Sources */,
+				D20296F22345DED2003DDE67 /* Error.swift in Sources */,
 				D20EFEEE225F675C00E41B91 /* Date.swift in Sources */,
 				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
 				D29E20C02272F67C00388AB0 /* Debouncer.swift in Sources */,
@@ -882,6 +890,7 @@
 				D20EFEF4225F761400E41B91 /* UIFont.swift in Sources */,
 				D240E12D1FC9B590000AB5AB /* UIColor.swift in Sources */,
 				D20EFED9225F63EA00E41B91 /* Double.swift in Sources */,
+				D20296EF2345DED2003DDE67 /* Error.swift in Sources */,
 				D2400CF21FCE08BB00816458 /* Comparable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -923,6 +932,7 @@
 				D25570A61FEBDFD400AA443F /* NSColor.swift in Sources */,
 				D28524441FCB688600CB232A /* Sequence.swift in Sources */,
 				D22CB3121FCB658800B8270B /* Optional.swift in Sources */,
+				D20296F02345DED2003DDE67 /* Error.swift in Sources */,
 				D2A6D3711FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D28EA2EA23435F5700374A44 /* MenuHandler.swift in Sources */,
 				D285244D1FCB6A6D00CB232A /* String.swift in Sources */,
