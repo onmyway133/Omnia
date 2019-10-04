@@ -34,4 +34,19 @@ public extension NSView {
     static var itemId: NSUserInterfaceItemIdentifier {
         return NSUserInterfaceItemIdentifier(rawValue: String(describing: self))
     }
+
+    func scaleDown(scale: CGFloat = 0.95) {
+        wantsLayer = true
+        let frame = layer!.frame
+        layer?.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+        layer?.frame = frame
+
+        let animation = CABasicAnimation(keyPath: "transform")
+        animation.duration = 0.25
+        animation.repeatCount = 1
+        animation.autoreverses = false
+        animation.fromValue = CATransform3DMakeScale(1.0, 1.0, 1.0)
+        animation.toValue = CATransform3DMakeScale(scale, scale, 1.0)
+        layer?.add(animation, forKey: "scale")
+    }
 }
