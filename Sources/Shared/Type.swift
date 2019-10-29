@@ -10,3 +10,11 @@ import Foundation
 
 public typealias JSONDictionary = [String: Any]
 public typealias JSONArray = [JSONDictionary]
+
+#if canImport(UIKit)
+import UIKit
+public typealias UXImage = UIImage
+#elseif canImport(OSX)
+import AppKit
+public typealias UXImage = NSImage
+#endif

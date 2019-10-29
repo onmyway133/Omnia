@@ -15,6 +15,18 @@
 		D202B5FB236863DF00516DB7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5F9236863DF00516DB7 /* View.swift */; };
 		D202B5FC236863DF00516DB7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5F9236863DF00516DB7 /* View.swift */; };
 		D202B5FD236863DF00516DB7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5F9236863DF00516DB7 /* View.swift */; };
+		D202B5FF2368658700516DB7 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5FE2368658700516DB7 /* RemoteImage.swift */; };
+		D202B6002368658700516DB7 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5FE2368658700516DB7 /* RemoteImage.swift */; };
+		D202B6012368658700516DB7 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5FE2368658700516DB7 /* RemoteImage.swift */; };
+		D202B6022368658700516DB7 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5FE2368658700516DB7 /* RemoteImage.swift */; };
+		D202B604236865A900516DB7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B603236865A900516DB7 /* ImageLoader.swift */; };
+		D202B605236865A900516DB7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B603236865A900516DB7 /* ImageLoader.swift */; };
+		D202B606236865A900516DB7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B603236865A900516DB7 /* ImageLoader.swift */; };
+		D202B607236865A900516DB7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B603236865A900516DB7 /* ImageLoader.swift */; };
+		D202B61223686A3300516DB7 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B61123686A3300516DB7 /* Image.swift */; };
+		D202B61323686A3300516DB7 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B61123686A3300516DB7 /* Image.swift */; };
+		D202B61423686A3300516DB7 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B61123686A3300516DB7 /* Image.swift */; };
+		D202B61523686A3300516DB7 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B61123686A3300516DB7 /* Image.swift */; };
 		D20EFED6225F5DD400E41B91 /* NSLayoutConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFED5225F5DD400E41B91 /* NSLayoutConstraintTests.swift */; };
 		D20EFED7225F606400E41B91 /* SequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524471FCB697300CB232A /* SequenceTests.swift */; };
 		D20EFED9225F63EA00E41B91 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFED8225F63EA00E41B91 /* Double.swift */; };
@@ -190,6 +202,9 @@
 /* Begin PBXFileReference section */
 		D20296EE2345DED2003DDE67 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		D202B5F9236863DF00516DB7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D202B5FE2368658700516DB7 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		D202B603236865A900516DB7 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D202B61123686A3300516DB7 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		D20EFED5225F5DD400E41B91 /* NSLayoutConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintTests.swift; sourceTree = "<group>"; };
 		D20EFED8225F63EA00E41B91 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		D20EFEDD225F651100E41B91 /* DoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTests.swift; sourceTree = "<group>"; };
@@ -325,9 +340,36 @@
 		D202B5F8236863CE00516DB7 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				D202B5F9236863DF00516DB7 /* View.swift */,
+				D202B60B236867A800516DB7 /* View */,
+				D202B60A236867A000516DB7 /* Utils */,
+				D202B6082368678900516DB7 /* Extensions */,
 			);
 			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		D202B6082368678900516DB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D202B5F9236863DF00516DB7 /* View.swift */,
+				D202B61123686A3300516DB7 /* Image.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D202B60A236867A000516DB7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D202B603236865A900516DB7 /* ImageLoader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D202B60B236867A800516DB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D202B5FE2368658700516DB7 /* RemoteImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D284B0F41F79024300D94AF3 /* macOS */ = {
@@ -453,6 +495,7 @@
 		D5C629691C3A809D007F7B7C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D202B5F8236863CE00516DB7 /* SwiftUI */,
 				D284B1201F79041300D94AF3 /* tvOS */,
 				D284B1211F79041300D94AF3 /* watchOS */,
 				D284B0F41F79024300D94AF3 /* macOS */,
@@ -481,7 +524,6 @@
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D202B5F8236863CE00516DB7 /* SwiftUI */,
 				D5C629861C3A89A8007F7B7C /* Shared.swift */,
 				D22CB3101FCB658800B8270B /* Optional.swift */,
 				D28524391FCB67BC00CB232A /* Data.swift */,
@@ -806,6 +848,7 @@
 				D284B1491F790CA200D94AF3 /* Shared.swift in Sources */,
 				D29E20BF2272F67C00388AB0 /* Debouncer.swift in Sources */,
 				D20EFEE4225F66F500E41B91 /* Once.swift in Sources */,
+				D202B606236865A900516DB7 /* ImageLoader.swift in Sources */,
 				D22CB3131FCB658800B8270B /* Optional.swift in Sources */,
 				D2A6D3721FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D28524591FCB6D8800CB232A /* UIView.swift in Sources */,
@@ -820,6 +863,8 @@
 				D20296F12345DED2003DDE67 /* Error.swift in Sources */,
 				D27E3106232A71AA008FBFD3 /* Type.swift in Sources */,
 				D24012A41FCC7EE100B2C5F2 /* UICollectionView.swift in Sources */,
+				D202B6012368658700516DB7 /* RemoteImage.swift in Sources */,
+				D202B61423686A3300516DB7 /* Image.swift in Sources */,
 				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
 				D20EFEED225F675C00E41B91 /* Date.swift in Sources */,
 				D240E12E1FC9B590000AB5AB /* UIColor.swift in Sources */,
@@ -860,9 +905,12 @@
 			files = (
 				D284B14A1F790CA200D94AF3 /* Shared.swift in Sources */,
 				D285243D1FCB67BC00CB232A /* Data.swift in Sources */,
+				D202B607236865A900516DB7 /* ImageLoader.swift in Sources */,
 				D20EFEE5225F66F500E41B91 /* Once.swift in Sources */,
 				D28524461FCB688600CB232A /* Sequence.swift in Sources */,
 				D22CB3141FCB658800B8270B /* Optional.swift in Sources */,
+				D202B6022368658700516DB7 /* RemoteImage.swift in Sources */,
+				D202B61523686A3300516DB7 /* Image.swift in Sources */,
 				D2A6D3731FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D27E3102232A6DC7008FBFD3 /* JSON.swift in Sources */,
 				D27E3107232A71AA008FBFD3 /* Type.swift in Sources */,
@@ -887,15 +935,18 @@
 				D22CB3111FCB658800B8270B /* Optional.swift in Sources */,
 				D2A6D3701FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D23FAD60225DE0460063F386 /* NSLayoutConstraint.swift in Sources */,
+				D202B61223686A3300516DB7 /* Image.swift in Sources */,
 				D28524581FCB6D8800CB232A /* UIView.swift in Sources */,
 				D24012A01FCC7ED800B2C5F2 /* UITableView.swift in Sources */,
 				D20F91D522609DC4000C567D /* Codable.swift in Sources */,
 				D20EFEE2225F66F500E41B91 /* Once.swift in Sources */,
 				D28524431FCB688600CB232A /* Sequence.swift in Sources */,
+				D202B5FF2368658700516DB7 /* RemoteImage.swift in Sources */,
 				D285245B1FCB6D9300CB232A /* UIImage.swift in Sources */,
 				D2400D031FCE0D9C00816458 /* Bundle.swift in Sources */,
 				D240E12A1FC9AE68000AB5AB /* UIViewController.swift in Sources */,
 				D20EFEEB225F675C00E41B91 /* Date.swift in Sources */,
+				D202B604236865A900516DB7 /* ImageLoader.swift in Sources */,
 				D285244C1FCB6A6D00CB232A /* String.swift in Sources */,
 				D29E20BD2272F67C00388AB0 /* Debouncer.swift in Sources */,
 				D27E3104232A71AA008FBFD3 /* Type.swift in Sources */,
@@ -944,12 +995,15 @@
 			files = (
 				D27D60E42344CAF000F0FDF0 /* CollectionViewSectionHandler.swift in Sources */,
 				D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */,
+				D202B61323686A3300516DB7 /* Image.swift in Sources */,
+				D202B605236865A900516DB7 /* ImageLoader.swift in Sources */,
 				D29E20BE2272F67C00388AB0 /* Debouncer.swift in Sources */,
 				D285243B1FCB67BC00CB232A /* Data.swift in Sources */,
 				D25570A61FEBDFD400AA443F /* NSColor.swift in Sources */,
 				D28524441FCB688600CB232A /* Sequence.swift in Sources */,
 				D22CB3121FCB658800B8270B /* Optional.swift in Sources */,
 				D20296F02345DED2003DDE67 /* Error.swift in Sources */,
+				D202B6002368658700516DB7 /* RemoteImage.swift in Sources */,
 				D2A6D3711FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D28EA2EA23435F5700374A44 /* MenuHandler.swift in Sources */,
 				D285244D1FCB6A6D00CB232A /* String.swift in Sources */,
