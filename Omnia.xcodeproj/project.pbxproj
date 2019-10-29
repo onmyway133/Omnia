@@ -11,6 +11,10 @@
 		D20296F02345DED2003DDE67 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20296EE2345DED2003DDE67 /* Error.swift */; };
 		D20296F12345DED2003DDE67 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20296EE2345DED2003DDE67 /* Error.swift */; };
 		D20296F22345DED2003DDE67 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20296EE2345DED2003DDE67 /* Error.swift */; };
+		D202B5FA236863DF00516DB7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5F9236863DF00516DB7 /* View.swift */; };
+		D202B5FB236863DF00516DB7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5F9236863DF00516DB7 /* View.swift */; };
+		D202B5FC236863DF00516DB7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5F9236863DF00516DB7 /* View.swift */; };
+		D202B5FD236863DF00516DB7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202B5F9236863DF00516DB7 /* View.swift */; };
 		D20EFED6225F5DD400E41B91 /* NSLayoutConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFED5225F5DD400E41B91 /* NSLayoutConstraintTests.swift */; };
 		D20EFED7225F606400E41B91 /* SequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524471FCB697300CB232A /* SequenceTests.swift */; };
 		D20EFED9225F63EA00E41B91 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFED8225F63EA00E41B91 /* Double.swift */; };
@@ -185,6 +189,7 @@
 
 /* Begin PBXFileReference section */
 		D20296EE2345DED2003DDE67 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		D202B5F9236863DF00516DB7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		D20EFED5225F5DD400E41B91 /* NSLayoutConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintTests.swift; sourceTree = "<group>"; };
 		D20EFED8225F63EA00E41B91 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		D20EFEDD225F651100E41B91 /* DoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTests.swift; sourceTree = "<group>"; };
@@ -317,6 +322,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D202B5F8236863CE00516DB7 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D202B5F9236863DF00516DB7 /* View.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		D284B0F41F79024300D94AF3 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,6 +481,7 @@
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D202B5F8236863CE00516DB7 /* SwiftUI */,
 				D5C629861C3A89A8007F7B7C /* Shared.swift */,
 				D22CB3101FCB658800B8270B /* Optional.swift */,
 				D28524391FCB67BC00CB232A /* Data.swift */,
@@ -809,6 +823,7 @@
 				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
 				D20EFEED225F675C00E41B91 /* Date.swift in Sources */,
 				D240E12E1FC9B590000AB5AB /* UIColor.swift in Sources */,
+				D202B5FC236863DF00516DB7 /* View.swift in Sources */,
 				D20F91D722609E2F000C567D /* Codable.swift in Sources */,
 				D2400CF41FCE08BB00816458 /* Comparable.swift in Sources */,
 			);
@@ -857,6 +872,7 @@
 				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
 				D29E20C02272F67C00388AB0 /* Debouncer.swift in Sources */,
 				D20F91D822609E2F000C567D /* Codable.swift in Sources */,
+				D202B5FD236863DF00516DB7 /* View.swift in Sources */,
 				D2400CF51FCE08BB00816458 /* Comparable.swift in Sources */,
 				D20EFEDC225F63EA00E41B91 /* Double.swift in Sources */,
 				D2400D061FCE0D9C00816458 /* Bundle.swift in Sources */,
@@ -867,6 +883,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D202B5FA236863DF00516DB7 /* View.swift in Sources */,
 				D22CB3111FCB658800B8270B /* Optional.swift in Sources */,
 				D2A6D3701FD05DBA00982BB8 /* NSObject.swift in Sources */,
 				D23FAD60225DE0460063F386 /* NSLayoutConstraint.swift in Sources */,
@@ -937,6 +954,7 @@
 				D28EA2EA23435F5700374A44 /* MenuHandler.swift in Sources */,
 				D285244D1FCB6A6D00CB232A /* String.swift in Sources */,
 				D27E3100232A6DC7008FBFD3 /* JSON.swift in Sources */,
+				D202B5FB236863DF00516DB7 /* View.swift in Sources */,
 				D20EFEE3225F66F500E41B91 /* Once.swift in Sources */,
 				D24CBB15233A4B62003A64EF /* NSCollectionViewItem.swift in Sources */,
 				D27D60E62344DABD00F0FDF0 /* NSCollectionView.swift in Sources */,

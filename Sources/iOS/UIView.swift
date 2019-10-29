@@ -27,6 +27,18 @@ public extension UIView {
             addSubview($0)
         }
     }
+
+    func findRecursively<T: UIView>(type: T.Type, match: (T) -> Bool) -> T? {
+        for view in subviews {
+            if let subview = view as? T, match(subview) {
+                return subview
+            } else {
+                return view.findRecursively(type: type, match: match)
+            }
+        }
+
+        return nil
+    }
 }
 
 public extension UIView {
