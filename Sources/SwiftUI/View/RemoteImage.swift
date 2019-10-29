@@ -38,10 +38,9 @@ struct RemoteImage: View {
 
     private func makeContent() -> some View {
         if let image = image {
-            return AnyView(
-                Image(uiImage: image)
-                    .styleFit()
-            )
+            return Image(uiImage: image)
+                .styleFit()
+                .eraseToAnyView()
         } else {
             return placeholderView
         }
