@@ -22,39 +22,8 @@ For other sweets
 
 ## Usage
 
-### Shared
+- Documentation can be found at https://onmyway133.github.io/Omnia/
 
-- Optional
-- Data
-- Sequence
-- String
-- Comparable
-- Bundle
-- NSObject
-- Double
-- Date
-- Codable
-- Debouncer
-- JSON
-- Type
-
-### iOS, tvOS
-
-- UIView
-- UIViewController
-- UITableView
-- UICollectionView
-- NSLayoutConstraint
-- UIFont
-- UIImage
-- UIScrollView
-- UIColor
-
-### macOS
-
-- NSColor
-- NSView
-- NSButton
 
 ## Installation
 
@@ -73,6 +42,15 @@ github "onmyway133/Omnia"
 ```
 
 **Omnia** can also be installed manually. Just download and drop `Sources` folders in your project.
+
+### Swift Package Manager
+
+```swift
+.package(
+    url: "https://github.com/onmyway133/Omnia.git",
+    .upToNextMajor(from: "3.3.0")
+),
+```
 
 ## Author
 
