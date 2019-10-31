@@ -25,4 +25,10 @@ public extension View {
     func eraseToAnyView() -> AnyView {
         return AnyView(self)
     }
+
+    func styleMultiline() -> some View {
+        return self
+            .lineLimit(nil)
+            .fixedSize(horizontal: false, vertical: true)
+    }
 }

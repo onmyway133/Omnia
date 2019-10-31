@@ -225,10 +225,6 @@
 		D28FCD7E236AE89D00ACA30E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */; };
 		D28FCD7F236AE89D00ACA30E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */; };
 		D28FCD80236AE89D00ACA30E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */; };
-		D28FCD8A236AFC5900ACA30E /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCD89236AFC5900ACA30E /* Text.swift */; };
-		D28FCD8B236AFC5900ACA30E /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCD89236AFC5900ACA30E /* Text.swift */; };
-		D28FCD8C236AFC5900ACA30E /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCD89236AFC5900ACA30E /* Text.swift */; };
-		D28FCD8D236AFC5900ACA30E /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCD89236AFC5900ACA30E /* Text.swift */; };
 		D29E20C22272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D29E20C32272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D29E20C42272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
@@ -336,7 +332,6 @@
 		D28FCCD5236AE89C00ACA30E /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		D28FCCD6236AE89C00ACA30E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
-		D28FCD89236AFC5900ACA30E /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		D29E20C12272F6C100388AB0 /* DebouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerTests.swift; sourceTree = "<group>"; };
 		D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectTests.swift; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -570,7 +565,6 @@
 			children = (
 				D28FCCD5236AE89C00ACA30E /* View.swift */,
 				D28FCCD6236AE89C00ACA30E /* Image.swift */,
-				D28FCD89236AFC5900ACA30E /* Text.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -931,7 +925,6 @@
 				D28FCD03236AE89C00ACA30E /* NSCollectionView.swift in Sources */,
 				D28FCD1F236AE89C00ACA30E /* Shared.swift in Sources */,
 				D28FCCDB236AE89C00ACA30E /* NSColor.swift in Sources */,
-				D28FCD8C236AFC5900ACA30E /* Text.swift in Sources */,
 				D28FCCEB236AE89C00ACA30E /* NSButton.swift in Sources */,
 				D28FCCFF236AE89C00ACA30E /* NSImage.swift in Sources */,
 				D28FCD1B236AE89C00ACA30E /* Error.swift in Sources */,
@@ -1006,7 +999,6 @@
 				D28FCD04236AE89C00ACA30E /* NSCollectionView.swift in Sources */,
 				D28FCD20236AE89C00ACA30E /* Shared.swift in Sources */,
 				D28FCCDC236AE89C00ACA30E /* NSColor.swift in Sources */,
-				D28FCD8D236AFC5900ACA30E /* Text.swift in Sources */,
 				D28FCCEC236AE89C00ACA30E /* NSButton.swift in Sources */,
 				D28FCD00236AE89C00ACA30E /* NSImage.swift in Sources */,
 				D28FCD1C236AE89C00ACA30E /* Error.swift in Sources */,
@@ -1056,7 +1048,6 @@
 				D28FCD01236AE89C00ACA30E /* NSCollectionView.swift in Sources */,
 				D28FCD1D236AE89C00ACA30E /* Shared.swift in Sources */,
 				D28FCCD9236AE89C00ACA30E /* NSColor.swift in Sources */,
-				D28FCD8A236AFC5900ACA30E /* Text.swift in Sources */,
 				D28FCCE9236AE89C00ACA30E /* NSButton.swift in Sources */,
 				D28FCCFD236AE89C00ACA30E /* NSImage.swift in Sources */,
 				D28FCD19236AE89C00ACA30E /* Error.swift in Sources */,
@@ -1132,7 +1123,6 @@
 				D28FCD02236AE89C00ACA30E /* NSCollectionView.swift in Sources */,
 				D28FCD1E236AE89C00ACA30E /* Shared.swift in Sources */,
 				D28FCCDA236AE89C00ACA30E /* NSColor.swift in Sources */,
-				D28FCD8B236AFC5900ACA30E /* Text.swift in Sources */,
 				D28FCCEA236AE89C00ACA30E /* NSButton.swift in Sources */,
 				D28FCCFE236AE89C00ACA30E /* NSImage.swift in Sources */,
 				D28FCD1A236AE89C00ACA30E /* Error.swift in Sources */,
