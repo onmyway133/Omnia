@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public extension NSCollectionView {
@@ -13,3 +15,5 @@ public extension NSCollectionView {
         enclosingScrollView?.contentView.scroll(.zero)
     }
 }
+
+#endif

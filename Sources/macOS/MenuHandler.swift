@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public class MenuHandler {
@@ -52,3 +54,5 @@ public class MenuHandler {
         }
     }
 }
+
+#endif

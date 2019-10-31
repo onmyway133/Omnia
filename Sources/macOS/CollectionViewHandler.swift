@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
@@ -131,3 +133,4 @@ open class CollectionViewHandler<Item: Equatable, Cell: NSCollectionViewItem>
     }
 }
 
+#endif

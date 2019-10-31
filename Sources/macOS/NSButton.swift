@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public extension NSButton {
@@ -34,3 +36,5 @@ public extension NSButton {
         }
     }
 }
+
+#endif

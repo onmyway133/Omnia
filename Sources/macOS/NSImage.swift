@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public extension NSImage {
@@ -22,3 +24,5 @@ public extension NSImage {
         return image
     }
 }
+
+#endif

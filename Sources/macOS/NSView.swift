@@ -6,6 +6,8 @@
 //  Copyright © 2017 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public extension NSView {
@@ -50,3 +52,5 @@ public extension NSView {
         layer?.add(animation, forKey: "scale")
     }
 }
+
+#endif

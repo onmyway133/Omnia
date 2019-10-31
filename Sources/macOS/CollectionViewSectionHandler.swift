@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 open class CollectionViewSectionHandler<Item: Equatable, Cell: NSCollectionViewItem, HeaderView: NSView>
@@ -95,4 +97,4 @@ open class CollectionViewSectionHandler<Item: Equatable, Cell: NSCollectionViewI
     }
 }
 
-
+#endif

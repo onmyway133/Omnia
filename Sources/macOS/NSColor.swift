@@ -6,6 +6,8 @@
 //  Copyright © 2017 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public extension NSColor {
@@ -28,3 +30,5 @@ public extension NSColor {
             blue:  CGFloat((Int(hex, radix: 16)!) & 0xFF) / 255.0, alpha: 1.0)
     }
 }
+
+#endif

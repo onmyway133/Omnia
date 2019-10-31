@@ -5,6 +5,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import UIKit
 
 extension UIScrollView {
@@ -19,3 +21,5 @@ extension UIScrollView {
         setContentOffset(bottomOffset, animated: true)
     }
 }
+
+#endif

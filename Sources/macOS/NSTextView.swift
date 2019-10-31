@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public extension NSTextView {
@@ -16,3 +18,5 @@ public extension NSTextView {
         backgroundColor = NSColor.clear
     }
 }
+
+#endif

@@ -5,6 +5,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import UIKit
 
 extension UIColor {
@@ -198,3 +200,5 @@ extension UIColor {
         return UIColor(red: r/255, green: r/255, blue: b/255, alpha: 1.0)
     }
 }
+
+#endif
