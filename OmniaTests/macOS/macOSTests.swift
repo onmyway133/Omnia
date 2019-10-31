@@ -1,3 +1,5 @@
+#if canImport(AppKit)
+
 import XCTest
 
 class macOSTests: XCTestCase {
@@ -24,3 +26,5 @@ class macOSTests: XCTestCase {
         }
     }
 }
+
+#endif

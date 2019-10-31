@@ -5,6 +5,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import XCTest
 import Omnia
 
@@ -27,3 +29,5 @@ class UIViewControllerTests: XCTestCase {
         XCTAssertTrue(parent.children.isEmpty)
     }
 }
+
+#endif

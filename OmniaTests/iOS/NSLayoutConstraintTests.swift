@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import XCTest
 
 class NSLayoutConstraintTests: XCTestCase {
@@ -31,3 +33,5 @@ class NSLayoutConstraintTests: XCTestCase {
     }
 
 }
+
+#endif

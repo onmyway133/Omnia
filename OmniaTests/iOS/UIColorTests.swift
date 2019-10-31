@@ -5,6 +5,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import XCTest
 import Omnia
 
@@ -17,3 +19,5 @@ class UIColorTests: XCTestCase {
         let _ = UIColor.red.lighten()
     }
 }
+
+#endif

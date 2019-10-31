@@ -5,6 +5,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import XCTest
 import Omnia
 
@@ -15,3 +17,5 @@ class UIImagExtensionsTests: XCTestCase {
         XCTAssertEqual(image.size, CGSize(width: 20, height: 20))
     }
 }
+
+#endif
