@@ -53,4 +53,9 @@ public extension String {
     func trimmingInsideQuotes() -> String {
         return self.replacingOccurrences(of: #"\"\S*\""#, with: "", options: .regularExpression).trimmed
     }
+
+    /// Check whether self contains any element in the array
+    func contains(anyIn array: [String]) -> Bool {
+        return array.contains(where: self.contains)
+    }
 }
