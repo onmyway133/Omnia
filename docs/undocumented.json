@@ -1,0 +1,376 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Codable.swift",
+      "line": 14,
+      "symbol": "Decoder.decode(key:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Codable.swift",
+      "line": 18,
+      "symbol": "Decoder.decode(codingKey:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Codable.swift",
+      "line": 25,
+      "symbol": "Encoder.encode(value:key:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Codable.swift",
+      "line": 29,
+      "symbol": "Encoder.encode(value:codingKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Data.swift",
+      "line": 17,
+      "symbol": "Data.toString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Date.swift",
+      "line": 13,
+      "symbol": "Date.second(calendar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Date.swift",
+      "line": 17,
+      "symbol": "Date.minute(calendar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Date.swift",
+      "line": 21,
+      "symbol": "Date.hour(calendar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Date.swift",
+      "line": 25,
+      "symbol": "Date.day(calendar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Date.swift",
+      "line": 29,
+      "symbol": "Date.month(calendar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Date.swift",
+      "line": 33,
+      "symbol": "Date.year(calendar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Date.swift",
+      "line": 37,
+      "symbol": "Date.weekday(calendar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Debouncer.swift",
+      "line": 11,
+      "symbol": "Debouncer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Debouncer.swift",
+      "line": 15,
+      "symbol": "Debouncer.init(delay:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Double.swift",
+      "line": 12,
+      "symbol": "Double.second",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Double.swift",
+      "line": 16,
+      "symbol": "Double.minute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Double.swift",
+      "line": 20,
+      "symbol": "Double.hour",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Double.swift",
+      "line": 24,
+      "symbol": "Double.day",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Double.swift",
+      "line": 28,
+      "symbol": "Double.week",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Double.swift",
+      "line": 32,
+      "symbol": "Double.month",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Double.swift",
+      "line": 36,
+      "symbol": "Double.year",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Error.swift",
+      "line": 12,
+      "symbol": "Error.toString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/JSON.swift",
+      "line": 11,
+      "symbol": "resolve(_:keyPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Once.swift",
+      "line": 11,
+      "symbol": "Once",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Once.swift",
+      "line": 15,
+      "symbol": "Once.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Once.swift",
+      "line": 17,
+      "symbol": "Once.run(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Shared.swift",
+      "line": 3,
+      "symbol": "with(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Shared.swift",
+      "line": 9,
+      "symbol": "withObject(_:closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Shared.swift",
+      "line": 14,
+      "symbol": "withValue(_:closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/String.swift",
+      "line": 25,
+      "symbol": "String.toData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/String.swift",
+      "line": 29,
+      "symbol": "String.trimmed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/String.swift",
+      "line": 33,
+      "symbol": "String.hasPattern(regex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/String.swift",
+      "line": 37,
+      "symbol": "String.containsIgnoringCase(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/String.swift",
+      "line": 41,
+      "symbol": "String.trimmingInsideSmartQuotes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/String.swift",
+      "line": 45,
+      "symbol": "String.trimmingInsideParenthesis()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/String.swift",
+      "line": 49,
+      "symbol": "String.trimmingInsideAsterisks()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/String.swift",
+      "line": 53,
+      "symbol": "String.trimmingInsideQuotes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Type.swift",
+      "line": 11,
+      "symbol": "JSONDictionary",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Type.swift",
+      "line": 12,
+      "symbol": "JSONArray",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/Shared/Type.swift",
+      "line": 16,
+      "symbol": "UXImage",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/NSLayoutConstraint.swift",
+      "line": 25,
+      "symbol": "NSLayoutConstraint.on(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/NSLayoutConstraint.swift",
+      "line": 30,
+      "symbol": "NSLayoutConstraint.priority(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UICollectionView.swift",
+      "line": 32,
+      "symbol": "UICollectionView.centerIndexPath()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UICollectionView.swift",
+      "line": 43,
+      "symbol": "UICollectionView.sideCells()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIColor.swift",
+      "line": 35,
+      "symbol": "HSLColor.hue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIColor.swift",
+      "line": 36,
+      "symbol": "HSLColor.saturation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIColor.swift",
+      "line": 37,
+      "symbol": "HSLColor.lightness",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIColor.swift",
+      "line": 38,
+      "symbol": "HSLColor.alpha",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIFont.swift",
+      "line": 14,
+      "symbol": "UIFont.registerCustom(fileName:fileExtension:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIView.swift",
+      "line": 33,
+      "symbol": "UIView.findRecursively(type:match:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIView.swift",
+      "line": 47,
+      "symbol": "UIView.pinCenter(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIView.swift",
+      "line": 54,
+      "symbol": "UIView.pinEdges(view:inset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/khoa/XcodeProject2/Omnia/Sources/iOS/UIView.swift",
+      "line": 63,
+      "symbol": "UIView.pin(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/khoa/XcodeProject2/Omnia"
+}
