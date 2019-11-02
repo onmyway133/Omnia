@@ -230,6 +230,14 @@
 		D29E20C42272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D2A6D3751FD05FAE00982BB8 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */; };
 		D2A6D3771FD05FAE00982BB8 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */; };
+		D2ED2888236E35CD00FA1782 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED2887236E35CD00FA1782 /* ImagePicker.swift */; };
+		D2ED2889236E35CD00FA1782 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED2887236E35CD00FA1782 /* ImagePicker.swift */; };
+		D2ED288A236E35CD00FA1782 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED2887236E35CD00FA1782 /* ImagePicker.swift */; };
+		D2ED288B236E35CD00FA1782 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED2887236E35CD00FA1782 /* ImagePicker.swift */; };
+		D2ED288D236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED288C236E35DA00FA1782 /* ActivittyIndicator.swift */; };
+		D2ED288E236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED288C236E35DA00FA1782 /* ActivittyIndicator.swift */; };
+		D2ED288F236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED288C236E35DA00FA1782 /* ActivittyIndicator.swift */; };
+		D2ED2890236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED288C236E35DA00FA1782 /* ActivittyIndicator.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 /* End PBXBuildFile section */
@@ -334,6 +342,8 @@
 		D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		D29E20C12272F6C100388AB0 /* DebouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerTests.swift; sourceTree = "<group>"; };
 		D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectTests.swift; sourceTree = "<group>"; };
+		D2ED2887236E35CD00FA1782 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D2ED288C236E35DA00FA1782 /* ActivittyIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivittyIndicator.swift; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B2E8A91C3A780C00C0327D /* Omnia-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629401C3A7FAA007F7B7C /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -573,6 +583,8 @@
 			isa = PBXGroup;
 			children = (
 				D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */,
+				D2ED2887236E35CD00FA1782 /* ImagePicker.swift */,
+				D2ED288C236E35DA00FA1782 /* ActivittyIndicator.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -903,6 +915,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28FCCDF236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
+				D2ED288F236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D28FCD2F236AE89D00ACA30E /* JSON.swift in Sources */,
 				D28FCD67236AE89D00ACA30E /* UIViewController.swift in Sources */,
 				D28FCD17236AE89C00ACA30E /* Comparable.swift in Sources */,
@@ -932,6 +945,7 @@
 				D28FCD23236AE89C00ACA30E /* Type.swift in Sources */,
 				D28FCD33236AE89D00ACA30E /* Codable.swift in Sources */,
 				D28FCD6F236AE89D00ACA30E /* tvOS.swift in Sources */,
+				D2ED288A236E35CD00FA1782 /* ImagePicker.swift in Sources */,
 				D28FCCF7236AE89C00ACA30E /* NSTextView.swift in Sources */,
 				D28FCD43236AE89D00ACA30E /* Bundle.swift in Sources */,
 				D28FCD0F236AE89C00ACA30E /* Date.swift in Sources */,
@@ -977,6 +991,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28FCCE0236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
+				D2ED2890236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D28FCD30236AE89D00ACA30E /* JSON.swift in Sources */,
 				D28FCD68236AE89D00ACA30E /* UIViewController.swift in Sources */,
 				D28FCD18236AE89C00ACA30E /* Comparable.swift in Sources */,
@@ -1006,6 +1021,7 @@
 				D28FCD24236AE89D00ACA30E /* Type.swift in Sources */,
 				D28FCD34236AE89D00ACA30E /* Codable.swift in Sources */,
 				D28FCD70236AE89D00ACA30E /* tvOS.swift in Sources */,
+				D2ED288B236E35CD00FA1782 /* ImagePicker.swift in Sources */,
 				D28FCCF8236AE89C00ACA30E /* NSTextView.swift in Sources */,
 				D28FCD44236AE89D00ACA30E /* Bundle.swift in Sources */,
 				D28FCD10236AE89C00ACA30E /* Date.swift in Sources */,
@@ -1026,6 +1042,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28FCCDD236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
+				D2ED288D236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D28FCD2D236AE89D00ACA30E /* JSON.swift in Sources */,
 				D28FCD65236AE89D00ACA30E /* UIViewController.swift in Sources */,
 				D28FCD15236AE89C00ACA30E /* Comparable.swift in Sources */,
@@ -1055,6 +1072,7 @@
 				D28FCD21236AE89C00ACA30E /* Type.swift in Sources */,
 				D28FCD31236AE89D00ACA30E /* Codable.swift in Sources */,
 				D28FCD6D236AE89D00ACA30E /* tvOS.swift in Sources */,
+				D2ED2888236E35CD00FA1782 /* ImagePicker.swift in Sources */,
 				D28FCCF5236AE89C00ACA30E /* NSTextView.swift in Sources */,
 				D28FCD41236AE89D00ACA30E /* Bundle.swift in Sources */,
 				D28FCD0D236AE89C00ACA30E /* Date.swift in Sources */,
@@ -1101,6 +1119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28FCCDE236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
+				D2ED288E236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D28FCD2E236AE89D00ACA30E /* JSON.swift in Sources */,
 				D28FCD66236AE89D00ACA30E /* UIViewController.swift in Sources */,
 				D28FCD16236AE89C00ACA30E /* Comparable.swift in Sources */,
@@ -1130,6 +1149,7 @@
 				D28FCD22236AE89C00ACA30E /* Type.swift in Sources */,
 				D28FCD32236AE89D00ACA30E /* Codable.swift in Sources */,
 				D28FCD6E236AE89D00ACA30E /* tvOS.swift in Sources */,
+				D2ED2889236E35CD00FA1782 /* ImagePicker.swift in Sources */,
 				D28FCCF6236AE89C00ACA30E /* NSTextView.swift in Sources */,
 				D28FCD42236AE89D00ACA30E /* Bundle.swift in Sources */,
 				D28FCD0E236AE89C00ACA30E /* Date.swift in Sources */,
