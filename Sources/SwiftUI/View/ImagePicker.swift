@@ -11,6 +11,7 @@
 import SwiftUI
 import UIKit
 
+@available(iOS 13.0, *)
 public struct ImagePicker: UIViewControllerRepresentable {
     @Binding var image: UIImage?
     @Binding var isPresented: Bool
@@ -33,6 +34,7 @@ public struct ImagePicker: UIViewControllerRepresentable {
     }
 }
 
+@available(iOS 13.0, *)
 public extension ImagePicker {
     class Coordinator: NSObject, UINavigationControllerDelegate {
         @Binding var isPresented: Bool
@@ -45,6 +47,7 @@ public extension ImagePicker {
     }
 }
 
+@available(iOS 13.0, *)
 extension ImagePicker.Coordinator: UIImagePickerControllerDelegate {
     public func imagePickerController(
         _ picker: UIImagePickerController,

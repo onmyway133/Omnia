@@ -6,7 +6,7 @@
 //  Copyright © 2017 Khoa Pham. All rights reserved.
 //
 
-#if canImport(AppKit)
+#if canImport(AppKit) && !targetEnvironment(macCatalyst)
 
 import AppKit
 

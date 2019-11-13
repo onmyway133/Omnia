@@ -13,11 +13,13 @@ public struct Reducer<State, Mutation> {
     let reduce: (inout State, Mutation) -> Void
 }
 
+@available(iOS 13.0, *)
 public protocol Action {
     associatedtype Mutation
     func toMutation() -> AnyPublisher<Mutation, Never>
 }
 
+@available(iOS 13.0, *)
 public final class Store<State, Mutation>: ObservableObject {
     @Published public private(set) var state: State
     public let reducer: Reducer<State, Mutation>

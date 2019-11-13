@@ -10,6 +10,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 public struct ActivityIndicator: UIViewRepresentable {
     @Binding var isAnimating: Bool
     let style: UIActivityIndicatorView.Style
