@@ -10,7 +10,11 @@ import Combine
 import Foundation
 
 public struct Reducer<State, Mutation> {
-    let reduce: (inout State, Mutation) -> Void
+    public let reduce: (inout State, Mutation) -> Void
+
+    public init(reducer: @escaping (inout State, Mutation) -> Void) {
+        self.reduce = reducer
+    }
 }
 
 @available(iOS 13.0, *)
