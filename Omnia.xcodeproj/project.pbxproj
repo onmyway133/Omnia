@@ -225,6 +225,10 @@
 		D28FCD7E236AE89D00ACA30E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */; };
 		D28FCD7F236AE89D00ACA30E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */; };
 		D28FCD80236AE89D00ACA30E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */; };
+		D298BF22237C47980027578B /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D298BF21237C47980027578B /* SFSymbol.swift */; };
+		D298BF23237C47980027578B /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D298BF21237C47980027578B /* SFSymbol.swift */; };
+		D298BF24237C47980027578B /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D298BF21237C47980027578B /* SFSymbol.swift */; };
+		D298BF25237C47980027578B /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D298BF21237C47980027578B /* SFSymbol.swift */; };
 		D29E20C22272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D29E20C32272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D29E20C42272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
@@ -348,6 +352,7 @@
 		D28FCCD5236AE89C00ACA30E /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		D28FCCD6236AE89C00ACA30E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		D298BF21237C47980027578B /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
 		D29E20C12272F6C100388AB0 /* DebouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerTests.swift; sourceTree = "<group>"; };
 		D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectTests.swift; sourceTree = "<group>"; };
 		D2ED2887236E35CD00FA1782 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -577,6 +582,7 @@
 			children = (
 				D28FCCD3236AE89C00ACA30E /* ImageLoader.swift */,
 				D2FE8954237C2A48000A3D50 /* Redux.swift */,
+				D298BF21237C47980027578B /* SFSymbol.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -939,6 +945,7 @@
 				D28FCD63236AE89D00ACA30E /* UIImage.swift in Sources */,
 				D28FCD2B236AE89D00ACA30E /* NSObject.swift in Sources */,
 				D28FCD7F236AE89D00ACA30E /* RemoteImage.swift in Sources */,
+				D298BF24237C47980027578B /* SFSymbol.swift in Sources */,
 				D28FCD07236AE89C00ACA30E /* watchOS.swift in Sources */,
 				D28FCD37236AE89D00ACA30E /* String.swift in Sources */,
 				D28FCD5B236AE89D00ACA30E /* UICollectionView.swift in Sources */,
@@ -1017,6 +1024,7 @@
 				D28FCD64236AE89D00ACA30E /* UIImage.swift in Sources */,
 				D28FCD2C236AE89D00ACA30E /* NSObject.swift in Sources */,
 				D28FCD80236AE89D00ACA30E /* RemoteImage.swift in Sources */,
+				D298BF25237C47980027578B /* SFSymbol.swift in Sources */,
 				D28FCD08236AE89C00ACA30E /* watchOS.swift in Sources */,
 				D28FCD38236AE89D00ACA30E /* String.swift in Sources */,
 				D28FCD5C236AE89D00ACA30E /* UICollectionView.swift in Sources */,
@@ -1070,6 +1078,7 @@
 				D28FCD61236AE89D00ACA30E /* UIImage.swift in Sources */,
 				D28FCD29236AE89D00ACA30E /* NSObject.swift in Sources */,
 				D28FCD7D236AE89D00ACA30E /* RemoteImage.swift in Sources */,
+				D298BF22237C47980027578B /* SFSymbol.swift in Sources */,
 				D28FCD05236AE89C00ACA30E /* watchOS.swift in Sources */,
 				D28FCD35236AE89D00ACA30E /* String.swift in Sources */,
 				D28FCD59236AE89D00ACA30E /* UICollectionView.swift in Sources */,
@@ -1149,6 +1158,7 @@
 				D28FCD62236AE89D00ACA30E /* UIImage.swift in Sources */,
 				D28FCD2A236AE89D00ACA30E /* NSObject.swift in Sources */,
 				D28FCD7E236AE89D00ACA30E /* RemoteImage.swift in Sources */,
+				D298BF23237C47980027578B /* SFSymbol.swift in Sources */,
 				D28FCD06236AE89C00ACA30E /* watchOS.swift in Sources */,
 				D28FCD36236AE89D00ACA30E /* String.swift in Sources */,
 				D28FCD5A236AE89D00ACA30E /* UICollectionView.swift in Sources */,
