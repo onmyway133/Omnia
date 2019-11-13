@@ -12,8 +12,8 @@ import Foundation
 public struct Reducer<State, Mutation> {
     public let reduce: (inout State, Mutation) -> Void
 
-    public init(reducer: @escaping (inout State, Mutation) -> Void) {
-        self.reduce = reducer
+    public init(reduce: @escaping (inout State, Mutation) -> Void) {
+        self.reduce = reduce
     }
 }
 
