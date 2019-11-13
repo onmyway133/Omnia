@@ -242,6 +242,10 @@
 		D2FE8956237C2A48000A3D50 /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE8954237C2A48000A3D50 /* Redux.swift */; };
 		D2FE8957237C2A48000A3D50 /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE8954237C2A48000A3D50 /* Redux.swift */; };
 		D2FE8958237C2A48000A3D50 /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE8954237C2A48000A3D50 /* Redux.swift */; };
+		D2FE8969237C35C0000A3D50 /* IfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE8968237C35C0000A3D50 /* IfLet.swift */; };
+		D2FE896A237C35C0000A3D50 /* IfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE8968237C35C0000A3D50 /* IfLet.swift */; };
+		D2FE896B237C35C0000A3D50 /* IfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE8968237C35C0000A3D50 /* IfLet.swift */; };
+		D2FE896C237C35C0000A3D50 /* IfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE8968237C35C0000A3D50 /* IfLet.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Omnia.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* Omnia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Omnia.framework */; };
 /* End PBXBuildFile section */
@@ -349,6 +353,7 @@
 		D2ED2887236E35CD00FA1782 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		D2ED288C236E35DA00FA1782 /* ActivittyIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivittyIndicator.swift; sourceTree = "<group>"; };
 		D2FE8954237C2A48000A3D50 /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
+		D2FE8968237C35C0000A3D50 /* IfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLet.swift; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B2E8A91C3A780C00C0327D /* Omnia-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omnia-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629401C3A7FAA007F7B7C /* Omnia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Omnia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -591,6 +596,7 @@
 				D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */,
 				D2ED2887236E35CD00FA1782 /* ImagePicker.swift */,
 				D2ED288C236E35DA00FA1782 /* ActivittyIndicator.swift */,
+				D2FE8968237C35C0000A3D50 /* IfLet.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -920,6 +926,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FE896B237C35C0000A3D50 /* IfLet.swift in Sources */,
 				D28FCCDF236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
 				D2ED288F236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D2FE8957237C2A48000A3D50 /* Redux.swift in Sources */,
@@ -997,6 +1004,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FE896C237C35C0000A3D50 /* IfLet.swift in Sources */,
 				D28FCCE0236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
 				D2ED2890236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D2FE8958237C2A48000A3D50 /* Redux.swift in Sources */,
@@ -1049,6 +1057,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FE8969237C35C0000A3D50 /* IfLet.swift in Sources */,
 				D28FCCDD236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
 				D2ED288D236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D2FE8955237C2A48000A3D50 /* Redux.swift in Sources */,
@@ -1127,6 +1136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FE896A237C35C0000A3D50 /* IfLet.swift in Sources */,
 				D28FCCDE236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
 				D2ED288E236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D2FE8956237C2A48000A3D50 /* Redux.swift in Sources */,
