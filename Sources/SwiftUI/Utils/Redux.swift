@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(SwiftUI)
+
 import Combine
 import Foundation
 
@@ -17,13 +19,13 @@ public struct Reducer<State, Mutation> {
     }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
 public protocol Action {
     associatedtype Mutation
     func toMutation() -> AnyPublisher<Mutation, Never>
 }
 
-@available(iOS 13.0, *)
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
 public final class Store<State, Mutation>: ObservableObject {
     @Published public private(set) var state: State
     public let reducer: Reducer<State, Mutation>
@@ -46,3 +48,5 @@ public final class Store<State, Mutation>: ObservableObject {
         reducer.reduce(&state, mutation)
     }
 }
+
+#endif

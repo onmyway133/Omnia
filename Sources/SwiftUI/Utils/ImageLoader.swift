@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(SwiftUI)
+
 import Combine
 import Foundation
 
@@ -31,3 +33,5 @@ class ImageLoader: ObservableObject {
         cancellable?.cancel()
     }
 }
+
+#endif

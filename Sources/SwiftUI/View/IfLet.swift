@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(SwiftUI)
+
 import SwiftUI
 
 // https://engineering.q42.nl/swiftui-optionals/
@@ -28,3 +30,5 @@ public struct IfLet<T, Content: View>: View {
         }
     }
 }
+
+#endif

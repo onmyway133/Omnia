@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2087BC0237DFFDE00ADBCA4 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087BBF237DFFDE00ADBCA4 /* ShakeEffect.swift */; };
+		D2087BC1237DFFDE00ADBCA4 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087BBF237DFFDE00ADBCA4 /* ShakeEffect.swift */; };
+		D2087BC2237DFFDE00ADBCA4 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087BBF237DFFDE00ADBCA4 /* ShakeEffect.swift */; };
+		D2087BC3237DFFDE00ADBCA4 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087BBF237DFFDE00ADBCA4 /* ShakeEffect.swift */; };
+		D2087BC5237DFFE600ADBCA4 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087BC4237DFFE600ADBCA4 /* CustomFont.swift */; };
+		D2087BC6237DFFE600ADBCA4 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087BC4237DFFE600ADBCA4 /* CustomFont.swift */; };
+		D2087BC7237DFFE600ADBCA4 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087BC4237DFFE600ADBCA4 /* CustomFont.swift */; };
+		D2087BC8237DFFE600ADBCA4 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087BC4237DFFE600ADBCA4 /* CustomFont.swift */; };
 		D20EFED6225F5DD400E41B91 /* NSLayoutConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFED5225F5DD400E41B91 /* NSLayoutConstraintTests.swift */; };
 		D20EFED7225F606400E41B91 /* SequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28524471FCB697300CB232A /* SequenceTests.swift */; };
 		D20EFEDE225F651100E41B91 /* DoubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EFEDD225F651100E41B91 /* DoubleTests.swift */; };
@@ -287,6 +295,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2087BBF237DFFDE00ADBCA4 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		D2087BC4237DFFE600ADBCA4 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		D20EFED5225F5DD400E41B91 /* NSLayoutConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintTests.swift; sourceTree = "<group>"; };
 		D20EFEDD225F651100E41B91 /* DoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTests.swift; sourceTree = "<group>"; };
 		D20EFEE6225F671200E41B91 /* OnceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnceTests.swift; sourceTree = "<group>"; };
@@ -431,6 +441,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2087BBE237DFFCE00ADBCA4 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				D2087BBF237DFFDE00ADBCA4 /* ShakeEffect.swift */,
+				D2087BC4237DFFE600ADBCA4 /* CustomFont.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		D284B12D1F7906DA00D94AF3 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -581,6 +600,7 @@
 		D28FCCD1236AE89C00ACA30E /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D2087BBE237DFFCE00ADBCA4 /* Modifier */,
 				D28FCCD2236AE89C00ACA30E /* Utils */,
 				D28FCCD4236AE89C00ACA30E /* Extensions */,
 				D28FCCD7236AE89C00ACA30E /* View */,
@@ -947,6 +967,7 @@
 				D2FE896B237C35C0000A3D50 /* IfLet.swift in Sources */,
 				D28FCCDF236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
 				D2ED288F236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
+				D2087BC2237DFFDE00ADBCA4 /* ShakeEffect.swift in Sources */,
 				D2FE8957237C2A48000A3D50 /* Redux.swift in Sources */,
 				D28FCD2F236AE89D00ACA30E /* JSON.swift in Sources */,
 				D29D8555237D651D00ECA2E5 /* Color.swift in Sources */,
@@ -979,6 +1000,7 @@
 				D28FCD0B236AE89C00ACA30E /* Once.swift in Sources */,
 				D28FCD23236AE89C00ACA30E /* Type.swift in Sources */,
 				D28FCD33236AE89D00ACA30E /* Codable.swift in Sources */,
+				D2087BC7237DFFE600ADBCA4 /* CustomFont.swift in Sources */,
 				D28FCD6F236AE89D00ACA30E /* tvOS.swift in Sources */,
 				D2ED288A236E35CD00FA1782 /* ImagePicker.swift in Sources */,
 				D28FCCF7236AE89C00ACA30E /* NSTextView.swift in Sources */,
@@ -1028,6 +1050,7 @@
 				D2FE896C237C35C0000A3D50 /* IfLet.swift in Sources */,
 				D28FCCE0236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
 				D2ED2890236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
+				D2087BC3237DFFDE00ADBCA4 /* ShakeEffect.swift in Sources */,
 				D2FE8958237C2A48000A3D50 /* Redux.swift in Sources */,
 				D28FCD30236AE89D00ACA30E /* JSON.swift in Sources */,
 				D29D8556237D651D00ECA2E5 /* Color.swift in Sources */,
@@ -1060,6 +1083,7 @@
 				D28FCD0C236AE89C00ACA30E /* Once.swift in Sources */,
 				D28FCD24236AE89D00ACA30E /* Type.swift in Sources */,
 				D28FCD34236AE89D00ACA30E /* Codable.swift in Sources */,
+				D2087BC8237DFFE600ADBCA4 /* CustomFont.swift in Sources */,
 				D28FCD70236AE89D00ACA30E /* tvOS.swift in Sources */,
 				D2ED288B236E35CD00FA1782 /* ImagePicker.swift in Sources */,
 				D28FCCF8236AE89C00ACA30E /* NSTextView.swift in Sources */,
@@ -1084,6 +1108,7 @@
 				D2FE8969237C35C0000A3D50 /* IfLet.swift in Sources */,
 				D28FCCDD236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
 				D2ED288D236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
+				D2087BC0237DFFDE00ADBCA4 /* ShakeEffect.swift in Sources */,
 				D2FE8955237C2A48000A3D50 /* Redux.swift in Sources */,
 				D28FCD2D236AE89D00ACA30E /* JSON.swift in Sources */,
 				D29D8553237D651D00ECA2E5 /* Color.swift in Sources */,
@@ -1116,6 +1141,7 @@
 				D28FCD09236AE89C00ACA30E /* Once.swift in Sources */,
 				D28FCD21236AE89C00ACA30E /* Type.swift in Sources */,
 				D28FCD31236AE89D00ACA30E /* Codable.swift in Sources */,
+				D2087BC5237DFFE600ADBCA4 /* CustomFont.swift in Sources */,
 				D28FCD6D236AE89D00ACA30E /* tvOS.swift in Sources */,
 				D2ED2888236E35CD00FA1782 /* ImagePicker.swift in Sources */,
 				D28FCCF5236AE89C00ACA30E /* NSTextView.swift in Sources */,
@@ -1166,6 +1192,7 @@
 				D2FE896A237C35C0000A3D50 /* IfLet.swift in Sources */,
 				D28FCCDE236AE89C00ACA30E /* NSCollectionViewItem.swift in Sources */,
 				D2ED288E236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
+				D2087BC1237DFFDE00ADBCA4 /* ShakeEffect.swift in Sources */,
 				D2FE8956237C2A48000A3D50 /* Redux.swift in Sources */,
 				D28FCD2E236AE89D00ACA30E /* JSON.swift in Sources */,
 				D29D8554237D651D00ECA2E5 /* Color.swift in Sources */,
@@ -1198,6 +1225,7 @@
 				D28FCD0A236AE89C00ACA30E /* Once.swift in Sources */,
 				D28FCD22236AE89C00ACA30E /* Type.swift in Sources */,
 				D28FCD32236AE89D00ACA30E /* Codable.swift in Sources */,
+				D2087BC6237DFFE600ADBCA4 /* CustomFont.swift in Sources */,
 				D28FCD6E236AE89D00ACA30E /* tvOS.swift in Sources */,
 				D2ED2889236E35CD00FA1782 /* ImagePicker.swift in Sources */,
 				D28FCCF6236AE89C00ACA30E /* NSTextView.swift in Sources */,
