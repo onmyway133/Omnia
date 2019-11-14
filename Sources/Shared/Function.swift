@@ -50,7 +50,6 @@ public func flatColorsInHex() -> [String] {
         "#D35400",
         "#E74C3C",
         "#C0392B",
-        "#ECF0F1",
         "#BDC3C7",
         "#95A5A6",
         "#7F8C8D"
