@@ -229,6 +229,10 @@
 		D298BF23237C47980027578B /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D298BF21237C47980027578B /* SFSymbol.swift */; };
 		D298BF24237C47980027578B /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D298BF21237C47980027578B /* SFSymbol.swift */; };
 		D298BF25237C47980027578B /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D298BF21237C47980027578B /* SFSymbol.swift */; };
+		D29D8553237D651D00ECA2E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8552237D651D00ECA2E5 /* Color.swift */; };
+		D29D8554237D651D00ECA2E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8552237D651D00ECA2E5 /* Color.swift */; };
+		D29D8555237D651D00ECA2E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8552237D651D00ECA2E5 /* Color.swift */; };
+		D29D8556237D651D00ECA2E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8552237D651D00ECA2E5 /* Color.swift */; };
 		D29E20C22272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D29E20C32272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D29E20C42272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
@@ -353,6 +357,7 @@
 		D28FCCD6236AE89C00ACA30E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		D298BF21237C47980027578B /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
+		D29D8552237D651D00ECA2E5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D29E20C12272F6C100388AB0 /* DebouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerTests.swift; sourceTree = "<group>"; };
 		D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectTests.swift; sourceTree = "<group>"; };
 		D2ED2887236E35CD00FA1782 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -592,6 +597,7 @@
 			children = (
 				D28FCCD5236AE89C00ACA30E /* View.swift */,
 				D28FCCD6236AE89C00ACA30E /* Image.swift */,
+				D29D8552237D651D00ECA2E5 /* Color.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -937,6 +943,7 @@
 				D2ED288F236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D2FE8957237C2A48000A3D50 /* Redux.swift in Sources */,
 				D28FCD2F236AE89D00ACA30E /* JSON.swift in Sources */,
+				D29D8555237D651D00ECA2E5 /* Color.swift in Sources */,
 				D28FCD67236AE89D00ACA30E /* UIViewController.swift in Sources */,
 				D28FCD17236AE89C00ACA30E /* Comparable.swift in Sources */,
 				D28FCD47236AE89D00ACA30E /* Optional.swift in Sources */,
@@ -1016,6 +1023,7 @@
 				D2ED2890236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D2FE8958237C2A48000A3D50 /* Redux.swift in Sources */,
 				D28FCD30236AE89D00ACA30E /* JSON.swift in Sources */,
+				D29D8556237D651D00ECA2E5 /* Color.swift in Sources */,
 				D28FCD68236AE89D00ACA30E /* UIViewController.swift in Sources */,
 				D28FCD18236AE89C00ACA30E /* Comparable.swift in Sources */,
 				D28FCD48236AE89D00ACA30E /* Optional.swift in Sources */,
@@ -1070,6 +1078,7 @@
 				D2ED288D236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D2FE8955237C2A48000A3D50 /* Redux.swift in Sources */,
 				D28FCD2D236AE89D00ACA30E /* JSON.swift in Sources */,
+				D29D8553237D651D00ECA2E5 /* Color.swift in Sources */,
 				D28FCD65236AE89D00ACA30E /* UIViewController.swift in Sources */,
 				D28FCD15236AE89C00ACA30E /* Comparable.swift in Sources */,
 				D28FCD45236AE89D00ACA30E /* Optional.swift in Sources */,
@@ -1150,6 +1159,7 @@
 				D2ED288E236E35DA00FA1782 /* ActivittyIndicator.swift in Sources */,
 				D2FE8956237C2A48000A3D50 /* Redux.swift in Sources */,
 				D28FCD2E236AE89D00ACA30E /* JSON.swift in Sources */,
+				D29D8554237D651D00ECA2E5 /* Color.swift in Sources */,
 				D28FCD66236AE89D00ACA30E /* UIViewController.swift in Sources */,
 				D28FCD16236AE89C00ACA30E /* Comparable.swift in Sources */,
 				D28FCD46236AE89D00ACA30E /* Optional.swift in Sources */,
