@@ -12,7 +12,7 @@ import SwiftUI
 
 // https://learntalks.com/Pragma-Mark/2019/Pragma-Mark-2019-Pragma-Conference-2019-Paul-Hudson-SwiftUI-Everywhere/
 
-@available(iOS 13, macCatalyst 13, OSX 10.15, tvOS 13, watchOS 6, *)
+@available(iOS 13, macCatalyst 13, tvOS 13, watchOS 6, *)
 public struct CustomFont: ViewModifier {
 
     @Environment(\.sizeCategory) var sizeCategory
