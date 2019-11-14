@@ -233,6 +233,10 @@
 		D29D8554237D651D00ECA2E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8552237D651D00ECA2E5 /* Color.swift */; };
 		D29D8555237D651D00ECA2E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8552237D651D00ECA2E5 /* Color.swift */; };
 		D29D8556237D651D00ECA2E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8552237D651D00ECA2E5 /* Color.swift */; };
+		D29D855A237D790400ECA2E5 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8559237D790400ECA2E5 /* Function.swift */; };
+		D29D855B237D790400ECA2E5 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8559237D790400ECA2E5 /* Function.swift */; };
+		D29D855C237D790400ECA2E5 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8559237D790400ECA2E5 /* Function.swift */; };
+		D29D855D237D790400ECA2E5 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D8559237D790400ECA2E5 /* Function.swift */; };
 		D29E20C22272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D29E20C32272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
 		D29E20C42272F6C100388AB0 /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E20C12272F6C100388AB0 /* DebouncerTests.swift */; };
@@ -358,6 +362,7 @@
 		D28FCCD8236AE89C00ACA30E /* RemoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		D298BF21237C47980027578B /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
 		D29D8552237D651D00ECA2E5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D29D8559237D790400ECA2E5 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		D29E20C12272F6C100388AB0 /* DebouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerTests.swift; sourceTree = "<group>"; };
 		D2A6D3741FD05FAE00982BB8 /* NSObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectTests.swift; sourceTree = "<group>"; };
 		D2ED2887236E35CD00FA1782 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -544,6 +549,7 @@
 				D28FCCC2236AE89C00ACA30E /* Debouncer.swift */,
 				D28FCCC3236AE89C00ACA30E /* Bundle.swift */,
 				D28FCCC4236AE89C00ACA30E /* Optional.swift */,
+				D29D8559237D790400ECA2E5 /* Function.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -961,6 +967,7 @@
 				D28FCD5F236AE89D00ACA30E /* UITableView.swift in Sources */,
 				D28FCD3B236AE89D00ACA30E /* Double.swift in Sources */,
 				D28FCD4F236AE89D00ACA30E /* UIView.swift in Sources */,
+				D29D855C237D790400ECA2E5 /* Function.swift in Sources */,
 				D28FCD4B236AE89D00ACA30E /* UIScrollView.swift in Sources */,
 				D28FCD6B236AE89D00ACA30E /* UIFont.swift in Sources */,
 				D28FCD03236AE89C00ACA30E /* NSCollectionView.swift in Sources */,
@@ -1041,6 +1048,7 @@
 				D28FCD60236AE89D00ACA30E /* UITableView.swift in Sources */,
 				D28FCD3C236AE89D00ACA30E /* Double.swift in Sources */,
 				D28FCD50236AE89D00ACA30E /* UIView.swift in Sources */,
+				D29D855D237D790400ECA2E5 /* Function.swift in Sources */,
 				D28FCD4C236AE89D00ACA30E /* UIScrollView.swift in Sources */,
 				D28FCD6C236AE89D00ACA30E /* UIFont.swift in Sources */,
 				D28FCD04236AE89C00ACA30E /* NSCollectionView.swift in Sources */,
@@ -1096,6 +1104,7 @@
 				D28FCD5D236AE89D00ACA30E /* UITableView.swift in Sources */,
 				D28FCD39236AE89D00ACA30E /* Double.swift in Sources */,
 				D28FCD4D236AE89D00ACA30E /* UIView.swift in Sources */,
+				D29D855A237D790400ECA2E5 /* Function.swift in Sources */,
 				D28FCD49236AE89D00ACA30E /* UIScrollView.swift in Sources */,
 				D28FCD69236AE89D00ACA30E /* UIFont.swift in Sources */,
 				D28FCD01236AE89C00ACA30E /* NSCollectionView.swift in Sources */,
@@ -1177,6 +1186,7 @@
 				D28FCD5E236AE89D00ACA30E /* UITableView.swift in Sources */,
 				D28FCD3A236AE89D00ACA30E /* Double.swift in Sources */,
 				D28FCD4E236AE89D00ACA30E /* UIView.swift in Sources */,
+				D29D855B237D790400ECA2E5 /* Function.swift in Sources */,
 				D28FCD4A236AE89D00ACA30E /* UIScrollView.swift in Sources */,
 				D28FCD6A236AE89D00ACA30E /* UIFont.swift in Sources */,
 				D28FCD02236AE89C00ACA30E /* NSCollectionView.swift in Sources */,
