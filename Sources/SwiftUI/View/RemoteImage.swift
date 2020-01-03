@@ -11,19 +11,19 @@
 import SwiftUI
 
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
-struct RemoteImage: View {
-    @State var image: UXImage? = nil
+public struct RemoteImage: View {
+    @State public var image: UXImage? = nil
     
     private let url: URL
     private let imageLoader = ImageLoader()
     private let placeholderView: AnyView
 
-    init(url: URL,  placeholderView: AnyView) {
+    public init(url: URL,  placeholderView: AnyView) {
         self.url = url
         self.placeholderView = placeholderView
     }
 
-    var body: some View {
+    public var body: some View {
         Group {
             makeContent()
         }
