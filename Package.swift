@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Omnia",
     platforms: [
-        .macOS(.v10_15),
+        .macOS(.v10_14),
         .iOS(.v13),
         .tvOS(.v13),
         .watchOS(.v6)
@@ -20,10 +20,7 @@ let package = Package(
         .target(
             name: "Omnia",
             path: "Sources"
-        ),
-        .testTarget(
-            name: "OmniaTests",
-            dependencies: ["Omnia"]),
+        )
     ],
     swiftLanguageVersions: [.v5]
 )
