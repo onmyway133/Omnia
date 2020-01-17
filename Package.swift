@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Omnia",
     platforms: [
-        .macOS(.v10_14),
+        .macOS(.v10_13),
         .iOS(.v13),
         .tvOS(.v13),
         .watchOS(.v6)
