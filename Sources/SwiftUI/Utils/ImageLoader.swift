@@ -6,7 +6,7 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
-#if canImport(SwiftUI)
+#if canImport(Combine)
 
 import Combine
 import Foundation
