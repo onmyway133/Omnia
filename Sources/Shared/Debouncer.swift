@@ -8,18 +8,21 @@
 
 import Foundation
 
+/// Run the action after delay
 public class Debouncer {
     private let delay: TimeInterval
     private var workItem: DispatchWorkItem?
+    private let queue: DispatchQueue
 
-    public init(delay: TimeInterval) {
+    public init(delay: TimeInterval, queue: DispatchQueue = .main) {
         self.delay = delay
+        self.queue = queue
     }
 
-    /// Trigger the action after some delay
     public func run(action: @escaping () -> Void) {
         workItem?.cancel()
-        workItem = DispatchWorkItem(block: action)
-        DispatchQueue.main.asyncAfter(deadline: .now() + delay, execute: workItem!)
+        let workItem = DispatchWorkItem(block: action)
+        queue.asyncAfter(deadline: .now() + delay, execute: workItem)
+        self.workItem = workItem
     }
 }
