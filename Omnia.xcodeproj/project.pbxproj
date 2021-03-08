@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D29030D825F6C606005B6107 /* CGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29030D725F6C606005B6107 /* CGColor.swift */; };
 		D2BCFF3425D7252C0042B928 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCFF3325D7252C0042B928 /* Throttler.swift */; };
 		OBJ_100 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* NSColor.swift */; };
 		OBJ_101 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* NSImage.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D29030D725F6C606005B6107 /* CGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColor.swift; sourceTree = "<group>"; };
 		D2BCFF3325D7252C0042B928 /* Throttler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttler.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Comparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
@@ -155,7 +157,7 @@
 			path = tvOS;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -170,7 +172,6 @@
 				OBJ_60 /* README.md */,
 				OBJ_61 /* CONTRIBUTING.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_50 /* watchOS */ = {
@@ -229,6 +230,7 @@
 				OBJ_24 /* String.swift */,
 				OBJ_25 /* Type.swift */,
 				D2BCFF3325D7252C0042B928 /* Throttler.swift */,
+				D29030D725F6C606005B6107 /* CGColor.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -282,7 +284,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -331,6 +333,7 @@
 				OBJ_89 /* UIScrollView.swift in Sources */,
 				OBJ_90 /* UITableView.swift in Sources */,
 				OBJ_91 /* UIView.swift in Sources */,
+				D29030D825F6C606005B6107 /* CGColor.swift in Sources */,
 				OBJ_92 /* UIViewController.swift in Sources */,
 				D2BCFF3425D7252C0042B928 /* Throttler.swift in Sources */,
 				OBJ_93 /* ClickedCollectionView.swift in Sources */,
