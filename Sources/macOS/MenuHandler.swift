@@ -26,13 +26,14 @@ public class MenuHandler {
 
     public init() {}
 
-    public func add(title: String, action: @escaping () -> Void) {
+    public func add(title: String, image: NSImage? = nil, action: @escaping () -> Void) {
         let menuItem = NSMenuItem(
             title: title,
             action: #selector(onMenuItemTouched(_:)),
             keyEquivalent: ""
         )
 
+        menuItem.image = image
         menuItem.target = self
         menu.addItem(menuItem)
 
