@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D27D1D82260695430031A112 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D1D81260695430031A112 /* UserDefault.swift */; };
+		D27D1DAB26070CD00031A112 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D1DAA26070CD00031A112 /* Process.swift */; };
 		D29030D825F6C606005B6107 /* CGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29030D725F6C606005B6107 /* CGColor.swift */; };
 		D2BCFF3425D7252C0042B928 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCFF3325D7252C0042B928 /* Throttler.swift */; };
 		OBJ_100 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* NSColor.swift */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		D27D1D81260695430031A112 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		D27D1DAA26070CD00031A112 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
 		D29030D725F6C606005B6107 /* CGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColor.swift; sourceTree = "<group>"; };
 		D2BCFF3325D7252C0042B928 /* Throttler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttler.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				OBJ_45 /* NSImage.swift */,
 				OBJ_46 /* NSTextView.swift */,
 				OBJ_47 /* NSView.swift */,
+				D27D1DAA26070CD00031A112 /* Process.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				OBJ_83 /* Type.swift in Sources */,
 				OBJ_84 /* NSLayoutConstraint.swift in Sources */,
 				OBJ_85 /* UICollectionView.swift in Sources */,
+				D27D1DAB26070CD00031A112 /* Process.swift in Sources */,
 				OBJ_86 /* UIColor.swift in Sources */,
 				OBJ_87 /* UIFont.swift in Sources */,
 				OBJ_88 /* UIImage.swift in Sources */,
