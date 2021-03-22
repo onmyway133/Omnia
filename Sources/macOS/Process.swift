@@ -14,7 +14,7 @@ public extension Process {
         with command: String,
         onOutput: ((Data) -> Void)? = nil,
         onError: ((Data) -> Void)? = nil
-    ) -> String {
+    ) throws -> String {
         launchPath = "/bin/bash"
         arguments = ["-c", command]
 
@@ -51,11 +51,13 @@ public extension Process {
         outputPipe.fileHandleForReading.readabilityHandler = nil
         errorPipe.fileHandleForReading.readabilityHandler = nil
 
-        return outputQueue.sync {
+        return try outputQueue.sync {
             if terminationStatus != 0 {
                 let errorString = String(data: errorData, encoding: .utf8) ?? ""
                 if !errorString.isEmpty {
-                    print("Process error \(errorString)")
+                    throw NSError(domain: "", code: 0, userInfo: [
+                        NSLocalizedDescriptionKey: errorString
+                    ])
                 }
             }
 
