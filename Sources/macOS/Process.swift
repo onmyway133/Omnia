@@ -7,7 +7,7 @@
 
 import Foundation
 
-#if canImport(AppKit)
+#if os(OSX)
 public extension Process {
     @discardableResult
     func launchBash(
