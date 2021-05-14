@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D25B75B1264E4842001CE243 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B75B0264E4842001CE243 /* Haptics.swift */; };
 		D27D1D82260695430031A112 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D1D81260695430031A112 /* UserDefault.swift */; };
 		D27D1DAB26070CD00031A112 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D1DAA26070CD00031A112 /* Process.swift */; };
 		D29030D825F6C606005B6107 /* CGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29030D725F6C606005B6107 /* CGColor.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D25B75B0264E4842001CE243 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		D27D1D81260695430031A112 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		D27D1DAA26070CD00031A112 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
 		D29030D725F6C606005B6107 /* CGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColor.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				OBJ_33 /* UITableView.swift */,
 				OBJ_34 /* UIView.swift */,
 				OBJ_35 /* UIViewController.swift */,
+				D25B75B0264E4842001CE243 /* Haptics.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				OBJ_87 /* UIFont.swift in Sources */,
 				OBJ_88 /* UIImage.swift in Sources */,
 				OBJ_89 /* UIScrollView.swift in Sources */,
+				D25B75B1264E4842001CE243 /* Haptics.swift in Sources */,
 				OBJ_90 /* UITableView.swift in Sources */,
 				OBJ_91 /* UIView.swift in Sources */,
 				D29030D825F6C606005B6107 /* CGColor.swift in Sources */,
