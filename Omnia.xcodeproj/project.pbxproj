@@ -12,6 +12,7 @@
 		D27D1DAB26070CD00031A112 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D1DAA26070CD00031A112 /* Process.swift */; };
 		D29030D825F6C606005B6107 /* CGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29030D725F6C606005B6107 /* CGColor.swift */; };
 		D2BCFF3425D7252C0042B928 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCFF3325D7252C0042B928 /* Throttler.swift */; };
+		D2F7B707267FDA8E00318460 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F7B706267FDA8E00318460 /* URL.swift */; };
 		OBJ_100 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* NSColor.swift */; };
 		OBJ_101 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* NSImage.swift */; };
 		OBJ_102 /* NSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* NSTextView.swift */; };
@@ -60,6 +61,7 @@
 		D27D1DAA26070CD00031A112 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
 		D29030D725F6C606005B6107 /* CGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColor.swift; sourceTree = "<group>"; };
 		D2BCFF3325D7252C0042B928 /* Throttler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttler.swift; sourceTree = "<group>"; };
+		D2F7B706267FDA8E00318460 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Comparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				D2BCFF3325D7252C0042B928 /* Throttler.swift */,
 				D29030D725F6C606005B6107 /* CGColor.swift */,
 				D27D1D81260695430031A112 /* UserDefault.swift */,
+				D2F7B706267FDA8E00318460 /* URL.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				OBJ_84 /* NSLayoutConstraint.swift in Sources */,
 				OBJ_85 /* UICollectionView.swift in Sources */,
 				D27D1DAB26070CD00031A112 /* Process.swift in Sources */,
+				D2F7B707267FDA8E00318460 /* URL.swift in Sources */,
 				OBJ_86 /* UIColor.swift in Sources */,
 				OBJ_87 /* UIFont.swift in Sources */,
 				OBJ_88 /* UIImage.swift in Sources */,
