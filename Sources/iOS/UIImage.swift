@@ -23,6 +23,23 @@ public extension UIImage {
             context.fill(CGRect(origin: .zero, size: size))
         }
     }
+
+    func resizedPropotionally(targetSize: CGSize) -> UIImage {
+        let scaledSize = self.scaledSize(targetSize: targetSize)
+
+        let renderer = UIGraphicsImageRenderer(
+            size: scaledSize
+        )
+
+        let image = renderer.image { _ in
+            self.draw(in: CGRect(
+                origin: .zero,
+                size: scaledSize
+            ))
+        }
+
+        return image
+    }
 }
 
 #endif

@@ -11,6 +11,7 @@
 		D27D1D82260695430031A112 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D1D81260695430031A112 /* UserDefault.swift */; };
 		D27D1DAB26070CD00031A112 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D1DAA26070CD00031A112 /* Process.swift */; };
 		D29030D825F6C606005B6107 /* CGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29030D725F6C606005B6107 /* CGColor.swift */; };
+		D2AD7AA126F210E7006EFF58 /* UXImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AD7AA026F210E7006EFF58 /* UXImage.swift */; };
 		D2BCFF3425D7252C0042B928 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCFF3325D7252C0042B928 /* Throttler.swift */; };
 		D2F7B707267FDA8E00318460 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F7B706267FDA8E00318460 /* URL.swift */; };
 		OBJ_100 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* NSColor.swift */; };
@@ -60,6 +61,7 @@
 		D27D1D81260695430031A112 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		D27D1DAA26070CD00031A112 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
 		D29030D725F6C606005B6107 /* CGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColor.swift; sourceTree = "<group>"; };
+		D2AD7AA026F210E7006EFF58 /* UXImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UXImage.swift; sourceTree = "<group>"; };
 		D2BCFF3325D7252C0042B928 /* Throttler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttler.swift; sourceTree = "<group>"; };
 		D2F7B706267FDA8E00318460 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				D29030D725F6C606005B6107 /* CGColor.swift */,
 				D27D1D81260695430031A112 /* UserDefault.swift */,
 				D2F7B706267FDA8E00318460 /* URL.swift */,
+				D2AD7AA026F210E7006EFF58 /* UXImage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				D2AD7AA126F210E7006EFF58 /* UXImage.swift in Sources */,
 				OBJ_67 /* Bundle.swift in Sources */,
 				OBJ_68 /* Codable.swift in Sources */,
 				OBJ_69 /* Comparable.swift in Sources */,
@@ -404,7 +408,7 @@
 					"SWIFT_PACKAGE=1",
 					"DEBUG=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,7 +433,7 @@
 					"$(inherited)",
 					"SWIFT_PACKAGE=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;

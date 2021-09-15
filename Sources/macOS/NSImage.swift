@@ -24,20 +24,21 @@ public extension NSImage {
         return image
     }
 
-    func resizeImage(_ width: CGFloat, _ height: CGFloat) -> NSImage {
-        let img = NSImage(size: CGSize(width:width, height:height))
-
+    func resizedPropotionally(
+        targetSize: CGSize,
+        imageInterpolation: NSImageInterpolation = .high
+    ) -> NSImage {
+        let scaledSize = self.scaledSize(targetSize: targetSize)
+        let img = NSImage(size: scaledSize)
         img.lockFocus()
-        let ctx = NSGraphicsContext.current
-        ctx?.imageInterpolation = .high
-        self.draw(
-            in: NSMakeRect(0, 0, width, height),
-            from: NSMakeRect(0, 0, size.width, size.height),
+        NSGraphicsContext.current?.imageInterpolation = imageInterpolation
+        draw(
+            in: NSRect(origin: .zero, size: scaledSize),
+            from: NSRect(origin: .zero, size: size),
             operation: .copy,
             fraction: 1
         )
         img.unlockFocus()
-
         return img
     }
 }
