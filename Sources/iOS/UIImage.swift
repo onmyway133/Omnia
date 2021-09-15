@@ -24,7 +24,7 @@ public extension UIImage {
         }
     }
 
-    func resized(targetSize: CGSize) -> UIImage {
+    func resize(targetSize: CGSize) -> UIImage {
         let scaledSize = self.scaledSize(targetSize: targetSize)
 
         let renderer = UIGraphicsImageRenderer(
