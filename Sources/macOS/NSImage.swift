@@ -24,9 +24,9 @@ public extension NSImage {
         return image
     }
 
-    func resizedPropotionally(
+    func resize(
         targetSize: CGSize,
-        imageInterpolation: NSImageInterpolation = .high
+        imageInterpolation: NSImageInterpolation = .medium
     ) -> NSImage {
         let scaledSize = self.scaledSize(targetSize: targetSize)
         let img = NSImage(size: scaledSize)

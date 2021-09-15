@@ -15,7 +15,11 @@ import ImageIO
 
 public extension UXImage {
     /// Using ImageIO
-    static func downsampled(at url: URL, size: CGSize) -> UXImage? {
+    static func downsampled(
+        at url: URL,
+        size: CGSize,
+        shouldCacheImmediately: Bool = true
+    ) -> UXImage? {
         // Create an CGImageSource that represent an image
         let imageSourceOptions = [
             kCGImageSourceShouldCache: false
@@ -38,7 +42,7 @@ public extension UXImage {
 
         let downsampleOptions = [
             kCGImageSourceCreateThumbnailFromImageAlways: true,
-            kCGImageSourceShouldCacheImmediately: true,
+            kCGImageSourceShouldCacheImmediately: shouldCacheImmediately,
             kCGImageSourceCreateThumbnailWithTransform: true,
             kCGImageSourceThumbnailMaxPixelSize: maxDimensionInPixels
         ] as CFDictionary
