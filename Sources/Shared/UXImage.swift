@@ -13,8 +13,7 @@ import AppKit
 
 import ImageIO
 
-extension UXImage {
-
+public extension UXImage {
     /// Using ImageIO
     static func downsampled(at url: URL, size: CGSize) -> UXImage? {
         // Create an CGImageSource that represent an image
