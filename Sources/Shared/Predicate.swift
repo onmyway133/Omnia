@@ -38,3 +38,29 @@ public extension NSPredicate {
         )
     }
 }
+
+public extension NSPredicate {
+    static func isTrue<Root, V>(
+        _ kp: KeyPath<Root, V>
+    ) -> NSPredicate {
+        compare(kp, op: .equalTo, value: true)
+    }
+
+    static func isFalse<Root, V>(
+        _ kp: KeyPath<Root, V>
+    ) -> NSPredicate {
+        compare(kp, op: .equalTo, value: false)
+    }
+
+    static func isNil<Root, V>(
+        _ kp: KeyPath<Root, V>
+    ) -> NSPredicate {
+        compare(kp, op: .equalTo, value: NSNull())
+    }
+
+    static func isNotNil<Root, V>(
+        _ kp: KeyPath<Root, V>
+    ) -> NSPredicate {
+        compare(kp, op: .notEqualTo, value: NSNull())
+    }
+}
