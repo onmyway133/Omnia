@@ -63,4 +63,16 @@ public extension NSPredicate {
     ) -> NSPredicate {
         compare(kp, op: .notEqualTo, value: NSNull())
     }
+
+    static func isEmpty<Root, V>(
+        _ kp: KeyPath<Root, V>
+    ) -> NSPredicate {
+        compare(kp, op: .equalTo, value: "")
+    }
+
+    static func isNotEmpty<Root, V>(
+        _ kp: KeyPath<Root, V>
+    ) -> NSPredicate {
+        compare(kp, op: .notEqualTo, value: "")
+    }
 }
