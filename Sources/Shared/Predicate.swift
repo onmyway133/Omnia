@@ -16,8 +16,8 @@ public extension NSPredicate {
         NSCompoundPredicate(type: .or, subpredicates: predicates)
     }
 
-    static func not(_ predicates: [NSPredicate]) -> NSPredicate {
-        NSCompoundPredicate(type: .not, subpredicates: predicates)
+    static func not(_ predicate: NSPredicate) -> NSPredicate {
+        NSCompoundPredicate(type: .not, subpredicates: [predicate])
     }
 
     static func compare<Root, V>(
